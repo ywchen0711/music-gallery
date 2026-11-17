@@ -1,0 +1,37 @@
+{
+  "folder": "FindTheFruits",
+  "repo": "find-the-fruits",
+  "lobbyId": "fruits",
+  "kind": "procedural",
+  "tracks": [
+    {"key": "plaza", "scene": "field",
+     "where": {"zh": "水果廣場（也是速食街的背景音樂）", "en": "Fruit Plaza (also used for Fast Food Street)"},
+     "name": {"zh": "噴泉旁的午後", "en": "Afternoon by the Fountain"}, "mood": "cheerful",
+     "play": "M.music.play('plaza')", "loopSec": 8.57, "renderSec": 30},
+    {"key": "tropical", "scene": "field",
+     "where": {"zh": "熱帶島嶼", "en": "Tropical Island"},
+     "name": {"zh": "椰林浪花", "en": "Palms and Surf"}, "mood": "playful",
+     "play": "M.music.play('tropical')", "loopSec": 8.0, "renderSec": 30},
+    {"key": "frosty", "scene": "field",
+     "where": {"zh": "冰雪山峰", "en": "Frosty Peaks"},
+     "name": {"zh": "雪峰微光", "en": "Glimmer on the Snowpeak"}, "mood": "calm",
+     "play": "M.music.play('frosty')", "loopSec": 10.43, "renderSec": 30},
+    {"key": "candy", "scene": "field",
+     "where": {"zh": "糖果廚房", "en": "Candy Kitchen"},
+     "name": {"zh": "果凍彈跳曲", "en": "Jelly Bounce Polka"}, "mood": "playful",
+     "play": "M.music.play('candy')", "loopSec": 7.5, "renderSec": 30},
+    {"key": "sky", "scene": "field",
+     "where": {"zh": "天空神殿", "en": "Sky Temple"},
+     "name": {"zh": "雲端神殿", "en": "Temple above the Clouds"}, "mood": "mysterious",
+     "play": "M.music.play('sky')", "loopSec": 9.6, "renderSec": 30}
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "",
+    "init": "M.sfx.unlock(); M.sfx.on = true; M.music.on = true;",
+    "notes": "js/audio.js is a standalone ES module exporting sfx and music, no imports, no DOM. Called from js/main.js loadWorld(id) and startGame() as music.play(G.wid). Settings save.music/save.sound default on."
+  },
+  "skipped": [],
+  "notes": "Each song = 4-bar chord progression (16 beats, loopSec = 16*60/bpm: 112/120/92/128/100 bpm) with a seeded-random plucky melody on top; the seeded RNG restarts at each play() but the module-level bar counter does not, so render each song on a fresh page. The melody does not repeat exactly every loop. World 'fastfood' has no own song (SONGS fallback to plaza)."
+}

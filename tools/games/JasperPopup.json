@@ -1,0 +1,23 @@
+{
+  "folder": "JasperPopup",
+  "repo": "jasper-popup",
+  "lobbyId": "jasperpopup",
+  "kind": "procedural",
+  "tracks": [
+    {"key": "day", "scene": "town", "where": {"zh": "第一頁：竹林的家", "en": "Spread 1: The Bamboo Home"}, "name": {"zh": "竹林早安", "en": "Good Morning, Bamboo"}, "mood": "cheerful", "play": "M.music('day')", "loopSec": 9.23, "renderSec": 30},
+    {"key": "meadow", "scene": "field", "where": {"zh": "花花草原", "en": "The Flower Meadow"}, "name": {"zh": "紙花圓舞", "en": "Paper Flower Waltz"}, "mood": "playful", "play": "M.music('meadow')", "loopSec": 8.57, "renderSec": 30},
+    {"key": "night", "scene": "field", "where": {"zh": "月光森林", "en": "The Moonlit Forest"}, "name": {"zh": "月下熊貓", "en": "Panda under the Moon"}, "mood": "calm", "play": "M.music('night')", "loopSec": 12.63, "renderSec": 30},
+    {"key": "snow", "scene": "field", "where": {"zh": "雪山", "en": "The Snowy Mountain"}, "name": {"zh": "雪地腳印", "en": "Footprints in the Snow"}, "mood": "calm", "play": "M.music('snow')", "loopSec": 10.43, "renderSec": 30},
+    {"key": "market", "scene": "town", "where": {"zh": "熱鬧的市集", "en": "The Busy Market"}, "name": {"zh": "市集叫賣", "en": "Market Day Bustle"}, "mood": "cheerful", "play": "M.music('market')", "loopSec": 8, "renderSec": 30},
+    {"key": "home", "scene": "ending", "where": {"zh": "最後一頁：回家囉", "en": "Last spread: Home Again"}, "name": {"zh": "團圓回家", "en": "All Home Together"}, "mood": "calm", "play": "M.music('home')", "loopSec": 10, "renderSec": 30}
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "",
+    "init": "M.audioInit(); M.setMusic(true);",
+    "notes": "Self-contained module, no imports. audioInit makes the context and a 60 ms setInterval scheduler; music(name) picks the tune (spreads.js 'music' field, called from main.js:332). Loop = 32 eighth-note steps = 960/bpm s."
+  },
+  "skipped": [{"what": "sfx('found'), sfx('cheer') etc.", "why": "short jingles / sound effects"}, {"what": "speak()", "why": "speech synthesis read-aloud, not music"}],
+  "notes": "Title screen is silent (music(null))."
+}

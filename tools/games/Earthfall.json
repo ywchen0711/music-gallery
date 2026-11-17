@@ -1,0 +1,215 @@
+{
+ "folder": "Earthfall",
+ "repo": "earthfall",
+ "lobbyId": "earthfall",
+ "kind": "procedural",
+ "tracks": [
+  {
+   "key": "title",
+   "scene": "title",
+   "where": {
+    "zh": "標題畫面",
+    "en": "Title screen"
+   },
+   "name": {
+    "zh": "墜星之後",
+    "en": "After the Earthfall"
+   },
+   "mood": "heroic",
+   "play": "M.playMusic('title')",
+   "loopSec": 43.64,
+   "renderSec": 88
+  },
+  {
+   "key": "town",
+   "scene": "town",
+   "where": {
+    "zh": "鐵軌鎮、風車村與屋內",
+    "en": "Railtown, the Windfarm village and the houses"
+   },
+   "name": {
+    "zh": "鐵軌鎮爐火",
+    "en": "Hearths of Railtown"
+   },
+   "mood": "cheerful",
+   "play": "M.playMusic('town')",
+   "loopSec": 34.29,
+   "renderSec": 69,
+   "sameAs": "spiretide/town"
+  },
+  {
+   "key": "field",
+   "scene": "field",
+   "where": {
+    "zh": "世界地圖",
+    "en": "World map"
+   },
+   "name": {
+    "zh": "荒原長路",
+    "en": "The Long Wasteland Road"
+   },
+   "mood": "heroic",
+   "play": "M.playMusic('field')",
+   "loopSec": 30.48,
+   "renderSec": 61,
+   "sameAs": "spiretide/field"
+  },
+  {
+   "key": "cave",
+   "scene": "dungeon",
+   "where": {
+    "zh": "沉沒地鐵、玻璃沙漠",
+    "en": "The Sunken Metro and the Glass Desert"
+   },
+   "name": {
+    "zh": "沉沒的軌道",
+    "en": "Sunken Tracks"
+   },
+   "mood": "mysterious",
+   "play": "M.playMusic('cave')",
+   "loopSec": 41.74,
+   "renderSec": 84,
+   "sameAs": "spiretide/cave"
+  },
+  {
+   "key": "tower",
+   "scene": "dungeon",
+   "where": {
+    "zh": "軌道站「搖籃號」、霓虹廢都、鐵之大聖堂、北方種子庫",
+    "en": "The Cradle orbital station, the Neon Ruins, the Iron Cathedral and the Northern Seed Vault"
+   },
+   "name": {
+    "zh": "舊世界鋼骨",
+    "en": "Bones of the Old World"
+   },
+   "mood": "tense",
+   "play": "M.playMusic('tower')",
+   "loopSec": 27.69,
+   "renderSec": 56,
+   "sameAs": "spiretide/tower"
+  },
+  {
+   "key": "battle",
+   "scene": "battle",
+   "where": {
+    "zh": "一般戰鬥",
+    "en": "Ordinary battles"
+   },
+   "name": {
+    "zh": "廢土交火",
+    "en": "Wasteland Skirmish"
+   },
+   "mood": "tense",
+   "play": "M.playMusic('battle')",
+   "loopSec": 25.26,
+   "renderSec": 51,
+   "sameAs": "spiretide/battle"
+  },
+  {
+   "key": "boss",
+   "scene": "boss",
+   "where": {
+    "zh": "頭目戰",
+    "en": "Boss battles"
+   },
+   "name": {
+    "zh": "鋼鐵巨獸",
+    "en": "Iron Behemoth"
+   },
+   "mood": "dark",
+   "play": "M.playMusic('boss')",
+   "loopSec": 12.0,
+   "renderSec": 30,
+   "sameAs": "spiretide/boss"
+  },
+  {
+   "key": "final",
+   "scene": "boss",
+   "where": {
+    "zh": "與搖籃號的最終決戰",
+    "en": "The final battle against the Cradle"
+   },
+   "name": {
+    "zh": "搖籃決戰",
+    "en": "Last Stand at the Cradle"
+   },
+   "mood": "epic",
+   "play": "M.playMusic('final')",
+   "loopSec": 11.43,
+   "renderSec": 30,
+   "sameAs": "spiretide/final"
+  },
+  {
+   "key": "lumi",
+   "scene": "event",
+   "where": {
+    "zh": "露米的場景：逃生艙相遇、第一顆新芽、媽媽的研究日誌",
+    "en": "Lumi's scenes: meeting her in the escape pod, the first sprout, Mama's research log"
+   },
+   "name": {
+    "zh": "露米音樂盒",
+    "en": "Lumi's Music Box"
+   },
+   "mood": "calm",
+   "play": "M.playMusic('io')",
+   "loopSec": 25.26,
+   "renderSec": 51
+  },
+  {
+   "key": "farewell",
+   "scene": "event",
+   "where": {
+    "zh": "最終戰後的告別",
+    "en": "The farewell after the final battle"
+   },
+   "name": {
+    "zh": "別了搖籃號",
+    "en": "Farewell, Cradle"
+   },
+   "mood": "sad",
+   "play": "M.playMusic('farewell')",
+   "loopSec": 58.18,
+   "renderSec": 59
+  },
+  {
+   "key": "ending",
+   "scene": "ending",
+   "where": {
+    "zh": "結局（以鐘聲重奏主題）",
+    "en": "Ending (the main theme on bells)"
+   },
+   "name": {
+    "zh": "新芽之歌",
+    "en": "Song of New Shoots"
+   },
+   "mood": "calm",
+   "play": "M.playMusic('ending')",
+   "loopSec": 53.33,
+   "renderSec": 54
+  }
+ ],
+ "harness": {
+  "module": true,
+  "scripts": [
+   "js/audio.js"
+  ],
+  "pre": "try { localStorage.setItem('earthfall-music', 'on'); } catch (e) {}",
+  "init": "M.initAudio();",
+  "notes": "music on/off is read from localStorage 'earthfall-music' at load time. Same sound chip as Spire Tide: initAudio() creates the context, playMusic() runs a setInterval(25ms) look-ahead sequencer."
+ },
+ "skipped": [
+  {
+   "what": "SONGS.victory",
+   "why": "4.1 s victory fanfare, plays once"
+  },
+  {
+   "what": "SONGS.inn",
+   "why": "3.3 s inn jingle, plays once"
+  },
+  {
+   "what": "SONGS.gameover",
+   "why": "10.3 s game-over jingle, plays once (once:true)"
+  }
+ ],
+ "notes": "The song key 'io' is Lumi's theme (story.js calls E.music('io'); the comment still says Io's theme). town, field, cave, tower, battle, boss and final have exactly the same note data as Spire Tide's songs of the same key (only title, ending, io and farewell are Earthfall's own), so those seven will sound identical to SpireTide's renders."
+}

@@ -1,0 +1,24 @@
+{
+  "folder": "LeafLeap",
+  "repo": "leaf-leap",
+  "lobbyId": "leafleap",
+  "kind": "procedural",
+  "tracks": [
+    {"key": "grass", "scene": "field", "where": {"zh": "草原與山丘關卡（1-1、1-2、1-4）、葉葉草原、巨菇森林、雪峰山", "en": "Meadow and hill courses (1-1, 1-2, 1-4), Leafy Meadow, Giant Mushroom Forest, Snowcap Mountain"}, "name": {"zh": "葉葉晨光", "en": "Leafy Morning Run"}, "mood": "cheerful", "play": "S.setSong('grass')", "loopSec": 6.4, "renderSec": 30},
+    {"key": "sky", "scene": "field", "where": {"zh": "天空關卡（1-3 雲橋、1-6 運動場）、霜峰雪原、天梯峰、鷹之巢、天空花園", "en": "Sky courses (1-3 Cloud Bridges, 1-6 Sky Gym), Frostpeak Snowfields, Skyreach Peak, Eagle's Eyrie, Sky Garden"}, "name": {"zh": "雲梯躍步", "en": "Steps on the Clouds"}, "mood": "playful", "play": "S.setSong('sky')", "loopSec": 6.957, "renderSec": 30},
+    {"key": "cave", "scene": "dungeon", "where": {"zh": "1-5 地底洞窟、熔岩神殿", "en": "1-5 Underground Cave, the Lava Temple"}, "name": {"zh": "地底回音", "en": "Echoes Underground"}, "mood": "mysterious", "play": "S.setSong('cave')", "loopSec": 8, "renderSec": 30},
+    {"key": "fort", "scene": "dungeon", "where": {"zh": "1-F 石頭堡壘、熔岩城、餘燼火山、幽靈古宅", "en": "1-F Stone Fortress, Lava Castle, Mount Ember, the Haunted Manor"}, "name": {"zh": "熔岩堡壘", "en": "Lava Keep March"}, "mood": "tense", "play": "S.setSong('fort')", "loopSec": 7.273, "renderSec": 30},
+    {"key": "water", "scene": "field", "where": {"zh": "水中與海域（1-W 海底灣、珊瑚海岸、南方群島、深淵大洋、人魚洞窟、1-D 深海溝），以及游泳時", "en": "Underwater and seas (1-W Coral Bay, Coral Coast, Southern Isles, Abyssal Sea, Mermaid Grotto, 1-D Deep Trench), and whenever swimming"}, "name": {"zh": "珊瑚搖籃", "en": "Coral Lullaby"}, "mood": "calm", "play": "S.setSong('water')", "loopSec": 9.6, "renderSec": 30},
+    {"key": "airship", "scene": "boss", "where": {"zh": "1-A 飛行船、烈陽沙漠", "en": "1-A The Airship, Sunsand Desert"}, "name": {"zh": "飛行船突擊", "en": "Airship Assault"}, "mood": "tense", "play": "S.setSong('airship')", "loopSec": 6.486, "renderSec": 30},
+    {"key": "map", "scene": "town", "where": {"zh": "蘑菇村", "en": "Mushroom Village"}, "name": {"zh": "蘑菇村小調", "en": "Mushroom Village Ditty"}, "mood": "calm", "play": "S.setSong('map')", "loopSec": 8.571, "renderSec": 30}
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "",
+    "init": "window.S = new M.Sound(); S.start();",
+    "notes": "js/audio.js exports class Sound (ES module). start() creates the AudioContext and a setInterval(50 ms) look-ahead sequencer; setSong(name) selects the song (32 eighth-notes per loop, loop = 960/bpm s). musicOn defaults true; no localStorage read."
+  },
+  "skipped": [],
+  "notes": "Each song is a short 32-step chiptune loop (6-10 s) that repeats; renderSec clamped to the 30 s minimum. 'castle' is an alias of 'fort' in the code."
+}

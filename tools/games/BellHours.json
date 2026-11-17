@@ -1,0 +1,725 @@
+{
+ "folder": "BellHours",
+ "repo": "bell-between-hours",
+ "lobbyId": "bellhours",
+ "kind": "file",
+ "tracks": [
+  {
+   "key": "title",
+   "scene": "title",
+   "where": {
+    "zh": "標題畫面；悲傷劇情（尤卡婆婆的融冰之歌、悲鳴機關前）與「永恆的正午」結局",
+    "en": "Title screen; sad story scenes (Yuka's ice-melting song, before the Grief Engine) and the Eternal Noon ending"
+   },
+   "name": {
+    "zh": "鐘鳴之前",
+    "en": "Before the Bell Rings"
+   },
+   "mood": "calm",
+   "file": "assets/music/title.mp3",
+   "alt": [
+    "assets/music/sad.mp3"
+   ],
+   "orig": {
+    "title": "Innocence",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #4 Calm",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "home",
+   "scene": "town",
+   "where": {
+    "zh": "奧林鐘錶工坊、哈蒂鐘錶行，以及高塔平定後的靜止之年",
+    "en": "Orrin's Clockworks, Hattie's Watch Shop, and Stillfall after the Spire is cleared"
+   },
+   "name": {
+    "zh": "工坊午後",
+    "en": "Afternoon at the Workbench"
+   },
+   "mood": "calm",
+   "file": "assets/music/home.mp3",
+   "alt": [],
+   "orig": {
+    "title": "A Place I Call Home",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #4 Calm",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "town",
+   "scene": "town",
+   "where": {
+    "zh": "燈河鎮",
+    "en": "Lanternford"
+   },
+   "name": {
+    "zh": "燈河晨光",
+    "en": "Lanternford Morning"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/town.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Peaceful Days",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #4 Calm",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "field",
+   "scene": "field",
+   "where": {
+    "zh": "燈河之森",
+    "en": "Lantern Woods"
+   },
+   "name": {
+    "zh": "林間小徑",
+    "en": "Path through the Woods"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/field.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Grasslands",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #1 Exploration",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "clock",
+   "scene": "dungeon",
+   "where": {
+    "zh": "鐘塔頂與未鳴之鐘",
+    "en": "The Bell Loft and the Unrung Bell"
+   },
+   "name": {
+    "zh": "鐘樓密語",
+    "en": "Secrets of the Bell Loft"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/clock.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Mysterious Clock",
+    "artist": "OwlishMedia",
+    "pack": "",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/mysterious-clock"
+   }
+  },
+  {
+   "key": "danger",
+   "scene": "event",
+   "where": {
+    "zh": "燈河鎮被凍結在正午時",
+    "en": "Lanternford while it is frozen at noon"
+   },
+   "name": {
+    "zh": "凝止正午",
+    "en": "The Frozen Noon"
+   },
+   "mood": "tense",
+   "file": "assets/music/danger.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Army Approaching",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #5 Action",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "ruins",
+   "scene": "field",
+   "where": {
+    "zh": "靜止之年・燈河鎮遺址",
+    "en": "Stillfall, the ruins of Lanternford"
+   },
+   "name": {
+    "zh": "廢墟殘響",
+    "en": "Echoes in the Ruins"
+   },
+   "mood": "sad",
+   "file": "assets/music/ruins.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Town in ruins loop",
+    "artist": "Haeldb",
+    "pack": "",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/town-in-ruins-loop"
+   }
+  },
+  {
+   "key": "archive",
+   "scene": "dungeon",
+   "where": {
+    "zh": "時之檔案館與黃銅港學院",
+    "en": "The Hour Archive and Brasshaven Academy"
+   },
+   "name": {
+    "zh": "失時書庫",
+    "en": "Stacks of Lost Hours"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/archive.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Military Base",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #1 Exploration",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "spire",
+   "scene": "dungeon",
+   "where": {
+    "zh": "寂靜之塔",
+    "en": "The Silent Spire"
+   },
+   "name": {
+    "zh": "無聲攀登",
+    "en": "The Soundless Climb"
+   },
+   "mood": "tense",
+   "file": "assets/music/spire.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Sneaking Around",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #1 Exploration",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "jungle",
+   "scene": "field",
+   "where": {
+    "zh": "根野（遠古時代）",
+    "en": "The Rootwild (ancient era)"
+   },
+   "name": {
+    "zh": "根野綠蔭",
+    "en": "Under the Rootwild Canopy"
+   },
+   "mood": "playful",
+   "file": "assets/music/jungle.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Tropical Island",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #1 Exploration",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "village",
+   "scene": "town",
+   "where": {
+    "zh": "根野族的村子",
+    "en": "Rootwild Village"
+   },
+   "name": {
+    "zh": "古村星夜",
+    "en": "Starlit Ancient Village"
+   },
+   "mood": "calm",
+   "file": "assets/music/village.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Prairie Nights",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #1 Exploration",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "cave",
+   "scene": "dungeon",
+   "where": {
+    "zh": "墜星火山口",
+    "en": "The Fallen-Star Crater"
+   },
+   "name": {
+    "zh": "墜星火口",
+    "en": "Into the Star Crater"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/cave.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Tha'el Mines",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #1 Exploration",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "battle",
+   "scene": "battle",
+   "where": {
+    "zh": "一般戰鬥（現代、未來、遠古）",
+    "en": "Regular battles (present, future and ancient eras)"
+   },
+   "name": {
+    "zh": "時針交鋒",
+    "en": "Clash on the Hour Hand"
+   },
+   "mood": "heroic",
+   "file": "assets/music/battle.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Preparing For Battle",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #5 Action",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "battle2",
+   "scene": "battle",
+   "where": {
+    "zh": "新時代的一般戰鬥（黃銅港、鑄造廠、霜原、冰川、餘燼之城、悲鳴機關）",
+    "en": "Regular battles in the later eras (Brasshaven, the Foundry, the Frost Plain, the Glacier, Emberfall, the Grief Engine)"
+   },
+   "name": {
+    "zh": "異代激戰",
+    "en": "Clash Across the Ages"
+   },
+   "mood": "heroic",
+   "file": "assets/music/battle2.mp3",
+   "alt": [],
+   "orig": {
+    "title": "16-bit Battle Theme I",
+    "artist": "Hydrogene",
+    "pack": "",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/16-bit-battle-theme-i"
+   }
+  },
+  {
+   "key": "boss",
+   "scene": "boss",
+   "where": {
+    "zh": "頭目戰：灰牙、看守者、石角、薇絲珀、鑄鐵調節機、霜脊巨熊、悲鳴機關",
+    "en": "Boss battles: Greyfang, the Warden, Stonehorn, Vesper, the Iron Regulator, Rimeback, the Grief Engine"
+   },
+   "name": {
+    "zh": "宿命對決",
+    "en": "Showdown with Fate"
+   },
+   "mood": "epic",
+   "file": "assets/music/boss.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Encounter With The Witches",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #5 Action",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "lastboss",
+   "scene": "boss",
+   "where": {
+    "zh": "與「寂靜」的決戰",
+    "en": "The battle against the Hush"
+   },
+   "name": {
+    "zh": "寂靜降臨",
+    "en": "The Hush Descends"
+   },
+   "mood": "epic",
+   "file": "assets/music/lastboss.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Epic Boss Battle",
+    "artist": "Juhani Junkala",
+    "pack": "Epic Boss Battle",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "interval",
+   "scene": "field",
+   "where": {
+    "zh": "時隙之間",
+    "en": "The Hour Between"
+   },
+   "name": {
+    "zh": "時隙漂流",
+    "en": "Adrift Between Hours"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/interval.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Where Time Stands Still",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #2 Towns",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-2-towns"
+   }
+  },
+  {
+   "key": "harbor",
+   "scene": "town",
+   "where": {
+    "zh": "黃銅港",
+    "en": "Brasshaven"
+   },
+   "name": {
+    "zh": "黃銅海風",
+    "en": "Brass Harbour Breeze"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/harbor.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Sumia Harbor",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "fair",
+   "scene": "town",
+   "where": {
+    "zh": "齒輪市集",
+    "en": "The Gearwork Fair"
+   },
+   "name": {
+    "zh": "齒輪嘉年華",
+    "en": "Gearwork Carnival"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/fair.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Sunshine Coast",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #2 Towns",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-2-towns"
+   }
+  },
+  {
+   "key": "foundry",
+   "scene": "dungeon",
+   "where": {
+    "zh": "鐘匠公會鑄造廠",
+    "en": "The Bellwrights' Foundry"
+   },
+   "name": {
+    "zh": "鑄鐘爐火",
+    "en": "Forge of the Bellwrights"
+   },
+   "mood": "tense",
+   "file": "assets/music/foundry.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Golem's Theme",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "boss2",
+   "scene": "boss",
+   "where": {
+    "zh": "異代頭目戰：卡爾德教授、鐵面隊長、芬維克七號、月鹿、雪鬃狼后、看守者與石角的回聲、空洞合唱",
+    "en": "Later-era bosses: Professor Calder, the Iron Chief, Fenwick No. 7, the Moon Elk, the Packmother, the echoes of the Warden and Stonehorn, the Hollow Choir"
+   },
+   "name": {
+    "zh": "異代強敵",
+    "en": "Foes of Other Ages"
+   },
+   "mood": "dark",
+   "file": "assets/music/boss2.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Apocalypse",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #3 Evil",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-3-evil"
+   }
+  },
+  {
+   "key": "tundra",
+   "scene": "field",
+   "where": {
+    "zh": "霜原",
+    "en": "The Frost Plain"
+   },
+   "name": {
+    "zh": "霜原長風",
+    "en": "Long Wind over the Snow"
+   },
+   "mood": "calm",
+   "file": "assets/music/tundra.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Ice Hearts, Frozen Fire",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "camp",
+   "scene": "town",
+   "where": {
+    "zh": "猛獁獵人的營地",
+    "en": "The Mammoth Hunters' Camp"
+   },
+   "name": {
+    "zh": "獵人營火",
+    "en": "Hunters' Campfire"
+   },
+   "mood": "calm",
+   "file": "assets/music/camp.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Home Town",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #2 Towns",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-2-towns"
+   }
+  },
+  {
+   "key": "glacier",
+   "scene": "dungeon",
+   "where": {
+    "zh": "母星冰川與狼之谷",
+    "en": "The Motherstone Glacier and Wolf Hollow"
+   },
+   "name": {
+    "zh": "冰川深處",
+    "en": "Deep in the Glacier"
+   },
+   "mood": "dark",
+   "file": "assets/music/glacier.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Catacombs",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #3 Evil",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-3-evil"
+   }
+  },
+  {
+   "key": "dread",
+   "scene": "boss",
+   "where": {
+    "zh": "與露明之影的頭目戰",
+    "en": "The boss battle against the Lumenshade"
+   },
+   "name": {
+    "zh": "露明暗影",
+    "en": "Shadow of the Lumen"
+   },
+   "mood": "dark",
+   "file": "assets/music/dread.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Witch's Lair",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #3 Evil",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-3-evil"
+   }
+  },
+  {
+   "key": "ember",
+   "scene": "town",
+   "where": {
+    "zh": "餘燼之城",
+    "en": "Emberfall"
+   },
+   "name": {
+    "zh": "餘燼悲歌",
+    "en": "Song of the Embers"
+   },
+   "mood": "sad",
+   "file": "assets/music/ember.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Town Settlers' Lament",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "engine",
+   "scene": "dungeon",
+   "where": {
+    "zh": "悲鳴機關",
+    "en": "The Grief Engine"
+   },
+   "name": {
+    "zh": "悲鳴齒輪",
+    "en": "Gears of Grief"
+   },
+   "mood": "dark",
+   "file": "assets/music/engine.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Whispers From Beyond",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #3 Evil",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-3-evil"
+   }
+  },
+  {
+   "key": "heart",
+   "scene": "dungeon",
+   "where": {
+    "zh": "寂靜之心（回聲之路、未生之室）",
+    "en": "The Heart of the Hush (the Road of Echoes, the Unborn Chamber)"
+   },
+   "name": {
+    "zh": "無聲心核",
+    "en": "The Silent Core"
+   },
+   "mood": "dark",
+   "file": "assets/music/heart.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Ancient Evil Awakens",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #3 Evil",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-3-evil"
+   }
+  },
+  {
+   "key": "finalboss",
+   "scene": "boss",
+   "where": {
+    "zh": "最終決戰：寂靜巨像與未生的寂靜",
+    "en": "Final battles: the Silent Colossus and the Unborn Silence"
+   },
+   "name": {
+    "zh": "未生終焉",
+    "en": "End of the Unborn"
+   },
+   "mood": "epic",
+   "file": "assets/music/finalboss.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Final Boss",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "superboss",
+   "scene": "boss",
+   "where": {
+    "zh": "隱藏頭目：永恆的蓮",
+    "en": "Secret boss: Eternal Ren"
+   },
+   "name": {
+    "zh": "與永恆對決",
+    "en": "Duel with Eternity"
+   },
+   "mood": "epic",
+   "file": "assets/music/superboss.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Battle - Crystal World",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "ending",
+   "scene": "ending",
+   "where": {
+    "zh": "一般結局「寂靜的餘韻」（不循環）",
+    "en": "The normal ending, Echo of the Hush (plays once)"
+   },
+   "name": {
+    "zh": "時間再流轉",
+    "en": "Time Flows Again"
+   },
+   "mood": "calm",
+   "file": "assets/music/ending.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Childhood Friends",
+    "artist": "Juhani Junkala",
+    "pack": "JRPG Music Pack #4 Calm",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "hymn",
+   "scene": "ending",
+   "where": {
+    "zh": "真結局「鐘聲遠揚」",
+    "en": "The good ending, The Bell Rings Far"
+   },
+   "name": {
+    "zh": "千年鐘頌",
+    "en": "Hymn of a Thousand Years"
+   },
+   "mood": "epic",
+   "file": "assets/music/hymn.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Hymn (Epic)",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  }
+ ],
+ "skipped": [
+  {
+   "what": "assets/music/anthem.mp3",
+   "why": "committed but not played anywhere in the game"
+  },
+  {
+   "what": "assets/music/minigame.mp3",
+   "why": "committed but not played anywhere in the game"
+  }
+ ],
+ "notes": "CREDITS.md credits music per pack/artist, not per file, and most MP3s carry no tags; each file was matched to its original by duration against the original downloads still in the session scratchpad (dl_mus, dl_music), and the equal-length pairs (title vs Sand Castles/Innocence, heart/village vs Ancient Evil Awakens/Prairie Nights) were settled by loudness-envelope correlation (r=1.0). GT tracks and Epic Boss Battle are also confirmed by ID3 titles. sad.mp3 is byte-identical to title.mp3, so it is folded into the title track as alt. anthem.mp3 and minigame.mp3 are committed and credited but never played by any code (kept as tracks, flagged in 'where'; drop them if the gallery should only list music heard in-game). CREDITS.md gives no licence for Mysterious Clock (OwlishMedia) or Town in ruins loop (Haeldb); the licences shown come from their OGA pages (CC0 and OGA-BY 3.0). The audio.js comment calls all music CC0, which is wrong for Haeldb and the GT tracks. JRPG packs #1/#4/#5 and Epic Boss Battle use the user-page URL given in CREDITS.md. js/audio.js has no procedural songs: only a short sound-chip victory fanfare (jingle, skipped) and SFX. ending.mp3 plays once (loop=false); all others loop."
+}

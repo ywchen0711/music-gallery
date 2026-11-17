@@ -1,0 +1,18 @@
+{
+  "folder": "MysticSeas",
+  "repo": "mystic-seas",
+  "lobbyId": "mysticseas",
+  "kind": "procedural",
+  "tracks": [
+    {"key": "shanty", "scene": "field", "where": {"zh": "整個遊戲（航海、島嶼與戰鬥都播放同一首 6/8 拍水手歌）", "en": "The whole game (sailing, islands and fights all share this one 6/8 sea shanty)"}, "name": {"zh": "秘海水手謠", "en": "Shanty of the Mystic Seas"}, "mood": "cheerful", "play": "/* music starts inside start(); nothing else needed */ void 0", "loopSec": 17.143, "renderSec": 35}
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "",
+    "init": "window.S = new M.Sound(); S.start();",
+    "notes": "js/audio.js exports class Sound (ES module). start() creates the context and immediately calls music(): a setInterval(60 ms) look-ahead shanty at 168 bpm (8 bars x 6 steps = 48 steps = 17.14 s) plus an always-on looping sea-noise bed (lowpass noise with slow LFO) on the master bus. musicOn defaults true. The sea noise is part of the render; it is quiet (gain 0.05)."
+  },
+  "skipped": [],
+  "notes": "Only one song in the game; it starts automatically with start(), so 'play' is a no-op."
+}

@@ -1,0 +1,26 @@
+{
+  "folder": "LittleHeroes",
+  "repo": "little-heroes-brawl",
+  "lobbyId": "littleheroes",
+  "kind": "procedural",
+  "tracks": [
+    {"key": "menu", "scene": "menu", "where": {"zh": "主選單、英雄與關卡選擇、敗北後的結算畫面", "en": "Main hub, hero and stage select, results after a loss"}, "name": {"zh": "英雄集合", "en": "Heroes Assemble"}, "mood": "cheerful", "play": "M.music('menu')", "loopSec": 8, "renderSec": 30},
+    {"key": "park", "scene": "battle", "where": {"zh": "第一關〈公園〉的戰鬥", "en": "Stage 1 battles: The Park"}, "name": {"zh": "公園大亂鬥", "en": "Playground Scuffle"}, "mood": "playful", "play": "M.music('park')", "loopSec": 13.714, "renderSec": 30},
+    {"key": "forest", "scene": "battle", "where": {"zh": "第二關〈森林〉的戰鬥", "en": "Stage 2 battles: The Forest"}, "name": {"zh": "林間伏兵", "en": "Ambush in the Woods"}, "mood": "tense", "play": "M.music('forest')", "loopSec": 7.273, "renderSec": 30},
+    {"key": "village", "scene": "battle", "where": {"zh": "第三關〈忍者村〉的戰鬥", "en": "Stage 3 battles: Ninja Village"}, "name": {"zh": "忍村月影", "en": "Moonshadow Ninja Village"}, "mood": "mysterious", "play": "M.music('village')", "loopSec": 7.619, "renderSec": 30},
+    {"key": "factory", "scene": "battle", "where": {"zh": "第四關〈機器工廠〉的戰鬥", "en": "Stage 4 battles: Robot Factory"}, "name": {"zh": "齒輪轟鳴", "en": "Grinding Gears"}, "mood": "tense", "play": "M.music('factory')", "loopSec": 6.4, "renderSec": 30},
+    {"key": "castle", "scene": "dungeon", "where": {"zh": "第五關〈黑暗城堡〉的戰鬥", "en": "Stage 5 battles: Dark Castle"}, "name": {"zh": "黑堡高牆", "en": "Walls of the Dark Keep"}, "mood": "dark", "play": "M.music('castle')", "loopSec": 6.957, "renderSec": 30},
+    {"key": "dojo", "scene": "minigame", "where": {"zh": "對戰模式與練習場（道場）", "en": "Versus mode and practice (the dojo)"}, "name": {"zh": "道場切磋", "en": "Dojo Sparring"}, "mood": "heroic", "play": "M.music('dojo')", "loopSec": 7.059, "renderSec": 30},
+    {"key": "boss", "scene": "boss", "where": {"zh": "每關最後一波頭目登場時", "en": "When each stage's boss wave appears"}, "name": {"zh": "魔王現身", "en": "The Boss Steps In"}, "mood": "epic", "play": "M.music('boss')", "loopSec": 6, "renderSec": 30},
+    {"key": "win", "scene": "ending", "where": {"zh": "戰鬥勝利與勝利結算畫面（循環播放）", "en": "Battle victory and the victory results screen (loops)"}, "name": {"zh": "凱旋小英雄", "en": "Little Heroes Triumph"}, "mood": "heroic", "play": "M.music('win')", "loopSec": 6.4, "renderSec": 30}
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "localStorage.setItem('lhb_sound', '1');",
+    "init": "M.unlock();",
+    "notes": "js/audio.js is an ES module (exports unlock, music, stopMusic, sfx, setSound). It reads localStorage 'lhb_sound' at load ('0' = muted). unlock() creates the context; music(id) starts a setInterval(50 ms) look-ahead sequencer. Loop = bars x 8 eighth-notes at bpm."
+  },
+  "skipped": [],
+  "notes": "Short chiptune loops; renderSec clamped to the 30 s minimum. 'win' is a looping victory theme (drums off) rather than a one-shot fanfare, so it is included; drop it if you treat victory loops as fanfares."
+}

@@ -1,0 +1,49 @@
+{
+  "folder": "Liangshan",
+  "repo": "liangshan",
+  "lobbyId": "liangshan",
+  "kind": "procedural",
+  "tracks": [
+    {
+      "key": "road",
+      "scene": "field",
+      "where": {"zh": "大地圖上行走（江湖路上）", "en": "Walking the world map between towns"},
+      "name": {"zh": "水泊行路", "en": "Along the Marsh Road"},
+      "mood": "calm",
+      "play": "M.music('road')",
+      "loopSec": 11.43,
+      "renderSec": 30
+    },
+    {
+      "key": "town",
+      "scene": "town",
+      "where": {"zh": "標題畫面、城鎮與據點選單、劇情對話", "en": "Title screen, town and stronghold menus, story scenes"},
+      "name": {"zh": "聚義廳前", "en": "Before the Hall of Loyalty"},
+      "mood": "cheerful",
+      "play": "M.music('town')",
+      "loopSec": 10.0,
+      "renderSec": 30
+    },
+    {
+      "key": "battle",
+      "scene": "battle",
+      "where": {"zh": "所有戰鬥（遭遇敵軍與頭目戰）", "en": "Every battle, random encounters and bosses"},
+      "name": {"zh": "替天行道", "en": "Justice on Behalf of Heaven"},
+      "mood": "heroic",
+      "play": "M.music('battle')",
+      "loopSec": 6.4,
+      "renderSec": 30
+    }
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/sound.js"],
+    "pre": "",
+    "init": "M.setSound(true);",
+    "notes": "sound.js has no imports. ctx() creates the AudioContext lazily inside the setInterval sequencer (step = 60/bpm/2, 32 notes per loop, drone every 4 steps). Sound defaults to on."
+  },
+  "skipped": [
+    {"what": "sfx('win') / sfx('battle')", "why": "short jingles under 1 s"}
+  ],
+  "notes": "All music is in js/sound.js TUNES (road 84 bpm, battle 150 bpm, town 96 bpm). Title screen reuses 'town'."
+}

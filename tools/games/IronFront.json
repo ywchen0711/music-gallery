@@ -1,0 +1,10 @@
+{
+  "folder": "IronFront",
+  "repo": "ironfront",
+  "lobbyId": "ironfront",
+  "kind": "none",
+  "noneReason": "only sound effects (js/sfx.js), no music or audio files",
+  "tracks": [],
+  "skipped": [],
+  "notes": ""
+}

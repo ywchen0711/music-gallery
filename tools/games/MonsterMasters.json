@@ -1,0 +1,21 @@
+{
+  "folder": "MonsterMasters",
+  "repo": "monster-masters",
+  "lobbyId": "monsters",
+  "kind": "procedural",
+  "tracks": [
+    {"key": "town", "scene": "town", "where": {"zh": "標題畫面與城鎮（牧場、商店、合成）", "en": "Title screen and the town (ranch, shop, fusion)"}, "name": {"zh": "馴獸師之鎮", "en": "Tamers' Hometown"}, "mood": "calm", "play": "M.music.play('town')", "loopSec": 9.6, "renderSec": 30},
+    {"key": "explore", "scene": "field", "where": {"zh": "世界地圖與各個探索區域", "en": "The world map and every exploring area"}, "name": {"zh": "野地尋獸", "en": "Tracking Wild Monsters"}, "mood": "cheerful", "play": "M.music.play('explore')", "loopSec": 8.136, "renderSec": 30},
+    {"key": "battle", "scene": "battle", "where": {"zh": "與野生怪物的戰鬥", "en": "Battles with wild monsters"}, "name": {"zh": "草叢遭遇戰", "en": "Clash in the Tall Grass"}, "mood": "tense", "play": "M.music.play('battle')", "loopSec": 6.4, "renderSec": 30},
+    {"key": "tamer", "scene": "boss", "where": {"zh": "與馴獸師及流浪馴獸師對戰", "en": "Battles against tamers and wandering tamers"}, "name": {"zh": "大師對決", "en": "Duel of Masters"}, "mood": "heroic", "play": "M.music.play('tamer')", "loopSec": 6, "renderSec": 30}
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "",
+    "init": "M.sfx.unlock();",
+    "notes": "js/audio.js is an ES module exporting sfx and music. music.play(id) creates/resumes the context itself (ac()) and starts a setInterval(150 ms) look-ahead loop with 0.5 s horizon. Music on by default, no localStorage. Loop = 4 bars x 8 eighth-notes = 960/bpm s."
+  },
+  "skipped": [],
+  "notes": "Very short two-voice chiptune loops (bass + lead); renderSec clamped to the 30 s minimum."
+}

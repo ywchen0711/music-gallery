@@ -1,0 +1,10 @@
+{
+  "folder": "JJRPG",
+  "repo": "josh-jasper-rpg",
+  "lobbyId": "rpg",
+  "kind": "none",
+  "noneReason": "only sound effects (js/ui.js RPG.sfx: cursor/hit/win/levelup blips via WebAudio tones; no music sequencer, no audio files)",
+  "tracks": [],
+  "skipped": [{"what": "js/ui.js SFX.win / SFX.levelup / SFX.lose", "why": "jingles under 2 s, not music"}],
+  "notes": ""
+}

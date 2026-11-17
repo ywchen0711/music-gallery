@@ -1,0 +1,124 @@
+{
+ "folder": "Starscar",
+ "repo": "starscar",
+ "lobbyId": "starscar",
+ "kind": "procedural",
+ "tracks": [
+  {
+   "key": "title",
+   "scene": "title",
+   "where": {
+    "zh": "標題畫面、章節標題卡與片尾字幕",
+    "en": "Title screen, chapter title cards and the closing credits"
+   },
+   "name": {
+    "zh": "星痕之旗",
+    "en": "Banner of the Starscar"
+   },
+   "mood": "epic",
+   "play": "M.music('title')",
+   "loopSec": 22.86,
+   "renderSec": 46,
+   "sameAs": "sanguotactics/title"
+  },
+  {
+   "key": "world",
+   "scene": "field",
+   "where": {
+    "zh": "世界地圖、戰鬥勝利後的結算",
+    "en": "World map, and the results screen after a victory"
+   },
+   "name": {
+    "zh": "荒原遠征",
+    "en": "Expedition Across the Wilds"
+   },
+   "mood": "heroic",
+   "play": "M.music('world')",
+   "loopSec": 24.23,
+   "renderSec": 49,
+   "sameAs": "sanguotactics/world"
+  },
+  {
+   "key": "town",
+   "scene": "town",
+   "where": {
+    "zh": "城鎮據點（商店、酒館）",
+    "en": "Town nodes (shops and tavern)"
+   },
+   "name": {
+    "zh": "旅人酒館",
+    "en": "The Wayfarers' Tavern"
+   },
+   "mood": "cheerful",
+   "play": "M.music('town')",
+   "loopSec": 23.75,
+   "renderSec": 48
+  },
+  {
+   "key": "battle",
+   "scene": "battle",
+   "where": {
+    "zh": "一般戰棋戰鬥",
+    "en": "Normal tactical battles"
+   },
+   "name": {
+    "zh": "鋼與魔的棋盤",
+    "en": "Board of Steel and Spell"
+   },
+   "mood": "tense",
+   "play": "M.music('battle')",
+   "loopSec": 13.33,
+   "renderSec": 30,
+   "sameAs": "sanguotactics/battle"
+  },
+  {
+   "key": "boss",
+   "scene": "boss",
+   "where": {
+    "zh": "迷宮深處的守護者戰",
+    "en": "Guardian battles deep in the labyrinths"
+   },
+   "name": {
+    "zh": "迷宮守護者",
+    "en": "Guardian of the Labyrinth"
+   },
+   "mood": "dark",
+   "play": "M.music('boss')",
+   "loopSec": 10.77,
+   "renderSec": 30
+  },
+  {
+   "key": "sad",
+   "scene": "event",
+   "where": {
+    "zh": "劇情事件場景、戰敗之後",
+    "en": "Story event scenes and after a defeat"
+   },
+   "name": {
+    "zh": "殞星餘燼",
+    "en": "Embers of a Fallen Star"
+   },
+   "mood": "sad",
+   "play": "M.music('sad')",
+   "loopSec": 27.43,
+   "renderSec": 55,
+   "sameAs": "sanguotactics/sad"
+  }
+ ],
+ "harness": {
+  "module": true,
+  "scripts": [
+   "js/audio.js"
+  ],
+  "pre": "localStorage.setItem('ss.mute', '0');",
+  "init": "M.unlock();",
+  "notes": "js/audio.js has no imports; it reads localStorage 'ss.mute' at load (pre clears it). unlock() creates the context. Loop re-armed by setTimeout(len*beat - 30 ms), so real period is loopSec - 0.03 s. Boss bass (2 x 16 beats) runs 4 beats past the 28-beat melody and overlaps the next loop."
+ },
+ "skipped": [
+  {
+   "what": "THEMES.victory",
+   "why": "one-shot fanfare (once: true, ~9 s), played on win"
+  }
+ ],
+ "notes": "Song data is identical to SanguoTactics js/audio.js (only the mute key differs). Story events default to 'sad' (js/game.js playEvent: e.music || ... 'sad')."
+}

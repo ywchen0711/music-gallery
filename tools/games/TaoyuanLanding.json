@@ -1,0 +1,13 @@
+{
+  "folder": "TaoyuanLanding",
+  "repo": "taoyuan-landing",
+  "lobbyId": "taoyuanlanding",
+  "kind": "none",
+  "noneReason": "only sound effects and voices (js/audio.js: engine/wind/rain noise loops, gear/flaps/touchdown/chime sfx, speechSynthesis callouts and tower radio; no sequencer, no music files)",
+  "tracks": [],
+  "skipped": [
+    {"what": "js/audio.js sfx 'chime', 'apoff'", "why": "short cockpit alert tones"},
+    {"what": "callout()/radio()", "why": "voice (speech synthesis)"}
+  ],
+  "notes": "No committed audio files."
+}

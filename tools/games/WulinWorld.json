@@ -1,0 +1,28 @@
+{
+  "folder": "WulinWorld",
+  "repo": "wulin-world",
+  "lobbyId": "wulinworld",
+  "kind": "procedural",
+  "tracks": [
+    {"key": "open", "scene": "field", "where": {"zh": "野外與未設專屬曲風的地點（戰神台、漁村、悅來客棧、斷橋、古戰場、雲霧茶園、梅林、黑風洞）", "en": "The open country and places without their own mood (War God's Platform, Fishing Village, Yuelai Inn, Broken Bridge, Old Battlefield, Tea Terraces, Plum Grove, Black Wind Cave)"}, "name": {"zh": "江湖行路", "en": "Wandering the Jianghu"}, "mood": "calm", "play": "M.music.mood('open'); M.music.fight(false);", "loopSec": null, "renderSec": 75},
+    {"key": "manor", "scene": "town", "where": {"zh": "龍門刀莊", "en": "Longmen Saber Manor"}, "name": {"zh": "刀莊晨箏", "en": "Morning at the Saber Manor"}, "mood": "calm", "play": "M.music.mood('manor'); M.music.fight(false);", "loopSec": null, "renderSec": 75},
+    {"key": "village", "scene": "town", "where": {"zh": "龍門村", "en": "Longmen Village"}, "name": {"zh": "龍門炊煙", "en": "Hearth Smoke of Longmen"}, "mood": "calm", "play": "M.music.mood('village'); M.music.fight(false);", "loopSec": null, "renderSec": 75},
+    {"key": "town", "scene": "town", "where": {"zh": "聽雨樓・十字街", "en": "The Listening-to-Rain and the Crossroads"}, "name": {"zh": "十字街頭", "en": "Bustle at the Crossroads"}, "mood": "cheerful", "play": "M.music.mood('town'); M.music.fight(false);", "loopSec": null, "renderSec": 75},
+    {"key": "bamboo", "scene": "field", "where": {"zh": "竹林", "en": "Bamboo Forest"}, "name": {"zh": "竹影低吟", "en": "Murmurs in the Bamboo"}, "mood": "mysterious", "play": "M.music.mood('bamboo'); M.music.fight(false);", "loopSec": null, "renderSec": 75},
+    {"key": "lake", "scene": "field", "where": {"zh": "寒江閣", "en": "Cold River Pavilion"}, "name": {"zh": "寒江獨釣", "en": "Alone on the Cold River"}, "mood": "sad", "play": "M.music.mood('lake'); M.music.fight(false);", "loopSec": null, "renderSec": 75},
+    {"key": "temple", "scene": "dungeon", "where": {"zh": "千佛寺", "en": "Temple of a Thousand Buddhas"}, "name": {"zh": "千佛梵寂", "en": "Silence of a Thousand Buddhas"}, "mood": "mysterious", "play": "M.music.mood('temple'); M.music.fight(false);", "loopSec": null, "renderSec": 75},
+    {"key": "cliff", "scene": "field", "where": {"zh": "暴龍崖", "en": "Tyrant Dragon Cliff"}, "name": {"zh": "崖上風雷", "en": "Thunder on the Cliff"}, "mood": "epic", "play": "M.music.mood('cliff'); M.music.fight(false);", "loopSec": null, "renderSec": 75},
+    {"key": "fort", "scene": "dungeon", "where": {"zh": "黑風寨", "en": "Black Wind Fort"}, "name": {"zh": "黑風寨前", "en": "Before the Black Wind Fort"}, "mood": "tense", "play": "M.music.mood('fort'); M.music.fight(false);", "loopSec": null, "renderSec": 75},
+    {"key": "falls", "scene": "field", "where": {"zh": "天機瀑布", "en": "Stratagem Falls"}, "name": {"zh": "瀑下天機", "en": "Secrets Beneath the Falls"}, "mood": "mysterious", "play": "M.music.mood('falls'); M.music.fight(false);", "loopSec": null, "renderSec": 75},
+    {"key": "fight", "scene": "battle", "where": {"zh": "敵人追擊、與蕭／蒙面人交手或頭目戰時（加上鼓聲與快速琴音）", "en": "When foes give chase, when fighting Xiao or the masked man, or in a boss fight (frame drum and fast runs)"}, "name": {"zh": "刀光鼓影", "en": "Drums of the Blade"}, "mood": "tense", "play": "M.music.mood('open'); M.music.fight(true);", "loopSec": null, "renderSec": 75}
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/music.js"],
+    "pre": "",
+    "init": "import('/wulin-world/js/sound.js').then((s) => { s.wake(); M.music.start(); });",
+    "notes": "js/music.js is an ES module that imports ./sound.js; it only plays once sound.js's wake() has created the AudioContext (tick() returns while audio().ac is null). wake() is not re-exported by music.js, so init imports the SAME module URL (/wulin-world/js/sound.js, which ./sound.js resolves to) and calls wake(), then music.start() (setInterval 200 ms, 0.6 s look-ahead). init returns a Promise: the renderer must await it before play/render. If init is not awaited, put the same code in play."
+  },
+  "skipped": [],
+  "notes": "Generative music: Karplus-Strong guzheng random-walking a pentatonic scale (Math.random), no fixed loop; loopSec null, renderSec 75. Each region mood only changes root/tempo/density (game.js: music.mood(rg?.id || 'open') on region change; music.fight(...) every frame). The fight track uses the current region's root; here rendered over 'open'. music.js and sound.js are byte-identical to BrickBuilders'. Ambience noise (sound.js) is not started."
+}

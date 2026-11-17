@@ -1,0 +1,902 @@
+{
+ "folder": "PeachIsle",
+ "repo": "peach-isle",
+ "lobbyId": "peachisle",
+ "kind": "file",
+ "tracks": [
+  {
+   "key": "title",
+   "scene": "title",
+   "where": {
+    "zh": "標題畫面",
+    "en": "Title screen"
+   },
+   "name": {
+    "zh": "桃花初綻",
+    "en": "Peach Blossom Morning"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/title.m4a",
+   "alt": [
+    "assets/music/title.ogg"
+   ],
+   "orig": {
+    "title": "Intro",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/38 - Intro.ogg"
+  },
+  {
+   "key": "story",
+   "scene": "event",
+   "where": {
+    "zh": "序章：桃子順流而下（桃之川開場）",
+    "en": "Prologue: the peach floats down the river (opening at Peach River)"
+   },
+   "name": {
+    "zh": "川上浮桃",
+    "en": "A Peach Upon the Stream"
+   },
+   "mood": "calm",
+   "file": "assets/music/story.m4a",
+   "alt": [
+    "assets/music/story.ogg"
+   ],
+   "orig": {
+    "title": "Story",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/6 - Story.ogg"
+  },
+  {
+   "key": "home",
+   "scene": "town",
+   "where": {
+    "zh": "桃之川與爺爺奶奶的家",
+    "en": "Peach River and the old couple's house"
+   },
+   "name": {
+    "zh": "竹籬炊煙",
+    "en": "Smoke over the Bamboo Fence"
+   },
+   "mood": "calm",
+   "file": "assets/music/home.m4a",
+   "alt": [
+    "assets/music/home.ogg"
+   ],
+   "orig": {
+    "title": "Peaceful",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/5 - Peaceful.ogg"
+  },
+  {
+   "key": "village",
+   "scene": "town",
+   "where": {
+    "zh": "黍之里村莊",
+    "en": "Kibi Village"
+   },
+   "name": {
+    "zh": "黍田人家",
+    "en": "Millet Field Hamlet"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/village.m4a",
+   "alt": [
+    "assets/music/village.ogg"
+   ],
+   "orig": {
+    "title": "Village",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/4 - Village.ogg"
+  },
+  {
+   "key": "festival",
+   "scene": "event",
+   "where": {
+    "zh": "黍之里的祭典與放燈籠",
+    "en": "The festival at Kibi Village and the lantern release"
+   },
+   "name": {
+    "zh": "燈籠夜祭",
+    "en": "Night of Lanterns"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/festival.m4a",
+   "alt": [
+    "assets/music/festival.ogg"
+   ],
+   "orig": {
+    "title": "Sunny",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/31 - Sunny.ogg"
+  },
+  {
+   "key": "field",
+   "scene": "field",
+   "where": {
+    "zh": "東方大道（世界地圖）",
+    "en": "The road east (world map)"
+   },
+   "name": {
+    "zh": "東行大道",
+    "en": "The Long Road East"
+   },
+   "mood": "heroic",
+   "file": "assets/music/field.m4a",
+   "alt": [
+    "assets/music/field.ogg"
+   ],
+   "orig": {
+    "title": "Road",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/23 - Road.ogg"
+  },
+  {
+   "key": "forest",
+   "scene": "dungeon",
+   "where": {
+    "zh": "白牙森林",
+    "en": "Whitefang Forest"
+   },
+   "name": {
+    "zh": "白牙林影",
+    "en": "Shadows of Whitefang"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/forest.m4a",
+   "alt": [
+    "assets/music/forest.ogg"
+   ],
+   "orig": {
+    "title": "Clearing",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/11 - Clearing.ogg"
+  },
+  {
+   "key": "mountain",
+   "scene": "dungeon",
+   "where": {
+    "zh": "猿啼山",
+    "en": "Monkey-Cry Mountain"
+   },
+   "name": {
+    "zh": "猿聲迴谷",
+    "en": "Echoes of the Monkey Cry"
+   },
+   "mood": "playful",
+   "file": "assets/music/mountain.m4a",
+   "alt": [
+    "assets/music/mountain.ogg"
+   ],
+   "orig": {
+    "title": "Ascension",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/19 - Ascension.ogg"
+  },
+  {
+   "key": "coast",
+   "scene": "town",
+   "where": {
+    "zh": "潮見港",
+    "en": "Shiomi Harbour"
+   },
+   "name": {
+    "zh": "潮見帆影",
+    "en": "Sails at Shiomi"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/coast.m4a",
+   "alt": [
+    "assets/music/coast.ogg"
+   ],
+   "orig": {
+    "title": "Aquatic",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/18 - Aquatic.ogg"
+  },
+  {
+   "key": "temple",
+   "scene": "dungeon",
+   "where": {
+    "zh": "天狗崖（以及塔）",
+    "en": "Tengu Cliff (and the tower)"
+   },
+   "name": {
+    "zh": "天狗風鈴",
+    "en": "Bells of the Tengu Wind"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/temple.m4a",
+   "alt": [
+    "assets/music/temple.ogg"
+   ],
+   "orig": {
+    "title": "Temple",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/12 - Temple.ogg"
+  },
+  {
+   "key": "boat",
+   "scene": "field",
+   "where": {
+    "zh": "渡鬼海的船上",
+    "en": "On the ship across the Oni Sea"
+   },
+   "name": {
+    "zh": "破浪渡海",
+    "en": "Breaking the Waves"
+   },
+   "mood": "heroic",
+   "file": "assets/music/boat.m4a",
+   "alt": [
+    "assets/music/boat.ogg"
+   ],
+   "orig": {
+    "title": "Boat",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/39 - Boat.ogg"
+  },
+  {
+   "key": "isle",
+   "scene": "field",
+   "where": {
+    "zh": "鬼之島，以及登島劇情",
+    "en": "The Oni Isle, and the landing scenes"
+   },
+   "name": {
+    "zh": "鬼島初踏",
+    "en": "First Steps on Oni Isle"
+   },
+   "mood": "tense",
+   "file": "assets/music/isle.m4a",
+   "alt": [
+    "assets/music/isle.ogg"
+   ],
+   "orig": {
+    "title": "Lost Village",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/26 - Lost Village.ogg"
+  },
+  {
+   "key": "fort",
+   "scene": "dungeon",
+   "where": {
+    "zh": "黑鐵砦",
+    "en": "Kurogane Fortress"
+   },
+   "name": {
+    "zh": "黑鐵城砦",
+    "en": "Walls of Black Iron"
+   },
+   "mood": "tense",
+   "file": "assets/music/fort.m4a",
+   "alt": [
+    "assets/music/fort.ogg"
+   ],
+   "orig": {
+    "title": "Dark Castle",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/10 - Dark Castle.ogg"
+  },
+  {
+   "key": "fog",
+   "scene": "dungeon",
+   "where": {
+    "zh": "霧之谷",
+    "en": "Fog Valley"
+   },
+   "name": {
+    "zh": "迷霧幽谷",
+    "en": "Valley of Lost Mist"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/fog.m4a",
+   "alt": [
+    "assets/music/fog.ogg"
+   ],
+   "orig": {
+    "title": "Dark Forest",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/37 - Dark Forest.ogg"
+  },
+  {
+   "key": "melancholy",
+   "scene": "event",
+   "where": {
+    "zh": "霧之谷中影丸的往事",
+    "en": "Kagemaru's past in Fog Valley"
+   },
+   "name": {
+    "zh": "影丸舊事",
+    "en": "What Kagemaru Remembers"
+   },
+   "mood": "sad",
+   "file": "assets/music/melancholy.m4a",
+   "alt": [
+    "assets/music/melancholy.ogg"
+   ],
+   "orig": {
+    "title": "Melancholia",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/16 - Melancholia.ogg"
+  },
+  {
+   "key": "sail",
+   "scene": "field",
+   "where": {
+    "zh": "鬼海航行",
+    "en": "Sailing the Oni Sea"
+   },
+   "name": {
+    "zh": "順風揚帆",
+    "en": "A Fair Wind Rising"
+   },
+   "mood": "heroic",
+   "file": "assets/music/sail.m4a",
+   "alt": [
+    "assets/music/sail.ogg"
+   ],
+   "orig": {
+    "title": "Adventure",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/35 - Adventure.ogg"
+  },
+  {
+   "key": "onivillage",
+   "scene": "town",
+   "where": {
+    "zh": "焰之鄉（鬼的村莊）",
+    "en": "Homura, the oni village"
+   },
+   "name": {
+    "zh": "焰鄉鼓聲",
+    "en": "Drums of Homura"
+   },
+   "mood": "playful",
+   "file": "assets/music/onivillage.m4a",
+   "alt": [
+    "assets/music/onivillage.ogg"
+   ],
+   "orig": {
+    "title": "Village",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/36 - Village.ogg"
+  },
+  {
+   "key": "volcano",
+   "scene": "dungeon",
+   "where": {
+    "zh": "炎嶽火山",
+    "en": "Mount Enraku, the volcano"
+   },
+   "name": {
+    "zh": "炎嶽熔流",
+    "en": "Rivers of Enraku Fire"
+   },
+   "mood": "tense",
+   "file": "assets/music/volcano.m4a",
+   "alt": [
+    "assets/music/volcano.ogg"
+   ],
+   "orig": {
+    "title": "Dungeon",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/21 - Dungeon.ogg"
+  },
+  {
+   "key": "sky",
+   "scene": "town",
+   "where": {
+    "zh": "雲之里",
+    "en": "Cloud Village"
+   },
+   "name": {
+    "zh": "雲端小村",
+    "en": "A Village Above Clouds"
+   },
+   "mood": "calm",
+   "file": "assets/music/sky.m4a",
+   "alt": [
+    "assets/music/sky.ogg"
+   ],
+   "orig": {
+    "title": "Chill",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/27 - Chill.ogg"
+  },
+  {
+   "key": "cloud",
+   "scene": "dungeon",
+   "where": {
+    "zh": "雲上之道",
+    "en": "The Road above the Clouds"
+   },
+   "name": {
+    "zh": "踏雲而行",
+    "en": "Walking on Clouds"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/cloud.m4a",
+   "alt": [
+    "assets/music/cloud.ogg"
+   ],
+   "orig": {
+    "title": "Mystical",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/13 - Mystical.ogg"
+  },
+  {
+   "key": "islet",
+   "scene": "field",
+   "where": {
+    "zh": "無人島",
+    "en": "The deserted islet"
+   },
+   "name": {
+    "zh": "孤島潮聲",
+    "en": "Tides of the Lone Islet"
+   },
+   "mood": "calm",
+   "file": "assets/music/islet.m4a",
+   "alt": [
+    "assets/music/islet.ogg"
+   ],
+   "orig": {
+    "title": "Quiet",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/9 - Quiet.ogg"
+  },
+  {
+   "key": "reef",
+   "scene": "dungeon",
+   "where": {
+    "zh": "珊瑚之道",
+    "en": "The Coral Road"
+   },
+   "name": {
+    "zh": "珊瑚幽徑",
+    "en": "The Coral Path"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/reef.m4a",
+   "alt": [
+    "assets/music/reef.ogg"
+   ],
+   "orig": {
+    "title": "Dream",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/22 - Dream.ogg"
+  },
+  {
+   "key": "palace",
+   "scene": "dungeon",
+   "where": {
+    "zh": "龍宮",
+    "en": "The Dragon Palace"
+   },
+   "name": {
+    "zh": "龍宮琉璃",
+    "en": "Glass Halls of the Dragon Palace"
+   },
+   "mood": "romantic",
+   "file": "assets/music/palace.m4a",
+   "alt": [
+    "assets/music/palace.ogg"
+   ],
+   "orig": {
+    "title": "Calm Village",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/33 - Calm Village.ogg"
+  },
+  {
+   "key": "dojo",
+   "scene": "battle",
+   "where": {
+    "zh": "鬼之道場，以及第二幕的一般戰鬥",
+    "en": "The oni dojo, and ordinary battles in act two"
+   },
+   "name": {
+    "zh": "鬼道場戰鼓",
+    "en": "War Drums of the Oni Dojo"
+   },
+   "mood": "heroic",
+   "file": "assets/music/dojo.m4a",
+   "alt": [
+    "assets/music/dojo.ogg"
+   ],
+   "orig": {
+    "title": "Fight",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/34  - Fight.ogg"
+  },
+  {
+   "key": "yomi",
+   "scene": "dungeon",
+   "where": {
+    "zh": "常夜之國",
+    "en": "The Land of Endless Night"
+   },
+   "name": {
+    "zh": "常夜之國",
+    "en": "Realm of Endless Night"
+   },
+   "mood": "dark",
+   "file": "assets/music/yomi.m4a",
+   "alt": [
+    "assets/music/yomi.ogg"
+   ],
+   "orig": {
+    "title": "Crypt",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/40 - Crypt.ogg"
+  },
+  {
+   "key": "curse",
+   "scene": "dungeon",
+   "where": {
+    "zh": "常夜之國・深處",
+    "en": "The depths of the Endless Night"
+   },
+   "name": {
+    "zh": "深淵咒縛",
+    "en": "Bound by the Curse"
+   },
+   "mood": "dark",
+   "file": "assets/music/curse.m4a",
+   "alt": [
+    "assets/music/curse.ogg"
+   ],
+   "orig": {
+    "title": "Curse",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/14 - Curse.ogg"
+  },
+  {
+   "key": "abyss",
+   "scene": "dungeon",
+   "where": {
+    "zh": "常夜之底",
+    "en": "The bottom of the Endless Night"
+   },
+   "name": {
+    "zh": "夜底深淵",
+    "en": "The Floor of Night"
+   },
+   "mood": "dark",
+   "file": "assets/music/abyss.m4a",
+   "alt": [
+    "assets/music/abyss.ogg"
+   ],
+   "orig": {
+    "title": "Ruins",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/30 - Ruins.ogg"
+  },
+  {
+   "key": "battle",
+   "scene": "battle",
+   "where": {
+    "zh": "第一幕的一般戰鬥",
+    "en": "Ordinary battles in act one"
+   },
+   "name": {
+    "zh": "桃丸出陣",
+    "en": "Momomaru Draws His Sword"
+   },
+   "mood": "heroic",
+   "file": "assets/music/battle.m4a",
+   "alt": [
+    "assets/music/battle.ogg"
+   ],
+   "orig": {
+    "title": "Fight",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/17 - Fight.ogg"
+  },
+  {
+   "key": "boss",
+   "scene": "boss",
+   "where": {
+    "zh": "頭目戰（含玄冥之戰）與鬼襲村劇情",
+    "en": "Boss battles (including Genmei) and the oni raid scenes"
+   },
+   "name": {
+    "zh": "鬼王來襲",
+    "en": "The Oni Chief Strikes"
+   },
+   "mood": "tense",
+   "file": "assets/music/boss.m4a",
+   "alt": [
+    "assets/music/boss.ogg"
+   ],
+   "orig": {
+    "title": "Tension",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/28 - Tension.ogg"
+  },
+  {
+   "key": "final",
+   "scene": "boss",
+   "where": {
+    "zh": "最終決戰：黑鐵與夜之龍",
+    "en": "Final battles: Kurogane and the Night Dragon"
+   },
+   "name": {
+    "zh": "決戰夜龍",
+    "en": "Duel with the Night Dragon"
+   },
+   "mood": "epic",
+   "file": "assets/music/final.m4a",
+   "alt": [
+    "assets/music/final.ogg"
+   ],
+   "orig": {
+    "title": "Final Area",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/24 - Final Area.ogg"
+  },
+  {
+   "key": "reveal",
+   "scene": "event",
+   "where": {
+    "zh": "玄冥現身等真相揭露的場面",
+    "en": "Genmei appears and other moments of revelation"
+   },
+   "name": {
+    "zh": "幕後真相",
+    "en": "The Hand Behind It All"
+   },
+   "mood": "dark",
+   "file": "assets/music/reveal.m4a",
+   "alt": [
+    "assets/music/reveal.ogg"
+   ],
+   "orig": {
+    "title": "Revelation",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/3 - Revelation.ogg"
+  },
+  {
+   "key": "sad",
+   "scene": "event",
+   "where": {
+    "zh": "枯萎的神木與悲傷的場面",
+    "en": "The withered sacred tree and other sad scenes"
+   },
+   "name": {
+    "zh": "神木凋零",
+    "en": "The Withered Sacred Tree"
+   },
+   "mood": "sad",
+   "file": "assets/music/sad.m4a",
+   "alt": [
+    "assets/music/sad.ogg"
+   ],
+   "orig": {
+    "title": "Sad Theme",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/7 - Sad Theme.ogg"
+  },
+  {
+   "key": "lament",
+   "scene": "other",
+   "where": {
+    "zh": "遊戲結束畫面",
+    "en": "Game over screen"
+   },
+   "name": {
+    "zh": "殘燈一盞",
+    "en": "One Lantern Left Burning"
+   },
+   "mood": "sad",
+   "file": "assets/music/lament.m4a",
+   "alt": [
+    "assets/music/lament.ogg"
+   ],
+   "orig": {
+    "title": "Lament",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/29 - Lament.ogg"
+  },
+  {
+   "key": "ending",
+   "scene": "ending",
+   "where": {
+    "zh": "結局與製作名單",
+    "en": "The ending and credits"
+   },
+   "name": {
+    "zh": "歸鄉之路",
+    "en": "The Road Back Home"
+   },
+   "mood": "calm",
+   "file": "assets/music/ending.m4a",
+   "alt": [
+    "assets/music/ending.ogg"
+   ],
+   "orig": {
+    "title": "Credit Theme",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/15 - Credit Theme.ogg"
+  },
+  {
+   "key": "trueend",
+   "scene": "ending",
+   "where": {
+    "zh": "真結局",
+    "en": "The true ending"
+   },
+   "name": {
+    "zh": "桃花再開",
+    "en": "When Peaches Bloom Again"
+   },
+   "mood": "romantic",
+   "file": "assets/music/trueend.m4a",
+   "alt": [
+    "assets/music/trueend.ogg"
+   ],
+   "orig": {
+    "title": "End Theme",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/8 - End Theme.ogg"
+  }
+ ],
+ "skipped": [
+  {
+   "what": "assets/jingle/*.wav (gameover, item, levelup, secret, victory)",
+   "why": "short jingles"
+  },
+  {
+   "what": "js/audio.js sequencer",
+   "why": "only plays sound effects (sfx/jingle note runs on sfxBus); no procedural songs"
+  },
+  {
+   "what": "assets/music/cave.m4a",
+   "why": "committed but not played anywhere in the game"
+  },
+  {
+   "what": "assets/music/good.m4a",
+   "why": "committed but not played anywhere in the game"
+  }
+ ],
+ "notes": "CREDITS.md credits all 37 music tracks as a whole to the Ninja Adventure Asset Pack (Pixel-boy and AAA, CC0 1.0) and says they were copied under shorter names; it does not record each track's original title, so orig.title is null. audio.js aliases: town->village, tower->temple, gameover->lament, battle2->dojo (act-2 battles). 'ending' and 'trueend' do not loop. cave and good are committed but never played by the code."
+}

@@ -1,0 +1,498 @@
+{
+ "folder": "StarFist",
+ "repo": "star-fist",
+ "lobbyId": "starfist",
+ "kind": "file",
+ "tracks": [
+  {
+   "key": "title",
+   "scene": "title",
+   "where": {
+    "zh": "標題畫面",
+    "en": "Title screen"
+   },
+   "name": {
+    "zh": "星拳序曲",
+    "en": "Overture of the Star Fist"
+   },
+   "mood": "heroic",
+   "file": "assets/music/title.m4a",
+   "alt": [
+    "assets/music/title.ogg"
+   ],
+   "orig": {
+    "title": "Intro",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/38 - Intro.ogg"
+  },
+  {
+   "key": "home",
+   "scene": "town",
+   "where": {
+    "zh": "第一章開場：松崖山頂師徒的小屋與修練場",
+    "en": "Chapter 1 opening: the master's hut and training ground atop Pinecrag"
+   },
+   "name": {
+    "zh": "松根扎步",
+    "en": "Rooted Like the Pine"
+   },
+   "mood": "calm",
+   "file": "assets/music/home.m4a",
+   "alt": [
+    "assets/music/home.ogg"
+   ],
+   "orig": {
+    "title": "Peaceful",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/5 - Peaceful.ogg"
+  },
+  {
+   "key": "mountain",
+   "scene": "field",
+   "where": {
+    "zh": "松崖山棋盤地圖（第一章）",
+    "en": "Pinecrag Mountain board (Chapter 1)"
+   },
+   "name": {
+    "zh": "松崖晨練",
+    "en": "Dawn Drills on Pinecrag"
+   },
+   "mood": "heroic",
+   "file": "assets/music/mountain.m4a",
+   "alt": [
+    "assets/music/mountain.ogg"
+   ],
+   "orig": {
+    "title": "Adventure Begin",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/1 - Adventure Begin.ogg"
+  },
+  {
+   "key": "reveal",
+   "scene": "event",
+   "where": {
+    "zh": "流星夜、真相揭曉與地震等關鍵劇情",
+    "en": "Shooting-star night, revelations and the quake scenes"
+   },
+   "name": {
+    "zh": "三星墜夜",
+    "en": "Three Falling Stars"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/reveal.m4a",
+   "alt": [
+    "assets/music/reveal.ogg"
+   ],
+   "orig": {
+    "title": "Revelation",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/3 - Revelation.ogg"
+  },
+  {
+   "key": "village",
+   "scene": "town",
+   "where": {
+    "zh": "劇情中的村鎮與歇腳場景（各章）",
+    "en": "Village and rest-stop story scenes (every chapter)"
+   },
+   "name": {
+    "zh": "炊煙小鎮",
+    "en": "Hearth-Smoke Hamlet"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/village.m4a",
+   "alt": [
+    "assets/music/village.ogg"
+   ],
+   "orig": {
+    "title": "Calm Village",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/33 - Calm Village.ogg"
+  },
+  {
+   "key": "sad",
+   "scene": "event",
+   "where": {
+    "zh": "悲傷劇情：師父談起十二年前、離別與回憶",
+    "en": "Sad scenes: the master recalls twelve years ago, partings and memories"
+   },
+   "name": {
+    "zh": "舊傷往事",
+    "en": "Old Wounds Remembered"
+   },
+   "mood": "sad",
+   "file": "assets/music/sad.m4a",
+   "alt": [
+    "assets/music/sad.ogg"
+   ],
+   "orig": {
+    "title": "Sad Theme",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/7 - Sad Theme.ogg"
+  },
+  {
+   "key": "river",
+   "scene": "field",
+   "where": {
+    "zh": "蘆河棋盤地圖（第二章）",
+    "en": "Reed River board (Chapter 2)"
+   },
+   "name": {
+    "zh": "蘆河行舟",
+    "en": "Down the Reed River"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/river.m4a",
+   "alt": [
+    "assets/music/river.ogg"
+   ],
+   "orig": {
+    "title": "Road",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/23 - Road.ogg"
+  },
+  {
+   "key": "valley",
+   "scene": "field",
+   "where": {
+    "zh": "巨石谷棋盤地圖（第三章）",
+    "en": "Stonegiant Valley board (Chapter 3)"
+   },
+   "name": {
+    "zh": "巨石遺歌",
+    "en": "Song of the Stone Giants"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/valley.m4a",
+   "alt": [
+    "assets/music/valley.ogg"
+   ],
+   "orig": {
+    "title": "Ruins",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/30 - Ruins.ogg"
+  },
+  {
+   "key": "highland",
+   "scene": "field",
+   "where": {
+    "zh": "風鳴高原棋盤地圖（第四章）",
+    "en": "Windsong Highlands board (Chapter 4)"
+   },
+   "name": {
+    "zh": "風鳴登高",
+    "en": "Climbing the Singing Wind"
+   },
+   "mood": "epic",
+   "file": "assets/music/highland.m4a",
+   "alt": [
+    "assets/music/highland.ogg"
+   ],
+   "orig": {
+    "title": "Ascension",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/19 - Ascension.ogg"
+  },
+  {
+   "key": "crater",
+   "scene": "dungeon",
+   "where": {
+    "zh": "隕坑要塞棋盤地圖與潛入劇情（第五章）",
+    "en": "Crater Fortress board and infiltration scenes (Chapter 5)"
+   },
+   "name": {
+    "zh": "隕坑暗哨",
+    "en": "Watchfires of the Crater"
+   },
+   "mood": "tense",
+   "file": "assets/music/crater.m4a",
+   "alt": [
+    "assets/music/crater.ogg"
+   ],
+   "orig": {
+    "title": "Tension",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/28 - Tension.ogg"
+  },
+  {
+   "key": "comet",
+   "scene": "dungeon",
+   "where": {
+    "zh": "鐵彗星棋盤地圖（終章）",
+    "en": "The Iron Comet board (final chapter)"
+   },
+   "name": {
+    "zh": "鐵彗逆行",
+    "en": "Riding the Iron Comet"
+   },
+   "mood": "epic",
+   "file": "assets/music/comet.m4a",
+   "alt": [
+    "assets/music/comet.ogg"
+   ],
+   "orig": {
+    "title": "Final Area",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/24 - Final Area.ogg"
+  },
+  {
+   "key": "final",
+   "scene": "boss",
+   "where": {
+    "zh": "軍團首領沃拉克第一戰與其登場劇情",
+    "en": "First fight with Legion warlord Vorrak and his scenes"
+   },
+   "name": {
+    "zh": "軍團霸主",
+    "en": "Warlord of the Legion"
+   },
+   "mood": "dark",
+   "file": "assets/music/final.m4a",
+   "alt": [
+    "assets/music/final.ogg"
+   ],
+   "orig": {
+    "title": "Dark Castle",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/10 - Dark Castle.ogg"
+  },
+  {
+   "key": "lament",
+   "scene": "event",
+   "where": {
+    "zh": "師父奧羅索倒下的一幕",
+    "en": "The fall of Master Oroso"
+   },
+   "name": {
+    "zh": "松下長眠",
+    "en": "Sleep Beneath the Pines"
+   },
+   "mood": "sad",
+   "file": "assets/music/lament.m4a",
+   "alt": [
+    "assets/music/lament.ogg"
+   ],
+   "orig": {
+    "title": "Lament",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/29 - Lament.ogg"
+  },
+  {
+   "key": "golden",
+   "scene": "boss",
+   "where": {
+    "zh": "金焰覺醒：沃拉克最終戰，及大會的狸貓、星靈之戰",
+    "en": "Golden Flame awakening: the last Vorrak fight, plus the tournament's tanuki and star-spirit bouts"
+   },
+   "name": {
+    "zh": "金焰覺醒",
+    "en": "Awakening of the Golden Flame"
+   },
+   "mood": "heroic",
+   "file": "assets/music/golden.m4a",
+   "alt": [
+    "assets/music/golden.ogg"
+   ],
+   "orig": {
+    "title": "Adventure",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/35 - Adventure.ogg"
+  },
+  {
+   "key": "battle",
+   "scene": "battle",
+   "where": {
+    "zh": "一般戰鬥（卡牌對戰）",
+    "en": "Regular card battles"
+   },
+   "name": {
+    "zh": "拳風交錯",
+    "en": "Fists Like Gale"
+   },
+   "mood": "tense",
+   "file": "assets/music/battle.m4a",
+   "alt": [
+    "assets/music/battle.ogg"
+   ],
+   "orig": {
+    "title": "Fight",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/17 - Fight.ogg"
+  },
+  {
+   "key": "boss",
+   "scene": "boss",
+   "where": {
+    "zh": "頭目戰（預設），與大會的拳師、浪人之戰",
+    "en": "Boss battles (default), and the tournament boxer and ronin bouts"
+   },
+   "name": {
+    "zh": "強敵當前",
+    "en": "A Worthy Foe"
+   },
+   "mood": "epic",
+   "file": "assets/music/boss.m4a",
+   "alt": [
+    "assets/music/boss.ogg"
+   ],
+   "orig": {
+    "title": "Fight",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/34  - Fight.ogg"
+  },
+  {
+   "key": "tourney",
+   "scene": "minigame",
+   "where": {
+    "zh": "通關後的星拳大會棋盤",
+    "en": "Post-game Star Fist Tournament board"
+   },
+   "name": {
+    "zh": "擂臺歡聲",
+    "en": "Cheers Around the Ring"
+   },
+   "mood": "playful",
+   "file": "assets/music/tourney.m4a",
+   "alt": [
+    "assets/music/tourney.ogg"
+   ],
+   "orig": {
+    "title": "Good Time",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/20 - Good Time.ogg"
+  },
+  {
+   "key": "ending",
+   "scene": "ending",
+   "where": {
+    "zh": "結局：鐵彗星碎裂、光雨落回大地、回到松崖山（播一次）",
+    "en": "Ending: the Iron Comet shatters, light rains down, back on Pinecrag (plays once)"
+   },
+   "name": {
+    "zh": "光雨歸山",
+    "en": "Light Rain Over the Peaks"
+   },
+   "mood": "romantic",
+   "file": "assets/music/ending.m4a",
+   "alt": [
+    "assets/music/ending.ogg"
+   ],
+   "orig": {
+    "title": "End Theme",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/8 - End Theme.ogg"
+  },
+  {
+   "key": "credits",
+   "scene": "ending",
+   "where": {
+    "zh": "全破後的尾聲與製作名單（播一次）",
+    "en": "Epilogue and full credits after clearing everything (plays once)"
+   },
+   "name": {
+    "zh": "星拳傳承",
+    "en": "The Fist Passed On"
+   },
+   "mood": "calm",
+   "file": "assets/music/credits.m4a",
+   "alt": [
+    "assets/music/credits.ogg"
+   ],
+   "orig": {
+    "title": "Credit Theme",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   },
+   "packFile": "Audio/Musics/15 - Credit Theme.ogg"
+  }
+ ],
+ "skipped": [
+  {
+   "what": "assets/jingle/*.wav (gameover, item, levelup, victory)",
+   "why": "jingles"
+  },
+  {
+   "what": "js/audio.js sfx()/hum()",
+   "why": "procedural sound effects only, no music sequencer"
+  },
+  {
+   "what": "assets/music/story.m4a",
+   "why": "committed but not played anywhere in the game"
+  }
+ ],
+ "notes": "CREDITS.md credits only the pack (Ninja Adventure Asset Pack, Pixel-boy and AAA, CC0 1.0) and says the tracks were renamed by where they play. Original titles were recovered by exact md5 match of every .ogg against the pack copy in scratchpad/ninja/Ninja Adventure - Asset Pack/Audio/Musics (all 20 matched); packFile gives the pack filename. Two different pack tracks are both titled 'Fight' (17 = battle, 34 = boss). 'story' is committed but no playMusic('story') call exists in the code. Game picks .ogg or .m4a by canPlayType; 'ending' and 'credits' play once (no loop)."
+}

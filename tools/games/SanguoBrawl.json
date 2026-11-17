@@ -1,0 +1,59 @@
+{
+  "folder": "SanguoBrawl",
+  "repo": "sanguo-brawl",
+  "lobbyId": "sanguobrawl",
+  "kind": "procedural",
+  "tracks": [
+    {
+      "key": "calm",
+      "scene": "title",
+      "where": {"zh": "標題畫面（黃昏桃園）、霧中的高等級荒野、倒下時與結局", "en": "Title screen (Taoyuan at dusk), misty high-level wilds, being knocked out, and the ending"},
+      "name": {"zh": "桃園暮色", "en": "Dusk in the Peach Garden"},
+      "mood": "calm",
+      "play": "M.audio.play('calm')",
+      "loopSec": 13.71,
+      "renderSec": 30
+    },
+    {
+      "key": "town",
+      "scene": "town",
+      "where": {"zh": "城鎮區域", "en": "Town zones"},
+      "name": {"zh": "涿郡街坊", "en": "Streets of Zhuo"},
+      "mood": "cheerful",
+      "play": "M.audio.play('town')",
+      "loopSec": 10.43,
+      "renderSec": 30
+    },
+    {
+      "key": "field",
+      "scene": "field",
+      "where": {"zh": "野外區域的徒手混戰", "en": "Brawling through the wild zones"},
+      "name": {"zh": "亂世拳風", "en": "Fists of a Broken Realm"},
+      "mood": "heroic",
+      "play": "M.audio.play('field')",
+      "loopSec": 8.57,
+      "renderSec": 30
+    },
+    {
+      "key": "boss",
+      "scene": "boss",
+      "where": {"zh": "頭目戰（董卓、呂布等）與武館切磋", "en": "Boss fights (Dong Zhuo, Lu Bu and others) and sparring with masters"},
+      "name": {"zh": "虎牢關前", "en": "Before Hulao Gate"},
+      "mood": "tense",
+      "play": "M.audio.play('boss')",
+      "loopSec": 6.86,
+      "renderSec": 30
+    }
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "",
+    "init": "M.audio.init();",
+    "notes": "js/audio.js has no imports. audio.init() builds the context and music gain (music volume 0.5 by default); play() is a look-ahead scheduler on setInterval(60 ms), beat = 60/bpm/2, 32-step melody, 16-step bass/drums."
+  },
+  "skipped": [
+    {"what": "audio.sfx('gong'), 'level'", "why": "effects / short jingles"}
+  ],
+  "notes": "Zone music picked in js/main.js line ~79: town zones -> town, misty zones above Lv 14 -> calm, else field."
+}

@@ -1,0 +1,69 @@
+{
+  "folder": "AshenOath",
+  "repo": "ashen-oath",
+  "lobbyId": "ashenoath",
+  "kind": "procedural",
+  "tracks": [
+    {
+      "key": "title",
+      "scene": "title",
+      "where": {"zh": "標題畫面（聖火讚歌）", "en": "Title screen (the hymn)"},
+      "name": {"zh": "聖火讚歌", "en": "Hymn of the Holy Flame"},
+      "mood": "epic",
+      "play": "M.sound.music('title')",
+      "loopSec": 20.0,
+      "renderSec": 40
+    },
+    {
+      "key": "story",
+      "scene": "event",
+      "where": {"zh": "章節劇情、序章與章節之間的對話", "en": "Chapter story scenes, the prologue and talk between chapters"},
+      "name": {"zh": "灰鴉低語", "en": "Whispers of the Grey Crow"},
+      "mood": "sad",
+      "play": "M.sound.music('story')",
+      "loopSec": 21.82,
+      "renderSec": 44
+    },
+    {
+      "key": "battle",
+      "scene": "battle",
+      "where": {"zh": "各章節的格子戰鬥", "en": "Grid battles in every chapter"},
+      "name": {"zh": "傭兵團進軍", "en": "March of the Free Company"},
+      "mood": "heroic",
+      "play": "M.sound.music('battle')",
+      "loopSec": 12.0,
+      "renderSec": 30
+    },
+    {
+      "key": "boss",
+      "scene": "boss",
+      "where": {"zh": "終章「誓火」聖火之間的決戰", "en": "Final chapter battle in the Hall of the Holy Flame"},
+      "name": {"zh": "誓火焚心", "en": "The Oath-Fire Burns"},
+      "mood": "dark",
+      "play": "M.sound.music('boss')",
+      "loopSec": 10.91,
+      "renderSec": 30
+    },
+    {
+      "key": "ending",
+      "scene": "ending",
+      "where": {"zh": "結局", "en": "The ending"},
+      "name": {"zh": "薩爾凡黎明", "en": "Dawn over Salvan"},
+      "mood": "romantic",
+      "play": "M.sound.music('ending')",
+      "loopSec": 20.57,
+      "renderSec": 42
+    }
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/sound.js"],
+    "pre": "",
+    "init": "M.sound.init();",
+    "notes": "sound.js has no imports. sound.init() creates the context and music gain; music() is a look-ahead scheduler on setInterval(150 ms). Melody repeats every 16 steps but the arpeggio cycles every 3 (or 6) steps, so the full pattern repeats after 48 steps (48 * 60/bpm/2 s); loopSec uses 48 steps."
+  },
+  "skipped": [
+    {"what": "sound.play('win'), 'level', 'phase'", "why": "short jingles"}
+  ],
+  "notes": "Battle music per chapter is ch.battleMusic || 'battle'; only chapter c30 (終章) sets 'boss'."
+}

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>音樂館 Music Gallery</title>
+<meta name="description" content="本站所有遊戲的配樂，一首一首聽。The music of every game on this site, in one player.">
+<meta name="theme-color" content="#14121c" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f6f2ea" media="(prefers-color-scheme: light)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="音樂館">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#games" aria-label="音樂館 Music Gallery">
+    <span class="logo" aria-hidden="true"></span>
+    <span class="brand-text"><b data-zh="音樂館" data-en="Music Gallery">音樂館</b><small data-zh="Music Gallery" data-en="音樂館">Music Gallery</small></span>
+  </a>
+  <nav class="tabs" role="tablist">
+    <a href="#games" data-tab="games" data-zh="遊戲" data-en="Games">遊戲</a>
+    <a href="#all" data-tab="all" data-zh="全部曲目" data-en="All tracks">全部曲目</a>
+    <a href="#fav" data-tab="fav" data-zh="收藏" data-en="Favourites">收藏</a>
+  </nav>
+  <div class="top-btns">
+    <button id="langBtn" class="pill" title="中文 / English">EN</button>
+    <button id="themeBtn" class="pill icon" title="Theme" aria-label="Theme"></button>
+    <a class="pill home" href="/" data-zh="遊戲大廳" data-en="Lobby">遊戲大廳</a>
+  </div>
+</header>
+
+<main id="main" tabindex="-1"></main>
+
+<div id="now" class="now" hidden>
+  <div class="now-sheet" role="dialog" aria-modal="true" aria-labelledby="nowName">
+    <button class="now-close" id="nowClose" aria-label="Close">✕</button>
+    <div class="now-art"><img id="nowArt" alt=""><span class="disc" aria-hidden="true"></span></div>
+    <div class="now-info">
+      <h2 id="nowName"></h2>
+      <p class="now-alt" id="nowAlt"></p>
+      <p class="now-game"><a id="nowGame" href="#"></a></p>
+      <p class="now-where" id="nowWhere"></p>
+      <p class="now-credit" id="nowCredit"></p>
+      <p><a class="btn" id="nowPlayGame" target="_blank" rel="noopener" data-zh="去玩這個遊戲 ↗" data-en="Play this game ↗">去玩這個遊戲 ↗</a></p>
+    </div>
+  </div>
+</div>
+
+<footer id="player" class="player" aria-label="Player">
+  <div class="seek">
+    <span id="tCur">0:00</span>
+    <input id="seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek">
+    <span id="tDur">0:00</span>
+  </div>
+  <div class="bar">
+    <button class="np" id="npBtn" aria-label="Now playing">
+      <img id="npArt" alt="">
+      <span class="np-text"><b id="npName" data-zh="選一首歌" data-en="Pick a song">選一首歌</b><small id="npGame"></small></span>
+    </button>
+    <div class="ctl">
+      <button id="shuffleBtn" class="c sm" aria-label="Shuffle" title="Shuffle"><svg viewBox="0 0 24 24"><path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg></button>
+      <button id="prevBtn" class="c" aria-label="Previous" title="Previous"><svg viewBox="0 0 24 24"><path d="M19 20 9 12l10-8zM5 19V5"/></svg></button>
+      <button id="playBtn" class="c big" aria-label="Play" title="Play"><svg class="i-play" viewBox="0 0 24 24"><path d="M7 4v16l13-8z"/></svg><svg class="i-pause" viewBox="0 0 24 24"><path d="M7 4h4v16H7zM14 4h4v16h-4z"/></svg></button>
+      <button id="nextBtn" class="c" aria-label="Next" title="Next"><svg viewBox="0 0 24 24"><path d="m5 4 10 8-10 8zM19 5v14"/></svg></button>
+      <button id="repeatBtn" class="c sm" aria-label="Repeat" title="Repeat"><svg viewBox="0 0 24 24"><path d="m17 2 4 4-4 4M3 11V9a3 3 0 0 1 3-3h15M7 22l-4-4 4-4M21 13v2a3 3 0 0 1-3 3H3"/></svg><i id="repeatOne">1</i></button>
+    </div>
+    <div class="vol" id="volBox">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4zM15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+      <input id="vol" type="range" min="0" max="100" value="80" aria-label="Volume">
+    </div>
+  </div>
+</footer>
+<audio id="audio" preload="none" playsinline></audio>
+<script src="tracks.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

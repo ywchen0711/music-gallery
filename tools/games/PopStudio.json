@@ -1,0 +1,29 @@
+{
+  "folder": "PopStudio",
+  "repo": "pop-studio",
+  "lobbyId": "pop-studio",
+  "kind": "procedural",
+  "tracks": [
+    {"key": "sunny", "scene": "other", "where": {"zh": "範例歌曲「晴天的約定」（開啟時的預設歌，也在 📀 範例歌曲裡）", "en": "Sample song 'Sunny Promise' (the default song on first open, also in the Samples dialog)"}, "name": {"zh": "海邊之約", "en": "Seaside Promise"}, "mood": "cheerful",
+     "play": "window.__psPlay('sunny')", "loopSec": 20.0, "renderSec": 41},
+    {"key": "drive", "scene": "other", "where": {"zh": "範例歌曲「Midnight Drive」（復古電子）", "en": "Sample song 'Midnight Drive' (synthwave)"}, "name": {"zh": "霓虹夜馳", "en": "Neon Night Ride"}, "mood": "romantic",
+     "play": "window.__psPlay('drive')", "loopSec": 17.778, "renderSec": 36},
+    {"key": "cafe", "scene": "other", "where": {"zh": "範例歌曲「下雨的咖啡館」（Lo-fi 爵士和弦）", "en": "Sample song 'Rainy Café' (lo-fi jazz chords)"}, "name": {"zh": "雨窗書頁", "en": "Pages by a Rainy Window"}, "mood": "calm",
+     "play": "window.__psPlay('cafe')", "loopSec": 24.615, "renderSec": 50},
+    {"key": "dance", "scene": "other", "where": {"zh": "範例歌曲「Dance Floor Lights」（舞曲）", "en": "Sample song 'Dance Floor Lights' (dance pop)"}, "name": {"zh": "舞池星光", "en": "Starlight on the Floor"}, "mood": "playful",
+     "play": "window.__psPlay('dance')", "loopSec": 15.484, "renderSec": 31}
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/sound.js"],
+    "pre": "",
+    "init": "window.__psPlay = async (id) => { const mu = await import('/pop-studio/js/music.js?v=1'), vo = await import('/pop-studio/js/voice.js?v=1'); const song = mu.SAMPLES.find((s) => s.id === id).make(); M.ensure(); await Promise.all([...new Set(song.tracks.filter((x) => x.type === 'inst').map((x) => x.inst))].map(M.loadInstrument)); for (const tr of song.tracks) if (tr.type === 'vocal') { const sy = await vo.syllables(tr.lyrics || ''); tr.notes.slice().sort((a, b) => a.t - b.t).forEach((n, i) => { const s = sy[i]; n.hold = !!(s && s.hold); n.syl = s && !s.hold ? { text: s.text, c: s.c, v: s.v, coda: s.coda } : { text: 'la', c: 'l', v: ['a'], coda: '' }; }); } M.play(song, 0, (tr, n) => n.syl, { loop: true, loopFrom: 0 }); return true; };",
+    "notes": "play() returns a Promise: the renderer MUST await it before starting the offline render, because the song is built after async steps (import of music.js/voice.js, soundfont fetch + decodeAudioData, pinyin-pro import for Chinese lyrics). Instruments are fetched from https://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/<gm>-mp3.js (network); on failure loadInstrument falls back to the built-in synth, so it still renders. Chinese lyrics need https://cdn.jsdelivr.net/npm/pinyin-pro@3.26.0/dist/index.mjs; without it every syllable is sung as 'a'. Mirrors app.js startPlay()+assignLyrics(). Songs include the formant AI singer (lead vocal synthesized in js/voice.js, not a recording). music.js imports './sound.js?v=1' which is a separate module instance from M (js/sound.js); harmless, music.js only reads the SPB constant, and playback goes through M. If the page base is not the site root, the absolute '/pop-studio/...' import paths assume the GitHub Pages layout. loopSec = 8 bars x 4 beats x 60/bpm (sunny 96, drive 108, cafe 78, dance 124 BPM); player starts 0.08 s after play."
+  },
+  "skipped": [
+    {"what": "SAMPLES star / twinkle / tigers (小星星, Twinkle Twinkle, 兩隻老虎)", "why": "public-domain nursery/folk tunes, not original music of the game; can be added with __psPlay('star'|'twinkle'|'tigers') if wanted"},
+    {"what": "blankSong()", "why": "empty template, no notes"},
+    {"what": "js/listen.js click(), sound.js preview()", "why": "count-in clicks and note previews, not music"}
+  ],
+  "notes": "A music-making game; only the built-in sample songs (js/music.js SAMPLES) are music the game itself plays. Played via app.js startPlay() when a sample is picked (and sunny is the default song). The game plays them once unless loop is on; the harness turns loop on."
+}

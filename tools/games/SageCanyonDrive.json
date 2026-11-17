@@ -1,0 +1,30 @@
+{
+  "folder": "SageCanyonDrive",
+  "repo": "sage-canyon-drive",
+  "lobbyId": "sagecanyondrive",
+  "kind": "procedural",
+  "tracks": [
+    {
+      "key": "icecream",
+      "scene": "minigame",
+      "where": {"zh": "冰淇淋車任務：車上一路播放的叫賣音樂", "en": "Ice cream truck mission: the tune the truck plays while you drive"},
+      "name": {"zh": "狐獵巷冰淇淋", "en": "Ice Cream on Foxhound Way"},
+      "mood": "playful",
+      "play": "M.jingleOn(true);",
+      "loopSec": 6.08,
+      "renderSec": 30
+    }
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "",
+    "init": "M.audioInit(); M.setMute(false);",
+    "notes": "js/audio.js has no imports. audioInit() also starts the engine oscillators and tyre noise but at gain 0, so they are silent. The jingle runs on setInterval(190 ms)."
+  },
+  "skipped": [
+    {"what": "sirenOn() police siren", "why": "sound effect"},
+    {"what": "engine, tyres, horn, sfx(), GPS speech", "why": "sound effects / voice"}
+  ],
+  "notes": "The only music is the ice cream truck loop ('Turkey in the Straw'-style public-domain melody coded in jingleOn): 32 steps x 190 ms = 6.08 s, started by missions.js 'icecream' setup via M.jingle(true). The game has no other background music."
+}

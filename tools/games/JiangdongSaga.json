@@ -1,0 +1,481 @@
+{
+ "folder": "JiangdongSaga",
+ "repo": "jiangdong-saga",
+ "lobbyId": "jiangdong-saga",
+ "kind": "file",
+ "tracks": [
+  {
+   "key": "title",
+   "scene": "title",
+   "where": {
+    "zh": "標題畫面",
+    "en": "Title screen"
+   },
+   "name": {
+    "zh": "江東初陽",
+    "en": "Dawn over Jiangdong"
+   },
+   "mood": "epic",
+   "file": "assets/music/title.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Anthem",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "world",
+   "scene": "field",
+   "where": {
+    "zh": "大地圖（第一至三章）",
+    "en": "World map, chapters 1-3"
+   },
+   "name": {
+    "zh": "孫郎起兵",
+    "en": "The Young Sun Rides Out"
+   },
+   "mood": "heroic",
+   "file": "assets/music/world.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Adventure",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "world2",
+   "scene": "field",
+   "where": {
+    "zh": "大地圖（第四至七章）",
+    "en": "World map, chapters 4-7"
+   },
+   "name": {
+    "zh": "千里征途",
+    "en": "A Thousand-Li March"
+   },
+   "mood": "heroic",
+   "file": "assets/music/world2.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Road",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "world3",
+   "scene": "field",
+   "where": {
+    "zh": "大地圖（第八章以後）",
+    "en": "World map, chapter 8 onward"
+   },
+   "name": {
+    "zh": "天下三分",
+    "en": "A Realm in Three"
+   },
+   "mood": "epic",
+   "file": "assets/music/world3.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Adventure Begin",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "boat",
+   "scene": "field",
+   "where": {
+    "zh": "乘船航行大地圖",
+    "en": "Sailing the world map by ship"
+   },
+   "name": {
+    "zh": "長江行舟",
+    "en": "Down the Long River"
+   },
+   "mood": "calm",
+   "file": "assets/music/boat.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Boat",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "village",
+   "scene": "town",
+   "where": {
+    "zh": "村莊；第一章海鹽",
+    "en": "Villages; Haiyan in chapter 1"
+   },
+   "name": {
+    "zh": "海鹽炊煙",
+    "en": "Smoke over Haiyan"
+   },
+   "mood": "calm",
+   "file": "assets/music/village.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Calm Village",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "town",
+   "scene": "town",
+   "where": {
+    "zh": "一般城鎮與民宅",
+    "en": "Ordinary towns and houses"
+   },
+   "name": {
+    "zh": "吳郡市集",
+    "en": "Market of Wu Commandery"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/town.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Home Town",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #2 Towns",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "castle",
+   "scene": "town",
+   "where": {
+    "zh": "都城、城池與官府大堂；序章孫堅宴席",
+    "en": "Capitals, castles and lords' halls; Sun Jian's feast in the prologue"
+   },
+   "name": {
+    "zh": "吳侯府邸",
+    "en": "Halls of the Marquis of Wu"
+   },
+   "mood": "calm",
+   "file": "assets/music/castle.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Manor",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "harbor",
+   "scene": "town",
+   "where": {
+    "zh": "港口城鎮",
+    "en": "Port towns"
+   },
+   "name": {
+    "zh": "錦帆渡口",
+    "en": "Brocade Sail Wharf"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/harbor.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Sumia Harbor",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "temple",
+   "scene": "town",
+   "where": {
+    "zh": "寺廟、隱廬與祠堂（黃山、廬山）",
+    "en": "Temples, hermitages and shrines (Huangshan, Lushan)"
+   },
+   "name": {
+    "zh": "廬山晨鐘",
+    "en": "Morning Bell of Lushan"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/temple.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Temple",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "cave",
+   "scene": "dungeon",
+   "where": {
+    "zh": "山洞迷宮（山越洞、天柱山、九嶷山）",
+    "en": "Cave dungeons (Shanyue Caves, Mount Tianzhu, Mount Jiuyi)"
+   },
+   "name": {
+    "zh": "山越幽洞",
+    "en": "Caves of the Shanyue"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/cave.mp3",
+   "alt": [],
+   "orig": {
+    "title": "The Cave",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "sect",
+   "scene": "dungeon",
+   "where": {
+    "zh": "巫峽黑蓮宮迷宮",
+    "en": "The Black Lotus Palace dungeon in the Wu Gorge"
+   },
+   "name": {
+    "zh": "巫峽黑蓮",
+    "en": "Black Lotus of Wu Gorge"
+   },
+   "mood": "dark",
+   "file": "assets/music/sect.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Whispers From Beyond",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #3 Evil",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "tension",
+   "scene": "event",
+   "where": {
+    "zh": "緊張劇情（孫堅中毒、攻城之前）、關隘，以及巴東、漢中地區",
+    "en": "Tense story scenes (Sun Jian poisoned, before sieges), forts, and the Badong and Hanzhong regions"
+   },
+   "name": {
+    "zh": "毒酒驚變",
+    "en": "The Poisoned Cup"
+   },
+   "mood": "tense",
+   "file": "assets/music/tension.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Tension",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "dark",
+   "scene": "event",
+   "where": {
+    "zh": "黑蓮教現身：建業大堂對決吉元、黑蓮宮底層于吉",
+    "en": "The Black Lotus revealed: Ji Yuan in Jianye's hall, Yu Ji at the palace's depths"
+   },
+   "name": {
+    "zh": "妖道降世",
+    "en": "The Sorcerer Awakens"
+   },
+   "mood": "dark",
+   "file": "assets/music/dark.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Ancient Evil Awakens",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #3 Evil",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "hymn",
+   "scene": "event",
+   "where": {
+    "zh": "大勝之後的慶功與會師（建業、白帝城、洛陽結局）",
+    "en": "Celebrations and gatherings after great victories (Jianye, Baidi, the Luoyang finale)"
+   },
+   "name": {
+    "zh": "鼎立之誓",
+    "en": "Oath of the Three Realms"
+   },
+   "mood": "epic",
+   "file": "assets/music/hymn.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Hymn (Epic)",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "battle",
+   "scene": "battle",
+   "where": {
+    "zh": "一般野戰",
+    "en": "Ordinary field battles"
+   },
+   "name": {
+    "zh": "江東兵鋒",
+    "en": "Spears of Jiangdong"
+   },
+   "mood": "heroic",
+   "file": "assets/music/battle.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Army Approaching",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #5 Action",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "naval",
+   "scene": "battle",
+   "where": {
+    "zh": "水戰與長江大會戰",
+    "en": "Naval battles and the great battle on the river"
+   },
+   "name": {
+    "zh": "赤壁戰船",
+    "en": "War Junks on the River"
+   },
+   "mood": "tense",
+   "file": "assets/music/naval.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Preparing For Battle",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #5 Action",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "boss",
+   "scene": "boss",
+   "where": {
+    "zh": "首領戰（孫暠、蔡瑁、官渡、袁紹、董卓等）",
+    "en": "Leader battles (Sun Hao, Cai Mao, Guandu, Yuan Shao, Dong Zhuo and more)"
+   },
+   "name": {
+    "zh": "群雄對決",
+    "en": "Duel of Warlords"
+   },
+   "mood": "epic",
+   "file": "assets/music/boss.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Epic Boss Battle",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "sectboss",
+   "scene": "boss",
+   "where": {
+    "zh": "黑蓮教首領戰（天柱山、九嶷山等）",
+    "en": "Black Lotus sect boss battles (Mount Tianzhu, Mount Jiuyi and more)"
+   },
+   "name": {
+    "zh": "邪蓮血祭",
+    "en": "Rite of the Black Lotus"
+   },
+   "mood": "dark",
+   "file": "assets/music/sectboss.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Apocalypse",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #3 Evil",
+    "license": "CC0",
+    "url": "https://opengameart.org/users/subspaceaudio"
+   }
+  },
+  {
+   "key": "finalboss",
+   "scene": "boss",
+   "where": {
+    "zh": "最終決戰：于吉",
+    "en": "The final battle against Yu Ji"
+   },
+   "name": {
+    "zh": "玉璽之爭",
+    "en": "Battle for the Imperial Seal"
+   },
+   "mood": "epic",
+   "file": "assets/music/finalboss.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Final Boss",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "ending",
+   "scene": "ending",
+   "where": {
+    "zh": "結局曲（程式設為不循環，但目前結局改播 hymn，無呼叫）",
+    "en": "Ending theme (coded as non-looping, but the current ending plays hymn; no call found)"
+   },
+   "name": {
+    "zh": "大江東去",
+    "en": "The Great River Flows East"
+   },
+   "mood": "calm",
+   "file": "assets/music/ending.mp3",
+   "alt": [],
+   "orig": {
+    "title": "End Theme",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  }
+ ],
+ "skipped": [
+  {
+   "what": "assets/music/battle2.mp3",
+   "why": "committed but not played anywhere in the game"
+  },
+  {
+   "what": "assets/music/sad.mp3",
+   "why": "committed but not played anywhere in the game"
+  }
+ ],
+ "notes": "Credits from CREDITS.md 'Music' section (Ninja Adventure tracks credited as 'Pixel-boy and AAA', CC0 1.0 per the pack line in CREDITS.md). js/audio.js has a sound-chip synth but only for SFX and the victory fanfare jingle (blip); no procedural songs, so kind is 'file'. battle2, sad and ending are committed and credited but no playMusic call reaches them in current code. 'Epic Boss Battle' and Hydrogene's track have no pack name in CREDITS.md (pack left empty). audio.js comment mentions OwlishMedia and Haeldb but CREDITS.md does not; trust CREDITS.md."
+}

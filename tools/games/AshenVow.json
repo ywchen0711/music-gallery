@@ -1,0 +1,507 @@
+{
+ "folder": "AshenVow",
+ "repo": "ashen-vow",
+ "lobbyId": "ashenvow",
+ "kind": "file",
+ "tracks": [
+  {
+   "key": "title",
+   "scene": "title",
+   "where": {
+    "zh": "標題畫面",
+    "en": "Title screen"
+   },
+   "name": {
+    "zh": "灰誓序曲",
+    "en": "The Ashen Vow"
+   },
+   "mood": "heroic",
+   "file": "assets/music/title.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "prelude",
+   "scene": "town",
+   "where": {
+    "zh": "新遊戲開場、荊棘村與鐘鳴村，故事中的回憶場面",
+    "en": "New game opening, Thornby and Belltoll villages, story flashbacks"
+   },
+   "name": {
+    "zh": "荊棘村晨光",
+    "en": "Morning in Thornby"
+   },
+   "mood": "calm",
+   "file": "assets/music/prelude.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "empire",
+   "scene": "town",
+   "where": {
+    "zh": "瓦恩城、灰岩堡與王城劇情",
+    "en": "Castle Varn, Grayhold and royal court scenes"
+   },
+   "name": {
+    "zh": "瓦恩王旗",
+    "en": "Banners of Varn"
+   },
+   "mood": "heroic",
+   "file": "assets/music/empire.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "town",
+   "scene": "town",
+   "where": {
+    "zh": "瓦恩城下町、文湖鎮、蘆洲",
+    "en": "Varn Town, Wenmere, Reedholm"
+   },
+   "name": {
+    "zh": "文湖市集",
+    "en": "Wenmere Market Day"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/town.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "courtesan",
+   "scene": "town",
+   "where": {
+    "zh": "沙爾特王國",
+    "en": "The Kingdom of Salt"
+   },
+   "name": {
+    "zh": "鹽之宮廷",
+    "en": "Court of Salt"
+   },
+   "mood": "romantic",
+   "file": "assets/music/courtesan.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "rebels",
+   "scene": "town",
+   "where": {
+    "zh": "紅隼港與齒輪工坊",
+    "en": "Kestrel Port and the Gearworks"
+   },
+   "name": {
+    "zh": "紅隼港的齒輪",
+    "en": "Gears of Kestrel"
+   },
+   "mood": "playful",
+   "file": "assets/music/rebels.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "world",
+   "scene": "field",
+   "where": {
+    "zh": "世界地圖",
+    "en": "World map"
+   },
+   "name": {
+    "zh": "灰原遠行",
+    "en": "Across the Ashen Plains"
+   },
+   "mood": "heroic",
+   "file": "assets/music/world.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "airship",
+   "scene": "field",
+   "where": {
+    "zh": "乘坐飛空艇、風暴巨鵬之巢",
+    "en": "Flying the airship, Stormroc's Aerie"
+   },
+   "name": {
+    "zh": "駕風之舟",
+    "en": "Riding the Gale"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/airship.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "waltz",
+   "scene": "field",
+   "where": {
+    "zh": "雲海與天棧",
+    "en": "The Cloud Sea and Skyreach"
+   },
+   "name": {
+    "zh": "雲海圓舞",
+    "en": "Waltz of the Cloud Sea"
+   },
+   "mood": "romantic",
+   "file": "assets/music/waltz.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "dungeon",
+   "scene": "dungeon",
+   "where": {
+    "zh": "苔道洞窟、荊棘林、乾谷隘道、根底、淵蛇洞窟",
+    "en": "Mossway Cave, Thornwood, Dry Pass, the Rootdeep, Deepcoil Grotto"
+   },
+   "name": {
+    "zh": "苔道深處",
+    "en": "Deep in the Mossway"
+   },
+   "mood": "tense",
+   "file": "assets/music/dungeon.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "deities",
+   "scene": "dungeon",
+   "where": {
+    "zh": "燼井、瓦恩舊兵營、鐘樓、燼井深淵",
+    "en": "The Starwell, the Old Barracks, the Bell Tower, the Starwell Abyss"
+   },
+   "name": {
+    "zh": "燼井低鳴",
+    "en": "Hum of the Starwell"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/deities.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "pagoda",
+   "scene": "dungeon",
+   "where": {
+    "zh": "荊棘高塔、陽炎神殿、蒼白高塔",
+    "en": "The Thorn Spire, the Sunfire Temple, the Pale Spire"
+   },
+   "name": {
+    "zh": "荊棘高塔",
+    "en": "Climbing the Thorn Spire"
+   },
+   "mood": "epic",
+   "file": "assets/music/pagoda.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "sanctuary",
+   "scene": "event",
+   "where": {
+    "zh": "沉沒神殿、淹沒迴廊，古棘試煉等神聖劇情",
+    "en": "The Sunken Shrine, the Drowned Cloister, the Elder Thorn's trial and holy scenes"
+   },
+   "name": {
+    "zh": "沉殿祈光",
+    "en": "Light of the Sunken Shrine"
+   },
+   "mood": "calm",
+   "file": "assets/music/sanctuary.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "rage",
+   "scene": "event",
+   "where": {
+    "zh": "灰岩堡內城與城頂、緊張的劇情衝突",
+    "en": "Grayhold Keep and its battlements, tense story confrontations"
+   },
+   "name": {
+    "zh": "灰燼怒火",
+    "en": "Fury of Ash"
+   },
+   "mood": "tense",
+   "file": "assets/music/rage.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "villain",
+   "scene": "event",
+   "where": {
+    "zh": "反派登場劇情、蒼白高塔頂端",
+    "en": "Villain scenes, the Pale Spire summit"
+   },
+   "name": {
+    "zh": "莫凡之影",
+    "en": "Morvane's Shadow"
+   },
+   "mood": "dark",
+   "file": "assets/music/villain.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "battle",
+   "scene": "battle",
+   "where": {
+    "zh": "一般戰鬥",
+    "en": "Regular battles"
+   },
+   "name": {
+    "zh": "拔劍迎敵",
+    "en": "Steel Drawn"
+   },
+   "mood": "heroic",
+   "file": "assets/music/battle.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "victory",
+   "scene": "battle",
+   "where": {
+    "zh": "戰鬥勝利",
+    "en": "Battle won"
+   },
+   "name": {
+    "zh": "戰後餘暉",
+    "en": "After the Clash"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/victory.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "boss",
+   "scene": "boss",
+   "where": {
+    "zh": "頭目戰（含古棘試煉）",
+    "en": "Boss battles (including the Elder Thorn's trial)"
+   },
+   "name": {
+    "zh": "荊冠之敵",
+    "en": "Crowned in Thorns"
+   },
+   "mood": "epic",
+   "file": "assets/music/boss.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "potentiam",
+   "scene": "boss",
+   "where": {
+    "zh": "最終決戰：燼月、寂靜之心、未書者",
+    "en": "Final battles: the Ember Moon, the Hush, the Unwritten"
+   },
+   "name": {
+    "zh": "燼月決戰",
+    "en": "Against the Ember Moon"
+   },
+   "mood": "epic",
+   "file": "assets/music/potentiam.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "gameover",
+   "scene": "other",
+   "where": {
+    "zh": "全滅",
+    "en": "Game over"
+   },
+   "name": {
+    "zh": "誓言熄滅",
+    "en": "The Vow Gutters Out"
+   },
+   "mood": "sad",
+   "file": "assets/music/gameover.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "reunion",
+   "scene": "ending",
+   "where": {
+    "zh": "打倒燼月後的瓦恩城與第二部結局的鐘鳴村",
+    "en": "Castle Varn after the Ember Moon falls, Belltoll in the Part II ending"
+   },
+   "name": {
+    "zh": "重逢之光",
+    "en": "Light of Reunion"
+   },
+   "mood": "sad",
+   "file": "assets/music/reunion.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  },
+  {
+   "key": "finale",
+   "scene": "ending",
+   "where": {
+    "zh": "片尾名單",
+    "en": "End credits"
+   },
+   "name": {
+    "zh": "黎明誓約",
+    "en": "Vow at Dawn"
+   },
+   "mood": "epic",
+   "file": "assets/music/finale.mp3",
+   "alt": [],
+   "orig": {
+    "title": null,
+    "artist": "AVGVSTA",
+    "pack": "Generic 8-bit JRPG Soundtrack",
+    "license": "CC-BY 4.0 / CC-BY 3.0 / OGA-BY 3.0",
+    "url": "https://opengameart.org/content/generic-8-bit-jrpg-soundtrack"
+   }
+  }
+ ],
+ "skipped": [
+  {
+   "what": "assets/music/fanfare.mp3",
+   "why": "6.8 s jingle (sfx('fanfare'))"
+  },
+  {
+   "what": "assets/music/comrade.mp3",
+   "why": "8.9 s jingle when a comrade joins (sfx('comrade'))"
+  },
+  {
+   "what": "assets/music/inn.mp3",
+   "why": "12.4 s play-once inn rest jingle"
+  }
+ ],
+ "notes": "CREDITS.md credits the whole AVGVSTA pack only, with no per-track titles, so orig.title is null; the file names seem to follow the pack's track names (e.g. potentiam, deities, courtesan) but that is not confirmed. js/audio.js has a WebAudio voice engine, but it is used only for sound effects (no song data, songLengths() returns {}), so kind is file. reunion (10.9 s) and airship (16.5 s) are short loops but play as background music."
+}

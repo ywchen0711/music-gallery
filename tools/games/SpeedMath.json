@@ -1,0 +1,10 @@
+{
+  "folder": "SpeedMath",
+  "repo": "speed-math",
+  "lobbyId": "speedmath",
+  "kind": "none",
+  "noneReason": "only sound effects (js/sound.js short tones), no music",
+  "tracks": [],
+  "skipped": [],
+  "notes": ""
+}

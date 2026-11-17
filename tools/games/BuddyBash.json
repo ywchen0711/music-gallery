@@ -1,0 +1,10 @@
+{
+  "folder": "BuddyBash",
+  "repo": "buddybash",
+  "lobbyId": "buddybash",
+  "kind": "none",
+  "noneReason": "only sound effects (js/sfx.js one-shot tones and noise, no sequencer); no audio files",
+  "tracks": [],
+  "skipped": [],
+  "notes": ""
+}

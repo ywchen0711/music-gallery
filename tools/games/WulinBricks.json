@@ -1,0 +1,14 @@
+{
+  "folder": "WulinBricks",
+  "repo": "wulinbricks",
+  "lobbyId": "wulinbricks",
+  "kind": "none",
+  "noneReason": "no music: js/sound.js only synthesises move sound effects (qi hum, cuts, blasts, ouch) and noise ambience loops (rain, wind, night crickets, birds); audio/ep*/ and audio/show*/ mp3s are recorded voice lines, audio/sfx/ are applause/laugh/drumroll crowd effects",
+  "tracks": [],
+  "skipped": [
+    {"what": "audio/ep*/*.mp3, audio/show*/*.mp3", "why": "voice lines / narration"},
+    {"what": "audio/sfx/*.mp3", "why": "audience sound effects (applause, laughs, drumrolls)"},
+    {"what": "js/sound.js ambience()", "why": "pure noise ambience loops, not music"}
+  ],
+  "notes": "Checked js/sound.js and js/film.js; no sequencer, no score, no music files, README mentions none."
+}

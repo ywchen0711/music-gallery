@@ -1,0 +1,89 @@
+{
+  "folder": "Xiyou",
+  "repo": "xiyouji",
+  "lobbyId": "xiyouji",
+  "kind": "procedural",
+  "tracks": [
+    {
+      "key": "title",
+      "scene": "title",
+      "where": {"zh": "標題畫面", "en": "Title screen"},
+      "name": {"zh": "八十一難", "en": "Eighty-One Trials"},
+      "mood": "epic",
+      "play": "M.music('title')",
+      "loopSec": 13.33,
+      "renderSec": 30
+    },
+    {
+      "key": "road",
+      "scene": "field",
+      "where": {"zh": "取經路上的地圖（森林、山嶺、沙漠、冰原、河川、荊棘、沼澤）", "en": "Road maps of the pilgrimage (forest, mountain, desert, ice, river, thorns, swamp)"},
+      "name": {"zh": "西行萬里", "en": "Ten Thousand Li West"},
+      "mood": "cheerful",
+      "play": "M.music('road')",
+      "loopSec": 10.91,
+      "renderSec": 30
+    },
+    {
+      "key": "town",
+      "scene": "town",
+      "where": {"zh": "城鎮、宮殿地圖", "en": "Towns and palace maps"},
+      "name": {"zh": "長安市集", "en": "Market of Chang'an"},
+      "mood": "playful",
+      "play": "M.music('town')",
+      "loopSec": 9.23,
+      "renderSec": 30
+    },
+    {
+      "key": "cave",
+      "scene": "dungeon",
+      "where": {"zh": "妖洞、水晶宮、地府、火焰山與秘境", "en": "Demon caves, the Crystal Palace, the underworld, fire mountains and hidden realms"},
+      "name": {"zh": "妖洞幽深", "en": "Deep in the Demon Cave"},
+      "mood": "mysterious",
+      "play": "M.music('cave')",
+      "loopSec": 13.71,
+      "renderSec": 30
+    },
+    {
+      "key": "heaven",
+      "scene": "field",
+      "where": {"zh": "天宮、靈山地圖與結局", "en": "Heaven and Vulture Peak maps, and the ending"},
+      "name": {"zh": "靈山雲海", "en": "Clouds over Vulture Peak"},
+      "mood": "calm",
+      "play": "M.music('heaven')",
+      "loopSec": 12.63,
+      "renderSec": 30
+    },
+    {
+      "key": "battle",
+      "scene": "battle",
+      "where": {"zh": "一般戰鬥", "en": "Normal battles"},
+      "name": {"zh": "金箍棒起", "en": "Up Goes the Golden Staff"},
+      "mood": "heroic",
+      "play": "M.music('battle')",
+      "loopSec": 6.32,
+      "renderSec": 30
+    },
+    {
+      "key": "boss",
+      "scene": "boss",
+      "where": {"zh": "大魔王戰", "en": "Great demon boss battles"},
+      "name": {"zh": "魔王現形", "en": "The Demon King Revealed"},
+      "mood": "tense",
+      "play": "M.music('boss')",
+      "loopSec": 5.71,
+      "renderSec": 30
+    }
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/sound.js"],
+    "pre": "",
+    "init": "M.setSound(true);",
+    "notes": "sound.js has no imports; AudioContext created lazily in the setInterval sequencer (step = 60/bpm/2, 32 steps per loop). Sound defaults to on."
+  },
+  "skipped": [
+    {"what": "sfx('gong'), sfx('win'), sfx('battle')", "why": "short jingles / effects"}
+  ],
+  "notes": "Map themes pick the song via THEMES[...].music in js/art.js."
+}

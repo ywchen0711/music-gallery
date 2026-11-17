@@ -1,0 +1,12 @@
+{
+  "folder": "Abyss",
+  "repo": "abyss",
+  "lobbyId": "abyss",
+  "kind": "none",
+  "noneReason": "only sound effects plus an ambience drone (js/audio.js sound.ambient: three detuned 55/82 Hz sawtooths and filtered wind noise, no melody or sequencer)",
+  "tracks": [],
+  "skipped": [
+    {"what": "js/audio.js sound.ambient()", "why": "static drone + wind ambience, not music"}
+  ],
+  "notes": "No audio files in git ls-files."
+}

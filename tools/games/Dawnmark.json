@@ -1,0 +1,1065 @@
+{
+ "folder": "Dawnmark",
+ "repo": "dawnmark",
+ "lobbyId": "dawnmark",
+ "kind": "file",
+ "tracks": [
+  {
+   "key": "title",
+   "scene": "title",
+   "where": {
+    "zh": "標題畫面",
+    "en": "Title screen"
+   },
+   "name": {
+    "zh": "晨星初醒",
+    "en": "The Dawnmark Wakes"
+   },
+   "mood": "calm",
+   "file": "assets/music/title.mp3",
+   "alt": [],
+   "orig": {
+    "title": "A Place I Call Home",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #4 [Calm]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-4-calm"
+   }
+  },
+  {
+   "key": "theme",
+   "scene": "event",
+   "where": {
+    "zh": "新遊戲的開場序幕",
+    "en": "New-game opening prologue"
+   },
+   "name": {
+    "zh": "織母的傳說",
+    "en": "Legend of the Weaver"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/theme.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Laugos Theme",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama RPG)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "village",
+   "scene": "town",
+   "where": {
+    "zh": "故鄉亮瀑村與其他小村；開場、回家與結局",
+    "en": "Brightfall and other hamlets; the opening, homecomings and the ending"
+   },
+   "name": {
+    "zh": "亮瀑故里",
+    "en": "Brightfall, Home"
+   },
+   "mood": "calm",
+   "file": "assets/music/village.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Home Town",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #2 [Towns]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-2-towns"
+   }
+  },
+  {
+   "key": "town",
+   "scene": "town",
+   "where": {
+    "zh": "王都索爾海文、鴿巢鎮與一般屋內",
+    "en": "Solhaven the royal city, Dovecote and ordinary house interiors"
+   },
+   "name": {
+    "zh": "王都石板路",
+    "en": "Cobbles of Solhaven"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/town.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Where Time Stands Still",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #2 [Towns]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-2-towns"
+   }
+  },
+  {
+   "key": "port",
+   "scene": "town",
+   "where": {
+    "zh": "海鷗港",
+    "en": "Gullport"
+   },
+   "name": {
+    "zh": "海鷗港晴風",
+    "en": "Fair Winds at Gullport"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/port.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Sunshine Coast",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #2 [Towns]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-2-towns"
+   }
+  },
+  {
+   "key": "bazaar",
+   "scene": "town",
+   "where": {
+    "zh": "沙漠王國沙梅爾",
+    "en": "Sandmere, the desert kingdom"
+   },
+   "name": {
+    "zh": "沙梅爾市集",
+    "en": "Sandmere Bazaar"
+   },
+   "mood": "playful",
+   "file": "assets/music/bazaar.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Bazaar",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #2 [Towns]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-2-towns"
+   }
+  },
+  {
+   "key": "pub",
+   "scene": "town",
+   "where": {
+    "zh": "幸運港",
+    "en": "Luckhaven"
+   },
+   "name": {
+    "zh": "幸運港酒香",
+    "en": "Luckhaven Tavern Nights"
+   },
+   "mood": "playful",
+   "file": "assets/music/pub.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Daisys Pub",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "jovial",
+   "scene": "minigame",
+   "where": {
+    "zh": "幸運港的遊樂場（賭場）",
+    "en": "Luckhaven's game house (casino)"
+   },
+   "name": {
+    "zh": "骰子與笑聲",
+    "en": "Dice and Laughter"
+   },
+   "mood": "playful",
+   "file": "assets/music/jovial.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Jovial Creatures",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "knights",
+   "scene": "town",
+   "where": {
+    "zh": "幸運港的鬥技場大廳",
+    "en": "Luckhaven's arena hall"
+   },
+   "name": {
+    "zh": "鬥技場號角",
+    "en": "Horns of the Arena"
+   },
+   "mood": "heroic",
+   "file": "assets/music/knights.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Knights Theme A",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "cliffs",
+   "scene": "town",
+   "where": {
+    "zh": "風鈴鎮",
+    "en": "Chimeholm"
+   },
+   "name": {
+    "zh": "風鈴崖上",
+    "en": "Chimes on the Cliffs"
+   },
+   "mood": "calm",
+   "file": "assets/music/cliffs.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Town Cliffs of Dooneen",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "waterfall",
+   "scene": "town",
+   "where": {
+    "zh": "苔沼村",
+    "en": "Mossmere"
+   },
+   "name": {
+    "zh": "苔沼細流",
+    "en": "Mossmere Rills"
+   },
+   "mood": "calm",
+   "file": "assets/music/waterfall.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Hymn Waterfalls",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "frost",
+   "scene": "town",
+   "where": {
+    "zh": "雪幕村、霜冠洞窟與燼棚修道院",
+    "en": "Snowveil, the Frostcrown and Cindershelf Monastery"
+   },
+   "name": {
+    "zh": "雪幕冰心",
+    "en": "Snowveil Frost"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/frost.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Ice Hearts, Frozen Fire",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama RPG)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "peace",
+   "scene": "town",
+   "where": {
+    "zh": "教會，以及全滅後在教會醒來",
+    "en": "Churches, and waking in church after a wipe-out"
+   },
+   "name": {
+    "zh": "教會鐘下",
+    "en": "Beneath the Chapel Bell"
+   },
+   "mood": "calm",
+   "file": "assets/music/peace.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Peaceful Days",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #4 [Calm]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-4-calm"
+   }
+  },
+  {
+   "key": "castle",
+   "scene": "town",
+   "where": {
+    "zh": "索爾海文城與晉見國王",
+    "en": "Solhaven Castle and the audience with the king"
+   },
+   "name": {
+    "zh": "索爾海文王座",
+    "en": "Throne of Solhaven"
+   },
+   "mood": "heroic",
+   "file": "assets/music/castle.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Military Base",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #1 [Exploration]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-1-exploration"
+   }
+  },
+  {
+   "key": "field",
+   "scene": "field",
+   "where": {
+    "zh": "世界地圖（大地行走）",
+    "en": "World map on foot"
+   },
+   "name": {
+    "zh": "晨光原野",
+    "en": "Fields of First Light"
+   },
+   "mood": "heroic",
+   "file": "assets/music/field.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Grasslands",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #1 [Exploration]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-1-exploration"
+   }
+  },
+  {
+   "key": "lament",
+   "scene": "field",
+   "where": {
+    "zh": "世界陷入黑暗後的世界地圖，以及悲傷的劇情",
+    "en": "The world map after the world falls dark, and grieving scenes"
+   },
+   "name": {
+    "zh": "褪色的大地",
+    "en": "The Faded World"
+   },
+   "mood": "sad",
+   "file": "assets/music/lament.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Town Settlers Lament",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama RPG)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "sea",
+   "scene": "field",
+   "where": {
+    "zh": "乘船航海",
+    "en": "Sailing the ship"
+   },
+   "name": {
+    "zh": "揚帆遠洋",
+    "en": "Under Full Sail"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/sea.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Tropical Island",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #1 [Exploration]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-1-exploration"
+   }
+  },
+  {
+   "key": "anthem",
+   "scene": "field",
+   "where": {
+    "zh": "騎乘飛龍飛越天空",
+    "en": "Flying on the drake"
+   },
+   "name": {
+    "zh": "龍翼凌空",
+    "en": "On Drake Wings"
+   },
+   "mood": "epic",
+   "file": "assets/music/anthem.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Anthem",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama RPG)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "cave",
+   "scene": "dungeon",
+   "where": {
+    "zh": "望星岩與鷗翼洞窟",
+    "en": "Lookout Crag and Gullwing Grotto"
+   },
+   "name": {
+    "zh": "望星岩風",
+    "en": "Winds of Lookout Crag"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/cave.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Tha'el Mines",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #1 [Exploration]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-1-exploration"
+   }
+  },
+  {
+   "key": "memory",
+   "scene": "event",
+   "where": {
+    "zh": "望星岩山頂、絲之庭園、瀑布後的祠堂與回憶劇情",
+    "en": "Lookout Crag summit, the Thread Garden, the shrine behind the falls and memory scenes"
+   },
+   "name": {
+    "zh": "夏日絲線",
+    "en": "Threads of Summer"
+   },
+   "mood": "romantic",
+   "file": "assets/music/memory.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Summer Memories",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #4 [Calm]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-4-calm"
+   }
+  },
+  {
+   "key": "sneak",
+   "scene": "dungeon",
+   "where": {
+    "zh": "地下牢獄",
+    "en": "The Undercroft"
+   },
+   "name": {
+    "zh": "牢獄潛行",
+    "en": "Creeping the Undercroft"
+   },
+   "mood": "tense",
+   "file": "assets/music/sneak.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Sneaking Around",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #1 [Exploration]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-1-exploration"
+   }
+  },
+  {
+   "key": "crypt",
+   "scene": "dungeon",
+   "where": {
+    "zh": "河光神殿與沉歌之井的唱詩者",
+    "en": "Riverlight Temple, and the cantor in the Choirwell"
+   },
+   "name": {
+    "zh": "河光地宮",
+    "en": "Vaults of Riverlight"
+   },
+   "mood": "dark",
+   "file": "assets/music/crypt.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Catacombs",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #3 [Evil]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-3-evil"
+   }
+  },
+  {
+   "key": "danger",
+   "scene": "dungeon",
+   "where": {
+    "zh": "燼島火口；與幼龍、獅首魔的遭遇",
+    "en": "Smolder Isle crater; the drakeling and Leocephas encounters"
+   },
+   "name": {
+    "zh": "燼島烈焰",
+    "en": "Smolder Isle Ablaze"
+   },
+   "mood": "tense",
+   "file": "assets/music/danger.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Encounter With The Witches",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #5 [Action]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-5-action"
+   }
+  },
+  {
+   "key": "lair",
+   "scene": "dungeon",
+   "where": {
+    "zh": "沙中遺跡",
+    "en": "The Dune Ruins"
+   },
+   "name": {
+    "zh": "沙下古墓",
+    "en": "Tombs Beneath the Dunes"
+   },
+   "mood": "dark",
+   "file": "assets/music/lair.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Witch's Lair",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #3 [Evil]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-3-evil"
+   }
+  },
+  {
+   "key": "trouble",
+   "scene": "dungeon",
+   "where": {
+    "zh": "鷗翼洞窟海盜巢穴，蕾娜船長登場",
+    "en": "Gullwing Grotto pirates' den, Captain Rena"
+   },
+   "name": {
+    "zh": "海盜巢穴",
+    "en": "Pirates' Den"
+   },
+   "mood": "playful",
+   "file": "assets/music/trouble.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Troubles Brewing",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "mist",
+   "scene": "dungeon",
+   "where": {
+    "zh": "風嘯塔",
+    "en": "Galespire"
+   },
+   "name": {
+    "zh": "風嘯塔霧",
+    "en": "Mists of Galespire"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/mist.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Mist Covered Mountains",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "marsh",
+   "scene": "dungeon",
+   "where": {
+    "zh": "幽沼",
+    "en": "Gloomfen"
+   },
+   "name": {
+    "zh": "幽沼泥影",
+    "en": "Gloomfen Shadows"
+   },
+   "mood": "dark",
+   "file": "assets/music/marsh.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Marshlands",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "cellars",
+   "scene": "dungeon",
+   "where": {
+    "zh": "沉沒書庫",
+    "en": "The Sunken Archive"
+   },
+   "name": {
+    "zh": "沉沒書頁",
+    "en": "Drowned Pages"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/cellars.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Flooded Cellars",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "caves",
+   "scene": "dungeon",
+   "where": {
+    "zh": "閃晶礦坑",
+    "en": "The Glimmer Mines"
+   },
+   "name": {
+    "zh": "閃晶礦脈",
+    "en": "Glimmer Seam"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/caves.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Hymn Mysterious Caves",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "veranda",
+   "scene": "dungeon",
+   "where": {
+    "zh": "沉歌之井",
+    "en": "The Choirwell"
+   },
+   "name": {
+    "zh": "水底聖歌",
+    "en": "Hymns Under Water"
+   },
+   "mood": "dark",
+   "file": "assets/music/veranda.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Haunted Veranda",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "himmendal",
+   "scene": "dungeon",
+   "where": {
+    "zh": "灰淺城",
+    "en": "Ashford Keep"
+   },
+   "name": {
+    "zh": "灰淺城影",
+    "en": "Halls of Ashford"
+   },
+   "mood": "dark",
+   "file": "assets/music/himmendal.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Castle Himmendal",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "crystal",
+   "scene": "dungeon",
+   "where": {
+    "zh": "星井（後日談迷宮）",
+    "en": "The Starwell (post-game dungeon)"
+   },
+   "name": {
+    "zh": "星井晶光",
+    "en": "Starwell Glimmer"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/crystal.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Crystal Palace",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "battle",
+   "scene": "battle",
+   "where": {
+    "zh": "一般戰鬥",
+    "en": "Regular battles"
+   },
+   "name": {
+    "zh": "晨星之劍",
+    "en": "Blade of the Dawnmark"
+   },
+   "mood": "heroic",
+   "file": "assets/music/battle.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Battle - Crystal World",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama RPG)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "battle2",
+   "scene": "battle",
+   "where": {
+    "zh": "世界陷入黑暗後的一般戰鬥",
+    "en": "Regular battles after the world falls dark"
+   },
+   "name": {
+    "zh": "黑暗中的刀光",
+    "en": "Steel in the Dark"
+   },
+   "mood": "tense",
+   "file": "assets/music/battle2.mp3",
+   "alt": [],
+   "orig": {
+    "title": "16-bit Battle Theme I",
+    "artist": "Hydrogene",
+    "pack": "16-bit Battle Theme I",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/16-bit-battle-theme-i"
+   }
+  },
+  {
+   "key": "tides",
+   "scene": "battle",
+   "where": {
+    "zh": "鬥技場與星井的一般戰鬥",
+    "en": "Arena bouts and Starwell battles"
+   },
+   "name": {
+    "zh": "逆轉潮汐",
+    "en": "Turning Tide"
+   },
+   "mood": "heroic",
+   "file": "assets/music/tides.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Battle - Tides Turn",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "boss",
+   "scene": "boss",
+   "where": {
+    "zh": "頭目戰",
+    "en": "Boss battles"
+   },
+   "name": {
+    "zh": "巨像怒吼",
+    "en": "Roar of the Colossus"
+   },
+   "mood": "epic",
+   "file": "assets/music/boss.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Golems Theme",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama RPG)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "final",
+   "scene": "boss",
+   "where": {
+    "zh": "與莫洛、解織者、蝕星的最終決戰；星之心",
+    "en": "Final battles with Morrow, the Unweaver and Eclipse; the Heart of the Star"
+   },
+   "name": {
+    "zh": "解織者降臨",
+    "en": "The Unweaver Descends"
+   },
+   "mood": "epic",
+   "file": "assets/music/final.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Final Boss",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama RPG)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "dragongods",
+   "scene": "boss",
+   "where": {
+    "zh": "隱藏頭目「千年之影」",
+    "en": "Secret boss, the Thousand-Year Shade"
+   },
+   "name": {
+    "zh": "千年之影",
+    "en": "Shade of a Thousand Years"
+   },
+   "mood": "epic",
+   "file": "assets/music/dragongods.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Dragon Gods",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "evil",
+   "scene": "event",
+   "where": {
+    "zh": "大祭司莫洛現身、遺忘之霧",
+    "en": "High Priest Morrow revealed; the Forgetting"
+   },
+   "name": {
+    "zh": "虛無之心",
+    "en": "Heart of the Void"
+   },
+   "mood": "dark",
+   "file": "assets/music/evil.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Ancient Evil Awakens",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #3 [Evil]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-3-evil"
+   }
+  },
+  {
+   "key": "dread",
+   "scene": "event",
+   "where": {
+    "zh": "墨之海龍與千年之影登場前",
+    "en": "Before the Ink Wyrm and the Thousand-Year Shade"
+   },
+   "name": {
+    "zh": "墨中低語",
+    "en": "Whispers in the Ink"
+   },
+   "mood": "dark",
+   "file": "assets/music/dread.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Whispers From Beyond",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #3 [Evil]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-3-evil"
+   }
+  },
+  {
+   "key": "sinister",
+   "scene": "event",
+   "where": {
+    "zh": "蝕星登場",
+    "en": "Eclipse appears"
+   },
+   "name": {
+    "zh": "蝕星之兆",
+    "en": "Omen of the Eclipse"
+   },
+   "mood": "tense",
+   "file": "assets/music/sinister.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Sinister Theme",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "march",
+   "scene": "event",
+   "where": {
+    "zh": "布藍諾的追擊、瓦羅與凱斯卓的對決前",
+    "en": "Brannoc's pursuit; facing Varro and Kestrel"
+   },
+   "name": {
+    "zh": "騎士團進軍",
+    "en": "The Order Marches"
+   },
+   "mood": "tense",
+   "file": "assets/music/march.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Army Approaching",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #5 [Action]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-5-action"
+   }
+  },
+  {
+   "key": "resolve",
+   "scene": "event",
+   "where": {
+    "zh": "布藍諾加入隊伍",
+    "en": "Brannoc joins the party"
+   },
+   "name": {
+    "zh": "騎士的決意",
+    "en": "A Knight's Resolve"
+   },
+   "mood": "heroic",
+   "file": "assets/music/resolve.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Preparing For Battle",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #5 [Action]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-5-action"
+   }
+  },
+  {
+   "key": "sad",
+   "scene": "event",
+   "where": {
+    "zh": "世界陷落、同伴失散；蕾娜落敗",
+    "en": "The fall of the world and the scattered party; Rena defeated"
+   },
+   "name": {
+    "zh": "散落的絲線",
+    "en": "Scattered Threads"
+   },
+   "mood": "sad",
+   "file": "assets/music/sad.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Innocence",
+    "artist": "Juhani Junkala (SubspaceAudio)",
+    "pack": "JRPG Music Pack #4 [Calm]",
+    "license": "CC0",
+    "url": "https://opengameart.org/content/jrpg-pack-4-calm"
+   }
+  },
+  {
+   "key": "farewell",
+   "scene": "event",
+   "where": {
+    "zh": "同伴故事的告別場面（佩兒、雪中修道院）",
+    "en": "Companion stories' farewells (Pell, the snowbound monastery)"
+   },
+   "name": {
+    "zh": "母親的墜子",
+    "en": "Mother's Locket"
+   },
+   "mood": "sad",
+   "file": "assets/music/farewell.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Farewell Old Friend",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "paladins",
+   "scene": "event",
+   "where": {
+    "zh": "布藍諾與凱斯卓決鬥之後",
+    "en": "After Brannoc's duel with Kestrel"
+   },
+   "name": {
+    "zh": "舊日誓約",
+    "en": "Oath of Old Friends"
+   },
+   "mood": "heroic",
+   "file": "assets/music/paladins.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Paladins Theme",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (full, gt-rpg-sountrack_2.zip)",
+    "license": "OGA-BY 3.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  },
+  {
+   "key": "hymn",
+   "scene": "ending",
+   "where": {
+    "zh": "世界重光、片尾名單、擊敗千年之影後",
+    "en": "The world restored, the end credits, and after the Thousand-Year Shade"
+   },
+   "name": {
+    "zh": "曙光聖歌",
+    "en": "Hymn of the Dawn"
+   },
+   "mood": "epic",
+   "file": "assets/music/hymn.mp3",
+   "alt": [],
+   "orig": {
+    "title": "Hymn Epic",
+    "artist": "Juhani Junkala",
+    "pack": "GT RPG soundtrack (Golem & Tama RPG)",
+    "license": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/gt-rpg-soundtrack"
+   }
+  }
+ ],
+ "skipped": [
+  {
+   "what": "assets/music/childhood.mp3",
+   "why": "committed and credited (Calm2 - Childhood Friends, JRPG Music Pack #4 [Calm], CC0) but never played by any code"
+  },
+  {
+   "what": "assets/music/field2.mp3",
+   "why": "committed and credited (Exploration4 - Prairie Nights, JRPG Music Pack #1 [Exploration], CC0) but never played by any code"
+  },
+  {
+   "what": "assets/music/sand.mp3",
+   "why": "committed and credited (Calm4 - Sand Castles, JRPG Music Pack #4 [Calm], CC0) but never played by any code"
+  },
+  {
+   "what": "assets/music/ruin.mp3",
+   "why": "committed and credited (Evil3 - Apocalypse, JRPG Music Pack #3 [Evil], CC0) but never played by any code"
+  },
+  {
+   "what": "assets/music/harbor.mp3",
+   "why": "committed and credited (15 Sumia Harbor, GT RPG soundtrack, CC-BY 4.0) but never played by any code"
+  }
+ ],
+ "notes": "CREDITS.md credits the music only by pack (Junkala JRPG Packs #1-#5 CC0, GT RPG soundtrack CC-BY 4.0, the 18 expansion tracks from gt-rpg-sountrack_2.zip as OGA-BY 3.0, Hydrogene 16-bit Battle Theme I CC0); the 18 expansion titles are listed in CREDITS.md verbatim, the per-file mapping of the other tracks comes from the build scripts (scratchpad dm/build_assets.py MUS table and expand-dawnmark/build_music.py), track titles taken from the source file names. All files are MP3 only (no .ogg/.m4a). js/audio.js has no procedural songs: the chip only plays short fanfares and sound effects over the music. Five committed tracks are never played and are listed in skipped (could be added as 'other' if the gallery wants unused tracks)."
+}

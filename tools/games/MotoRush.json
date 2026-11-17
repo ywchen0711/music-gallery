@@ -1,0 +1,10 @@
+{
+  "folder": "MotoRush",
+  "repo": "moto-rush",
+  "lobbyId": "moto",
+  "kind": "none",
+  "noneReason": "only sound effects (js/audio.js MOTO_AUDIO: synthesized engine drone, wind/nitro hiss, crash/land/beep; no music)",
+  "tracks": [],
+  "skipped": [],
+  "notes": ""
+}

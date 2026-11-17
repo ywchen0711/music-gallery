@@ -1,0 +1,10 @@
+{
+  "folder": "ReadingDojo",
+  "repo": "reading-dojo",
+  "lobbyId": "readingdojo",
+  "kind": "none",
+  "noneReason": "only speech synthesis (js/speech.js reads passages aloud), no music",
+  "tracks": [],
+  "skipped": [],
+  "notes": ""
+}

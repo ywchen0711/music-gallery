@@ -1,0 +1,113 @@
+{
+  "folder": "LongmenCase",
+  "repo": "longmen-case",
+  "lobbyId": "longmen-case",
+  "kind": "file",
+  "tracks": [
+    {
+      "key": "title",
+      "scene": "title",
+      "where": {"zh": "第一冊標題畫面（龍門客棧外景）；第二冊終回〈歸〉夕陽湖畔歸途", "en": "Book One title screen (inn exterior); Book Two last chapter, the lakeside road home at sunset"},
+      "name": {"zh": "龍門夜雨", "en": "Night Rain at Longmen"},
+      "mood": "mysterious",
+      "file": "audio/music/title.mp3",
+      "alt": [],
+      "orig": {"title": null, "artist": "Pixel-boy and AAA", "pack": "Ninja Adventure Asset Pack", "license": "CC0 1.0", "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"}
+    },
+    {
+      "key": "story",
+      "scene": "title",
+      "where": {"zh": "第二冊標題畫面（斷崖夕照）；第一冊序回說書地圖；第二冊序回", "en": "Book Two title screen (cliff at sunset); Book One prologue over the map; Book Two prologue"},
+      "name": {"zh": "說書開卷", "en": "The Storyteller Opens"},
+      "mood": "calm",
+      "file": "audio/music/story.mp3",
+      "alt": [],
+      "orig": {"title": null, "artist": "Pixel-boy and AAA", "pack": "Ninja Adventure Asset Pack", "license": "CC0 1.0", "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"}
+    },
+    {
+      "key": "fog",
+      "scene": "field",
+      "where": {"zh": "渡口霧船（第一回）、聽雨樓屋頂（第四回）；第二冊山谷雨天與雪夜", "en": "The fog-bound ferry (ch. 1) and the rooftop (ch. 4); Book Two's valley on rainy days and snowy nights"},
+      "name": {"zh": "霧渡寒江", "en": "Fog on the Cold Ferry"},
+      "mood": "mysterious",
+      "file": "audio/music/fog.mp3",
+      "alt": [],
+      "orig": {"title": null, "artist": "Pixel-boy and AAA", "pack": "Ninja Adventure Asset Pack", "license": "CC0 1.0", "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"}
+    },
+    {
+      "key": "village",
+      "scene": "town",
+      "where": {"zh": "客棧大堂（第二回、終回）；第二冊漁村與山谷晨昏", "en": "The inn's main hall (ch. 2 and finale); Book Two's fishing village and valley mornings"},
+      "name": {"zh": "客棧人聲", "en": "Voices in the Inn Hall"},
+      "mood": "cheerful",
+      "file": "audio/music/village.mp3",
+      "alt": [],
+      "orig": {"title": null, "artist": "Pixel-boy and AAA", "pack": "Ninja Adventure Asset Pack", "license": "CC0 1.0", "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"}
+    },
+    {
+      "key": "curse",
+      "scene": "event",
+      "where": {"zh": "丑時鬼影（第二回）；第二冊雜耍暗湧、崖路與楓林對峙", "en": "The Hour of the Ox (ch. 2); Book Two's uneasy juggling show, cliff road and maple-grove standoff"},
+      "name": {"zh": "丑時鬼語", "en": "Whispers at the Hour of the Ox"},
+      "mood": "tense",
+      "file": "audio/music/curse.mp3",
+      "alt": [],
+      "orig": {"title": null, "artist": "Pixel-boy and AAA", "pack": "Ninja Adventure Asset Pack", "license": "CC0 1.0", "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"}
+    },
+    {
+      "key": "cave",
+      "scene": "dungeon",
+      "where": {"zh": "樓上密室搜證（第三、五回）；第二冊山洞", "en": "Searching the locked room upstairs (ch. 3 and 5); Book Two's cave"},
+      "name": {"zh": "密室孤燈", "en": "Lone Lamp in the Locked Room"},
+      "mood": "dark",
+      "file": "audio/music/cave.mp3",
+      "alt": [],
+      "orig": {"title": null, "artist": "Pixel-boy and AAA", "pack": "Ninja Adventure Asset Pack", "license": "CC0 1.0", "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"}
+    },
+    {
+      "key": "reveal",
+      "scene": "event",
+      "where": {"zh": "奕叡推理揭曉（第三、四、五回）；第二冊真相與刀心覺醒", "en": "Yirui's deductions revealed (ch. 3-5); Book Two's revelations and the awakening of the blade heart"},
+      "name": {"zh": "真相一刀", "en": "One Cut to the Truth"},
+      "mood": "epic",
+      "file": "audio/music/reveal.mp3",
+      "alt": [],
+      "orig": {"title": null, "artist": "Pixel-boy and AAA", "pack": "Ninja Adventure Asset Pack", "license": "CC0 1.0", "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"}
+    },
+    {
+      "key": "battle",
+      "scene": "battle",
+      "where": {"zh": "真兇現形之戰（第五回）；第二冊崖頂、林道與楓林決鬥", "en": "The fight once the culprit is unmasked (ch. 5); Book Two's duels on the cliff, forest road and maple grove"},
+      "name": {"zh": "刀光劍影", "en": "Flash of Blade and Sword"},
+      "mood": "heroic",
+      "file": "audio/music/battle.mp3",
+      "alt": [],
+      "orig": {"title": null, "artist": "Pixel-boy and AAA", "pack": "Ninja Adventure Asset Pack", "license": "CC0 1.0", "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"}
+    },
+    {
+      "key": "melancholy",
+      "scene": "event",
+      "where": {"zh": "水退黎明（終回）；第二冊山谷夜話與楓林別後", "en": "Dawn as the water falls (finale); Book Two's night talks in the valley and the aftermath in the maples"},
+      "name": {"zh": "殘燈曉別", "en": "Parting at Dawn"},
+      "mood": "sad",
+      "file": "audio/music/melancholy.mp3",
+      "alt": [],
+      "orig": {"title": null, "artist": "Pixel-boy and AAA", "pack": "Ninja Adventure Asset Pack", "license": "CC0 1.0", "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"}
+    },
+    {
+      "key": "yomi",
+      "scene": "ending",
+      "where": {"zh": "第一冊最後一鏡：說書人左手摺紙鶴", "en": "Book One's last shot: the storyteller's left hand folds a paper crane"},
+      "name": {"zh": "紙鶴藏鋒", "en": "The Paper Crane's Hidden Edge"},
+      "mood": "mysterious",
+      "file": "audio/music/yomi.mp3",
+      "alt": [],
+      "orig": {"title": null, "artist": "Pixel-boy and AAA", "pack": "Ninja Adventure Asset Pack", "license": "CC0 1.0", "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"}
+    }
+  ],
+  "skipped": [
+    {"what": "audio/v/*.mp3", "why": "voice lines (edge-tts), not music"},
+    {"what": "js/audio.js SFX / rain and river beds", "why": "synthesised sound effects and noise ambience, no music sequencer"}
+  ],
+  "notes": "CREDITS.md only says 'ten tracks (title, story, fog, village, curse, cave, reveal, battle, melancholy, yomi), re-encoded to MP3' from the Ninja Adventure Asset Pack by Pixel-boy and AAA (CC0 1.0); the pack's original track titles are not recorded anywhere in the repo, so orig.title is null. Music is played by js/audio.js music(track) through an <audio> element ('audio/music/<name>.mp3'); scenes come from MUS(...) beats in js/story/*.js and js/story2/*.js plus the book title screens in js/books.js. The TRACKS map also lists ending, temple and dojo, but those files do not exist and nothing calls them. Working tree has uncommitted edits by another agent (js/audio.js and many js files modified) but no new or untracked audio files at the time of this survey; this spec is based on HEAD."
+}

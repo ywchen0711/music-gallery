@@ -1,0 +1,591 @@
+{
+ "folder": "Prismwander",
+ "repo": "prismwander",
+ "lobbyId": "prismwander",
+ "kind": "file",
+ "tracks": [
+  {
+   "key": "title",
+   "scene": "title",
+   "where": {
+    "zh": "標題畫面",
+    "en": "Title screen"
+   },
+   "name": {
+    "zh": "晶光初夢",
+    "en": "First Prism Dream"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/title.ogg",
+   "alt": [],
+   "orig": {
+    "title": "22 - Dream",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "field",
+   "scene": "field",
+   "where": {
+    "zh": "晨風原（起始草原）",
+    "en": "Dawnbreeze Fields (starting meadow)"
+   },
+   "name": {
+    "zh": "晨風原野",
+    "en": "Dawnbreeze Morning"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/field.ogg",
+   "alt": [],
+   "orig": {
+    "title": "35 - Adventure",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "village",
+   "scene": "town",
+   "where": {
+    "zh": "爐心村、芬邊村、鹽灣港、沙泉鎮、霜門村、齒輪村",
+    "en": "Hearthvale, Fenside, Saltmere, Dunewell, Frostgate and Cogwick"
+   },
+   "name": {
+    "zh": "爐心暖爐",
+    "en": "By the Hearth"
+   },
+   "mood": "calm",
+   "file": "assets/music/village.ogg",
+   "alt": [],
+   "orig": {
+    "title": "27 - Chill",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "forest",
+   "scene": "field",
+   "where": {
+    "zh": "低語林、孢子林",
+    "en": "Whisperwood and Sporewood"
+   },
+   "name": {
+    "zh": "林間低語",
+    "en": "Whispering Glade"
+   },
+   "mood": "calm",
+   "file": "assets/music/forest.ogg",
+   "alt": [],
+   "orig": {
+    "title": "11 - Clearing",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "sad",
+   "scene": "field",
+   "where": {
+    "zh": "霧沼",
+    "en": "Mistfen"
+   },
+   "name": {
+    "zh": "霧沼殘影",
+    "en": "Shadows of Mistfen"
+   },
+   "mood": "sad",
+   "file": "assets/music/sad.ogg",
+   "alt": [],
+   "orig": {
+    "title": "16 - Melancholia",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "lake",
+   "scene": "field",
+   "where": {
+    "zh": "鏡湖",
+    "en": "Mirror Lake"
+   },
+   "name": {
+    "zh": "鏡湖倒影",
+    "en": "Mirror Lake Reflections"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/lake.ogg",
+   "alt": [],
+   "orig": {
+    "title": "13 - Mystical",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "coast",
+   "scene": "field",
+   "where": {
+    "zh": "白貝海岸",
+    "en": "Shellshore"
+   },
+   "name": {
+    "zh": "白貝浪花",
+    "en": "Shellshore Surf"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/coast.ogg",
+   "alt": [],
+   "orig": {
+    "title": "31 - Sunny",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "mesa",
+   "scene": "field",
+   "where": {
+    "zh": "赤砂台地",
+    "en": "Redsand Mesa"
+   },
+   "name": {
+    "zh": "赤砂長風",
+    "en": "Winds of the Red Mesa"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/mesa.ogg",
+   "alt": [],
+   "orig": {
+    "title": "30 - Ruins",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "cave",
+   "scene": "dungeon",
+   "where": {
+    "zh": "熔岩峰、古都遺跡",
+    "en": "Emberpeak and Old Lumera"
+   },
+   "name": {
+    "zh": "古都石窟",
+    "en": "Halls of Old Lumera"
+   },
+   "mood": "tense",
+   "file": "assets/music/cave.ogg",
+   "alt": [],
+   "orig": {
+    "title": "2 - The Cave",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "mountain",
+   "scene": "field",
+   "where": {
+    "zh": "灰脊山、霜原、深岩島",
+    "en": "Greyridge, Rimefield and Deepholm"
+   },
+   "name": {
+    "zh": "灰脊登高",
+    "en": "Climbing Greyridge"
+   },
+   "mood": "heroic",
+   "file": "assets/music/mountain.ogg",
+   "alt": [],
+   "orig": {
+    "title": "19 - Ascension",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "spire",
+   "scene": "dungeon",
+   "where": {
+    "zh": "稜晶尖塔",
+    "en": "The Prism Spire"
+   },
+   "name": {
+    "zh": "稜晶尖塔",
+    "en": "Spire of Prisms"
+   },
+   "mood": "epic",
+   "file": "assets/music/spire.ogg",
+   "alt": [],
+   "orig": {
+    "title": "24 - Final Area",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "boat",
+   "scene": "field",
+   "where": {
+    "zh": "乘船航行與東方之海",
+    "en": "Sailing and the Eastern Sea"
+   },
+   "name": {
+    "zh": "東海揚帆",
+    "en": "Sails on the Eastern Sea"
+   },
+   "mood": "cheerful",
+   "file": "assets/music/boat.ogg",
+   "alt": [],
+   "orig": {
+    "title": "39 - Boat",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "harbor",
+   "scene": "town",
+   "where": {
+    "zh": "潮汐港",
+    "en": "Tidehaven"
+   },
+   "name": {
+    "zh": "潮汐港灣",
+    "en": "Tidehaven Harbour"
+   },
+   "mood": "calm",
+   "file": "assets/music/harbor.ogg",
+   "alt": [],
+   "orig": {
+    "title": "33 - Calm Village",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "coral",
+   "scene": "field",
+   "where": {
+    "zh": "珊瑚群島",
+    "en": "The Coral Isles"
+   },
+   "name": {
+    "zh": "珊瑚晴日",
+    "en": "Coral Isle Sunshine"
+   },
+   "mood": "playful",
+   "file": "assets/music/coral.ogg",
+   "alt": [],
+   "orig": {
+    "title": "20 - Good Time",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "aquatic",
+   "scene": "dungeon",
+   "where": {
+    "zh": "沉沒之都 薇爾",
+    "en": "Vael, the Drowned City"
+   },
+   "name": {
+    "zh": "沉城水影",
+    "en": "Drowned Vael"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/aquatic.ogg",
+   "alt": [],
+   "orig": {
+    "title": "18 - Aquatic",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "temple",
+   "scene": "dungeon",
+   "where": {
+    "zh": "機關島",
+    "en": "Clockwork Isle"
+   },
+   "name": {
+    "zh": "齒輪島嶼",
+    "en": "Isle of Cogs"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/temple.ogg",
+   "alt": [],
+   "orig": {
+    "title": "12 - Temple",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "tension",
+   "scene": "dungeon",
+   "where": {
+    "zh": "機關塔",
+    "en": "The Clockwork Tower"
+   },
+   "name": {
+    "zh": "機關塔頂",
+    "en": "Clockwork Tower Climb"
+   },
+   "mood": "tense",
+   "file": "assets/music/tension.ogg",
+   "alt": [],
+   "orig": {
+    "title": "28 - Tension",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "sky",
+   "scene": "field",
+   "where": {
+    "zh": "雲上群島",
+    "en": "Cloudreach"
+   },
+   "name": {
+    "zh": "雲上群島",
+    "en": "Above the Clouds"
+   },
+   "mood": "epic",
+   "file": "assets/music/sky.ogg",
+   "alt": [],
+   "orig": {
+    "title": "3 - Revelation",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "deep",
+   "scene": "dungeon",
+   "where": {
+    "zh": "幽深地底",
+    "en": "Hollowdeep"
+   },
+   "name": {
+    "zh": "幽深地脈",
+    "en": "Veins of Hollowdeep"
+   },
+   "mood": "dark",
+   "file": "assets/music/deep.ogg",
+   "alt": [],
+   "orig": {
+    "title": "37 - Dark Forest",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "delve",
+   "scene": "town",
+   "where": {
+    "zh": "掘地人之窟",
+    "en": "Delvers' Hollow"
+   },
+   "name": {
+    "zh": "掘地人燈火",
+    "en": "Lamps of the Delvers"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/delve.ogg",
+   "alt": [],
+   "orig": {
+    "title": "26 - Lost Village",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "noon",
+   "scene": "dungeon",
+   "where": {
+    "zh": "正午宮殿（古都遺跡之下）",
+    "en": "The Noon Halls (beneath Old Lumera)"
+   },
+   "name": {
+    "zh": "正午王宮",
+    "en": "Court of the Noon King"
+   },
+   "mood": "dark",
+   "file": "assets/music/noon.ogg",
+   "alt": [],
+   "orig": {
+    "title": "10 - Dark Castle",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "abyss",
+   "scene": "dungeon",
+   "where": {
+    "zh": "稜晶深淵（尖塔之下）",
+    "en": "The Prism Abyss (beneath the Spire)"
+   },
+   "name": {
+    "zh": "深淵稜光",
+    "en": "Light in the Abyss"
+   },
+   "mood": "dark",
+   "file": "assets/music/abyss.ogg",
+   "alt": [],
+   "orig": {
+    "title": "40 - Crypt",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "battle",
+   "scene": "battle",
+   "where": {
+    "zh": "一般戰鬥",
+    "en": "Regular battles"
+   },
+   "name": {
+    "zh": "晶刃交鋒",
+    "en": "Crossing Crystal Blades"
+   },
+   "mood": "heroic",
+   "file": "assets/music/battle.ogg",
+   "alt": [],
+   "orig": {
+    "title": "34  - Fight",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "boss",
+   "scene": "boss",
+   "where": {
+    "zh": "守護者頭目戰",
+    "en": "Guardian boss battles"
+   },
+   "name": {
+    "zh": "守護者之咒",
+    "en": "Curse of the Guardian"
+   },
+   "mood": "tense",
+   "file": "assets/music/boss.ogg",
+   "alt": [],
+   "orig": {
+    "title": "14 - Curse",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "boss2",
+   "scene": "boss",
+   "where": {
+    "zh": "劇情大頭目戰（瓦瑞克、奧瑞爾、安布拉、莫溫、鬥技場冠軍）",
+    "en": "Story boss battles (Varek, Aurel, Umbra, Morwen, the arena champion)"
+   },
+   "name": {
+    "zh": "稜晶決戰",
+    "en": "Duel for the Prism"
+   },
+   "mood": "epic",
+   "file": "assets/music/boss2.ogg",
+   "alt": [],
+   "orig": {
+    "title": "17 - Fight",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  },
+  {
+   "key": "ending",
+   "scene": "ending",
+   "where": {
+    "zh": "兩種結局與工作人員名單",
+    "en": "Both endings and the credits roll"
+   },
+   "name": {
+    "zh": "旅途終章",
+    "en": "The Wanderers' Rest"
+   },
+   "mood": "romantic",
+   "file": "assets/music/ending.ogg",
+   "alt": [],
+   "orig": {
+    "title": "25 - End Theme 2",
+    "artist": "Pixel-boy and AAA",
+    "pack": "Ninja Adventure Asset Pack",
+    "license": "CC0 1.0",
+    "url": "https://pixel-boy.itch.io/ninja-adventure-asset-pack"
+   }
+  }
+ ],
+ "skipped": [
+  {
+   "what": "assets/music/lament.ogg",
+   "why": "credited (Ninja Adventure '29 - Lament') but never played by any code in HEAD or the working copy"
+  },
+  {
+   "what": "assets/jingle/*.wav",
+   "why": "jingles"
+  }
+ ],
+ "notes": "CREDITS.md credits all music to the Ninja Adventure Asset Pack (Pixel-boy and AAA, CC0 1.0) without per-file titles; each orig.title is the pack's own file name (Audio/Musics/<n> - <title>.ogg), verified by identical md5 against the downloaded pack. '34  - Fight' has a double space in the pack's file name; there are two 'Fight' tracks (17 and 34). js/audio.js has no procedural music (only synthesized sfx); music is new Audio('assets/music/<name>.ogg'). Another agent is adding iOS fixes: UNCOMMITTED (git status ??) .m4a copies exist for all 27 tracks: assets/music/{abyss,aquatic,battle,boat,boss,boss2,cave,coast,coral,deep,delve,ending,field,forest,harbor,lake,lament,mesa,mountain,noon,sad,sky,spire,temple,tension,title,village}.m4a. Once committed, switch file to the .m4a and move the .ogg into alt. js/audio.js also has uncommitted edits."
+}

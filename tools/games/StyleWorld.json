@@ -1,0 +1,10 @@
+{
+  "folder": "StyleWorld",
+  "repo": "styleworld",
+  "lobbyId": "styleworld",
+  "kind": "none",
+  "noneReason": "only sound effects (js/sound.js short tones), no music",
+  "tracks": [],
+  "skipped": [],
+  "notes": ""
+}

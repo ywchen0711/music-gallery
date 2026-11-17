@@ -1,0 +1,61 @@
+{
+  "folder": "SanguoTactics",
+  "repo": "sanguo-tactics",
+  "lobbyId": "sanguotactics",
+  "kind": "procedural",
+  "tracks": [
+    {
+      "key": "title",
+      "scene": "title",
+      "where": {"zh": "標題畫面", "en": "Title screen"},
+      "name": {"zh": "天下三分", "en": "The Realm Divided in Three"},
+      "mood": "epic",
+      "play": "M.music('title')",
+      "loopSec": 22.86,
+      "renderSec": 46
+    },
+    {
+      "key": "world",
+      "scene": "field",
+      "where": {"zh": "戰略地圖（內政、出兵）", "en": "Strategy map (governing and marching armies)"},
+      "name": {"zh": "運籌帷幄", "en": "Plans in the War Tent"},
+      "mood": "calm",
+      "play": "M.music('world')",
+      "loopSec": 24.23,
+      "renderSec": 49
+    },
+    {
+      "key": "battle",
+      "scene": "battle",
+      "where": {"zh": "戰場上的戰棋戰鬥", "en": "Tactical battles on the field"},
+      "name": {"zh": "兩軍對壘", "en": "Two Armies Face Off"},
+      "mood": "heroic",
+      "play": "M.music('battle')",
+      "loopSec": 13.33,
+      "renderSec": 30
+    },
+    {
+      "key": "sad",
+      "scene": "ending",
+      "where": {"zh": "勢力滅亡的結局", "en": "Ending when your faction is destroyed"},
+      "name": {"zh": "大業成空", "en": "A Dynasty Turned to Dust"},
+      "mood": "sad",
+      "play": "M.music('sad')",
+      "loopSec": 27.43,
+      "renderSec": 55
+    }
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "localStorage.setItem('sg.mute', '0');",
+    "init": "M.unlock();",
+    "notes": "js/audio.js has no imports; it reads localStorage 'sg.mute' at load (pre clears it). unlock() creates the context. Each loop schedules the whole melody + bass and re-arms with setTimeout(len*beat - 30 ms), so the real period is loopSec - 0.03 s."
+  },
+  "skipped": [
+    {"what": "THEMES.town", "why": "defined but never played anywhere in the game"},
+    {"what": "THEMES.boss", "why": "defined but never played anywhere in the game"},
+    {"what": "THEMES.victory", "why": "one-shot fanfare (once: true, ~9 s), played on win"}
+  ],
+  "notes": "Song data in js/audio.js is identical to Starscar's js/audio.js (only the mute key differs); the gallery may want to show these as shared songs."
+}

@@ -1,0 +1,10 @@
+{
+  "folder": "JoshJasper",
+  "repo": "josh-and-jasper",
+  "lobbyId": "coyote",
+  "kind": "none",
+  "noneReason": "only sound effects (js/sound.js: short chiptune blips/jingles via Sound.play(name), no music sequencer or audio files)",
+  "tracks": [],
+  "skipped": [{"what": "js/sound.js clear/gameover/oneup/power", "why": "jingles under 2 s, not music"}],
+  "notes": ""
+}

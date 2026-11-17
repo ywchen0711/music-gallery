@@ -1,0 +1,13 @@
+{
+  "folder": "Hush",
+  "repo": "hush",
+  "lobbyId": "hush",
+  "kind": "none",
+  "noneReason": "only sound effects and ambience: js/audio.js synthesizes 3D one-shots, monster loops (rumble, hum, breath, buzz) and a static ambience bed (sine drone at 55/55.4/82.4 Hz plus brown noise); no sequencer, no music files",
+  "tracks": [],
+  "skipped": [
+    {"what": "AudioEngine.ambience() in js/audio.js", "why": "constant low drone plus filtered noise, no melody or rhythm; ambience, not music"},
+    {"what": "AudioEngine.loop('hum') in js/audio.js", "why": "monster's positional sustained chord (the Gaze), a sound effect"}
+  ],
+  "notes": ""
+}

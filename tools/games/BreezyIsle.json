@@ -1,0 +1,10 @@
+{
+  "folder": "BreezyIsle",
+  "repo": "breezy-isle",
+  "lobbyId": "breezyisle",
+  "kind": "none",
+  "noneReason": "only sound effects: js/audio.js is a 45-line table of synthesized blips (click, chop, levelup, win...), no sequencer or music files",
+  "tracks": [],
+  "skipped": [],
+  "notes": "Short arpeggio jingles (levelup, win, over, mdone) are under 2 s and are not music."
+}

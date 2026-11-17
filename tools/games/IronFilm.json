@@ -1,0 +1,13 @@
+{
+  "folder": "IronFilm",
+  "repo": "ironfilm",
+  "lobbyId": "ironfilm",
+  "kind": "none",
+  "noneReason": "the orchestral score is rendered offline by tools/mix.py (CC0 VSCO-2 CE samples) straight into the finished per-episode mixes audio/ep1|ep2.<zh|en>.mp3 together with dialogue and effects; no standalone music file and no in-browser sequencer (js/score.js only plays the mixed mp3)",
+  "tracks": [],
+  "skipped": [
+    {"what": "audio/ep1.*.mp3, audio/ep2.*.mp3", "why": "finished episode mixes (voices + effects + score), music not separable"},
+    {"what": "tools/mix.py music bus", "why": "offline Python render from sample libraries that are not committed; not runnable on a web page"}
+  ],
+  "notes": "Same pipeline as Budaixi. README credits the score samples to Versilian Studios Chamber Orchestra 2 Community Edition (CC0). A music-only stem export would make it a file track later."
+}

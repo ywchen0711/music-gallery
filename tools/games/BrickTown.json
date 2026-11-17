@@ -1,0 +1,58 @@
+{
+ "folder": "BrickTown",
+ "repo": "bricktown",
+ "lobbyId": "bricktown",
+ "kind": "procedural",
+ "tracks": [
+  {
+   "key": "day",
+   "scene": "town",
+   "where": {
+    "zh": "白天場景的配樂（〈卡在樹上的風箏〉公園・午後）",
+    "en": "Score under daytime scenes (The Kite in the Tree, the park in the afternoon)"
+   },
+   "name": {
+    "zh": "積木小鎮午後",
+    "en": "Brick Town Afternoon"
+   },
+   "mood": "cheerful",
+   "play": "M.renderScore({len: 31, lines: [], scenes: [{t0: 0, t1: 31, tod: 'day'}]}).then((b) => { const c = M.audioCtx(), s = c.createBufferSource(); s.buffer = b; s.connect(c.destination); s.start(c.currentTime); })",
+   "loopSec": 9.6,
+   "renderSec": 30,
+   "sameAs": "paperpuppets/day"
+  },
+  {
+   "key": "evening",
+   "scene": "event",
+   "where": {
+    "zh": "黃昏與夜晚場景的配樂（公園・黃昏）",
+    "en": "Score under evening and night scenes (the park at dusk)"
+   },
+   "name": {
+    "zh": "風箏落日",
+    "en": "Kite at Sundown"
+   },
+   "mood": "calm",
+   "play": "M.renderScore({len: 31, lines: [], scenes: [{t0: 0, t1: 31, tod: 'evening'}]}).then((b) => { const c = M.audioCtx(), s = c.createBufferSource(); s.buffer = b; s.connect(c.destination); s.start(c.currentTime); })",
+   "loopSec": 12.632,
+   "renderSec": 30,
+   "sameAs": "paperpuppets/evening"
+  }
+ ],
+ "harness": {
+  "module": true,
+  "scripts": [
+   "js/audio.js"
+  ],
+  "pre": "",
+  "init": "M.audioCtx();",
+  "notes": "js/audio.js is byte-identical to PaperPuppets' (same score generator). renderScore(T) renders the score in its own native OfflineAudioContext (22.05 kHz) and returns a Promise<AudioBuffer>, which 'play' plays through audioCtx(). DOUBT: renderer must leave window.OfflineAudioContext native and await the Promise returned by 'play' before its own render."
+ },
+ "skipped": [
+  {
+   "what": "series/neighbours/audio/ep1/*.mp3",
+   "why": "recorded voice lines (neural TTS), not music"
+  }
+ ],
+ "notes": "Same music as PaperPuppets (shared framework). Day = 100 bpm with bird chirps, evening = 76 bpm with crickets. If the gallery should not list duplicate songs, keep only one of the two games."
+}

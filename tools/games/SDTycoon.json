@@ -1,0 +1,10 @@
+{
+  "folder": "SDTycoon",
+  "repo": "sd-tycoon",
+  "lobbyId": "sdtycoon",
+  "kind": "none",
+  "noneReason": "only sound effects (short oscillator sweeps in js/ui.js), no music",
+  "tracks": [],
+  "skipped": [],
+  "notes": ""
+}

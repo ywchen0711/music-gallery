@@ -1,0 +1,10 @@
+{
+  "folder": "SpellingBee",
+  "repo": "spelling-bee",
+  "lobbyId": "spelling-bee",
+  "kind": "none",
+  "noneReason": "only speech synthesis word readout (js/speech.js) and blips, no music",
+  "tracks": [],
+  "skipped": [],
+  "notes": ""
+}

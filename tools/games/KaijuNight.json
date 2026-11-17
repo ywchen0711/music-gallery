@@ -1,0 +1,10 @@
+{
+  "folder": "KaijuNight",
+  "repo": "kaiju-night",
+  "lobbyId": "kaiju-night",
+  "kind": "none",
+  "noneReason": "only sound effects and ambience: js/audio.js has recorded/synth impacts, roars, rain/wind noise and a constant low sawtooth drone (no notes, no sequencer); no music files (sfx/*.mp3 are Kenney impact/sci-fi sounds)",
+  "tracks": [],
+  "skipped": [{"what": "Audio drone (js/audio.js start(), tension())", "why": "static detuned-saw drone ambience, no melody or rhythm"}, {"what": "sfx/*.mp3", "why": "sound effects (Kenney CC0 Impact/Sci-fi Sounds)"}],
+  "notes": "grep for music/bpm/melody in js and index.html finds nothing musical."
+}

@@ -1,0 +1,25 @@
+{
+  "folder": "Mistbrook",
+  "repo": "mistbrook",
+  "lobbyId": "mistbrook",
+  "kind": "procedural",
+  "tracks": [
+    { "key": "explore", "scene": "field",
+      "where": {"zh": "探索時（村莊、溪邊、哥布林營地、廢墟祠堂），戰鬥以外都是這首", "en": "While exploring (the village, the stream, the goblin camp, the ruined shrine): everywhere outside battle"},
+      "name": {"zh": "霧溪暮色", "en": "Dusk over Mistbrook"}, "mood": "calm",
+      "play": "M.musicMode('explore'); M.initAudio();", "loopSec": 19.2, "renderSec": 39 },
+    { "key": "combat", "scene": "battle",
+      "where": {"zh": "回合制戰鬥", "en": "Turn-based battles"},
+      "name": {"zh": "刀劍與骰", "en": "Steel and Dice"}, "mood": "tense",
+      "play": "M.musicMode('combat'); M.initAudio();", "loopSec": 9.6, "renderSec": 30 }
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "",
+    "init": "M.AMB.crickets = 0;",
+    "notes": "initAudio() both creates the context and starts the (single, adaptive) score, so it is called in play after musicMode() picks the mode; init only silences the cricket chirps. The score is 4 pad chords + arpeggio: explore bars are 4.8 s, combat bars 2.4 s, timed by setTimeout. initAudio() also starts a wind-noise ambience bed (lowpassed noise, gain 0.07 x 0.5) that cannot be switched off without editing the game, so it will be faintly under both renders."
+  },
+  "skipped": [],
+  "notes": "One adaptive score with two modes (musicMode('explore'|'combat')), not separate songs. No music files in the repo."
+}

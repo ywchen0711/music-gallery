@@ -1,0 +1,264 @@
+{
+ "folder": "RelicDepths",
+ "repo": "relic-depths",
+ "lobbyId": "relicdepths",
+ "kind": "procedural",
+ "tracks": [
+  {
+   "key": "title",
+   "scene": "title",
+   "where": {
+    "zh": "標題畫面",
+    "en": "Title screen"
+   },
+   "name": {
+    "zh": "聖物深淵",
+    "en": "Into the Relic Depths"
+   },
+   "mood": "epic",
+   "play": "AU.music('title')",
+   "loopSec": 48.0,
+   "renderSec": 48,
+   "sameAs": "crystalechoes/title"
+  },
+  {
+   "key": "town",
+   "scene": "town",
+   "where": {
+    "zh": "暮光營地",
+    "en": "Dusk Camp, the home base"
+   },
+   "name": {
+    "zh": "暮光營火",
+    "en": "Campfire at Dusk"
+   },
+   "mood": "calm",
+   "play": "AU.music('town')",
+   "loopSec": 16.27,
+   "renderSec": 33,
+   "sameAs": "crystalechoes/town"
+  },
+  {
+   "key": "world",
+   "scene": "field",
+   "where": {
+    "zh": "第一幕：荒野",
+    "en": "Act I: the Wilds"
+   },
+   "name": {
+    "zh": "腐土長風",
+    "en": "Wind over the Rotting Wilds"
+   },
+   "mood": "heroic",
+   "play": "AU.music('world')",
+   "loopSec": 15.24,
+   "renderSec": 31,
+   "sameAs": "crystalechoes/world"
+  },
+  {
+   "key": "forest",
+   "scene": "dungeon",
+   "where": {
+    "zh": "第一幕：黑暗森林",
+    "en": "Act I: the Dark Forest"
+   },
+   "name": {
+    "zh": "黑森林低語",
+    "en": "Murmurs of the Black Wood"
+   },
+   "mood": "mysterious",
+   "play": "AU.music('forest')",
+   "loopSec": 20.0,
+   "renderSec": 40,
+   "sameAs": "crystalechoes/forest"
+  },
+  {
+   "key": "mine",
+   "scene": "dungeon",
+   "where": {
+    "zh": "第一幕：地下墓穴、墓穴深處",
+    "en": "Act I: the Catacombs and the Deep Crypt"
+   },
+   "name": {
+    "zh": "墓穴燭火",
+    "en": "Candles in the Crypt"
+   },
+   "mood": "dark",
+   "play": "AU.music('mine')",
+   "loopSec": 41.74,
+   "renderSec": 84,
+   "sameAs": "crystalechoes/mine"
+  },
+  {
+   "key": "highland",
+   "scene": "field",
+   "where": {
+    "zh": "第二幕：焦土沙漠、乾涸河谷",
+    "en": "Act II: the Scorched Desert and the Dry Riverbed"
+   },
+   "name": {
+    "zh": "焦土長征",
+    "en": "Scorched Canyon Trail"
+   },
+   "mood": "heroic",
+   "play": "AU.music('highland')",
+   "loopSec": 34.29,
+   "renderSec": 69
+  },
+  {
+   "key": "seaside",
+   "scene": "field",
+   "where": {
+    "zh": "第二幕：失落海岸、海蝕洞",
+    "en": "Act II: the Lost Coast and the Sea Cave"
+   },
+   "name": {
+    "zh": "海蝕潮聲",
+    "en": "Tides of the Lost Coast"
+   },
+   "mood": "calm",
+   "play": "AU.music('seaside')",
+   "loopSec": 36.92,
+   "renderSec": 74
+  },
+  {
+   "key": "dungeon2",
+   "scene": "dungeon",
+   "where": {
+    "zh": "第三幕：沉沒神殿（外庭、淹沒迴廊、祭司之間、深淵祭壇）",
+    "en": "Act III: the Sunken Temple (courtyard, flooded halls, priests' chamber, abyssal altar)"
+   },
+   "name": {
+    "zh": "沉沒祭壇",
+    "en": "The Drowned Altar"
+   },
+   "mood": "mysterious",
+   "play": "AU.music('dungeon2')",
+   "loopSec": 21.82,
+   "renderSec": 44,
+   "sameAs": "crystalechoes/dungeon2"
+  },
+  {
+   "key": "sky",
+   "scene": "dungeon",
+   "where": {
+    "zh": "第四幕：天空廢墟（浮空階梯、雲之庭、風之塔、天頂）",
+    "en": "Act IV: the Sky Ruins (floating stairs, cloud garden, wind tower, zenith)"
+   },
+   "name": {
+    "zh": "浮空階梯",
+    "en": "Stairway to the Sky"
+   },
+   "mood": "epic",
+   "play": "AU.music('sky')",
+   "loopSec": 17.78,
+   "renderSec": 36,
+   "sameAs": "crystalechoes/sky"
+  },
+  {
+   "key": "last",
+   "scene": "dungeon",
+   "where": {
+    "zh": "第五幕：深淵，以及死王宮殿",
+    "en": "Act V: the Abyss, and the Dead King's Palace"
+   },
+   "name": {
+    "zh": "深淵王座",
+    "en": "Throne of the Abyss"
+   },
+   "mood": "dark",
+   "play": "AU.music('last')",
+   "loopSec": 14.55,
+   "renderSec": 30,
+   "sameAs": "crystalechoes/last"
+  },
+  {
+   "key": "battle",
+   "scene": "battle",
+   "where": {
+    "zh": "荒野、沙漠、海岸、天空的戰鬥",
+    "en": "Battles in the wilds, desert, coast and sky"
+   },
+   "name": {
+    "zh": "荒野廝殺",
+    "en": "Skirmish in the Wilds"
+   },
+   "mood": "heroic",
+   "play": "AU.music('battle')",
+   "loopSec": 25.26,
+   "renderSec": 51,
+   "sameAs": "crystalechoes/battle"
+  },
+  {
+   "key": "battle2",
+   "scene": "battle",
+   "where": {
+    "zh": "墓穴、神殿與深淵中的戰鬥",
+    "en": "Battles in the crypts, the temple and the Abyss"
+   },
+   "name": {
+    "zh": "深處惡鬥",
+    "en": "Fight in the Depths"
+   },
+   "mood": "tense",
+   "play": "AU.music('battle2')",
+   "loopSec": 24.0,
+   "renderSec": 48,
+   "sameAs": "crystalechoes/battle2"
+  },
+  {
+   "key": "boss",
+   "scene": "boss",
+   "where": {
+    "zh": "各幕頭目、秘境與懸賞頭目",
+    "en": "Act bosses, rift and bounty bosses"
+   },
+   "name": {
+    "zh": "魔王現身",
+    "en": "The Demon Lord Rises"
+   },
+   "mood": "tense",
+   "play": "AU.music('boss')",
+   "loopSec": 12.0,
+   "renderSec": 30,
+   "sameAs": "crystalechoes/boss"
+  },
+  {
+   "key": "ending",
+   "scene": "ending",
+   "where": {
+    "zh": "結局",
+    "en": "Ending"
+   },
+   "name": {
+    "zh": "聖物歸位",
+    "en": "The Relics Laid to Rest"
+   },
+   "mood": "romantic",
+   "play": "AU.music('ending')",
+   "loopSec": 54.86,
+   "renderSec": 55,
+   "sameAs": "crystalechoes/ending"
+  }
+ ],
+ "harness": {
+  "module": true,
+  "scripts": [
+   "js/audio.js"
+  ],
+  "pre": "",
+  "init": "window.AU = new M.Audio(); AU.init();",
+  "notes": "js/audio.js exports one class, Audio (no imports, no load-time globals). init() builds the context and starts setInterval(25ms) scheduling; music(name) switches song."
+ },
+ "skipped": [
+  {
+   "what": "SONGS.night, inn, sanctum, anvil, azurelle, dungeon",
+   "why": "carried over in the shared engine from Crystal Echoes; no Relic Depths act level, camp, rift or palace uses them (the camp overrides its anvil theme with bgm 'town')"
+  },
+  {
+   "what": "SONGS.victory",
+   "why": "victory fanfare under the results screen (6.9 s loop)"
+  }
+ ],
+ "notes": "DUPLICATE WARNING: js/audio.js is byte-identical to CrystalEchoes/js/audio.js, so every track here renders exactly like the CrystalEchoes track with the same key (CrystalEchoes skips highland and seaside as unused there, so those two are only listed here). Level -> song: ACTS levels and LOOK themes in js/dungeon.js, then THEMES[*].bgm in js/maps.js; field.js plays def.bgm || theme.bgm. Doubt: js/maps.js still defines the old Crystal Echoes maps (Whitesail Port etc.) in MAPS; I found no way to reach them from the camp, so their songs are skipped."
+}

@@ -1,0 +1,29 @@
+{
+  "folder": "JoshJasperRap",
+  "repo": "josh-jasper-rap",
+  "lobbyId": "joshjasperrap",
+  "kind": "file",
+  "tracks": [
+    {"key": "jinhua", "scene": "event", "where": {"zh": "金花阿嬤的三十秒表演（菜市場饒舌）", "en": "Grandma Jinhua's 30-second audition (market-stall rap)"}, "name": {"zh": "菜市場節拍", "en": "Market Stall Boom Bap"}, "mood": "playful", "file": "audio/sfx/beat_jinhua.mp3", "alt": [],
+     "orig": {"title": "beat_jinhua (boom bap, 90 BPM)", "artist": "synthesized by the game's own tools/perform.py", "pack": "Josh & Jasper 大嘻哈時代3 (original beats)", "license": "original to this repo", "url": "https://github.com/ywchen0711/josh-jasper-rap"}},
+    {"key": "paomian", "scene": "event", "where": {"zh": "Lil 泡麵的三十秒表演（Trap）", "en": "Lil Paomian's 30-second audition (trap)"}, "name": {"zh": "鍊條叮噹", "en": "Chains That Clink"}, "mood": "tense", "file": "audio/sfx/beat_paomian.mp3", "alt": [],
+     "orig": {"title": "beat_paomian (trap, 140 BPM)", "artist": "synthesized by the game's own tools/perform.py", "pack": "Josh & Jasper 大嘻哈時代3 (original beats)", "license": "original to this repo", "url": "https://github.com/ywchen0711/josh-jasper-rap"}},
+    {"key": "kaiwen", "scene": "event", "where": {"zh": "凱文王子的三十秒表演（R&B）", "en": "Prince Kaiwen's 30-second audition (R&B)"}, "name": {"zh": "月光轉音", "en": "Moonlit Vocal Runs"}, "mood": "romantic", "file": "audio/sfx/beat_kaiwen.mp3", "alt": [],
+     "orig": {"title": "beat_kaiwen (R&B, 70 BPM)", "artist": "synthesized by the game's own tools/perform.py", "pack": "Josh & Jasper 大嘻哈時代3 (original beats)", "license": "original to this repo", "url": "https://github.com/ywchen0711/josh-jasper-rap"}},
+    {"key": "ajie", "scene": "event", "where": {"zh": "外送員阿傑的三十秒表演", "en": "Delivery rider Ajie's 30-second audition"}, "name": {"zh": "外送疾行", "en": "Delivery Dash"}, "mood": "cheerful", "file": "audio/sfx/beat_ajie.mp3", "alt": [],
+     "orig": {"title": "beat_ajie (boom bap, 96 BPM)", "artist": "synthesized by the game's own tools/perform.py", "pack": "Josh & Jasper 大嘻哈時代3 (original beats)", "license": "original to this repo", "url": "https://github.com/ywchen0711/josh-jasper-rap"}},
+    {"key": "max", "scene": "event", "where": {"zh": "肌肉 Max 的三十秒表演（House，邊做伏地挺身）", "en": "Muscle Max's 30-second audition (house, with push-ups)"}, "name": {"zh": "鐵人律動", "en": "Iron Pulse"}, "mood": "epic", "file": "audio/sfx/beat_max.mp3", "alt": [],
+     "orig": {"title": "beat_max (house, 124 BPM)", "artist": "synthesized by the game's own tools/perform.py", "pack": "Josh & Jasper 大嘻哈時代3 (original beats)", "license": "original to this repo", "url": "https://github.com/ywchen0711/josh-jasper-rap"}},
+    {"key": "youyu", "scene": "event", "where": {"zh": "MC 憂鬱的三十秒表演（Lo-fi）", "en": "MC Melancholy's 30-second audition (lo-fi)"}, "name": {"zh": "一片雲的獨白", "en": "Monologue of a Cloud"}, "mood": "calm", "file": "audio/sfx/beat_youyu.mp3", "alt": [],
+     "orig": {"title": "beat_youyu (lo-fi, 72 BPM)", "artist": "synthesized by the game's own tools/perform.py", "pack": "Josh & Jasper 大嘻哈時代3 (original beats)", "license": "original to this repo", "url": "https://github.com/ywchen0711/josh-jasper-rap"}},
+    {"key": "josh", "scene": "event", "where": {"zh": "Josh 的三十秒表演（taco 配滷肉飯）", "en": "Josh's 30-second audition (tacos and braised pork rice)"}, "name": {"zh": "滷肉塔可", "en": "Taco Braised Pork Groove"}, "mood": "cheerful", "file": "audio/sfx/beat_josh.mp3", "alt": [],
+     "orig": {"title": "beat_josh (boom bap, 92 BPM)", "artist": "synthesized by the game's own tools/perform.py", "pack": "Josh & Jasper 大嘻哈時代3 (original beats)", "license": "original to this repo", "url": "https://github.com/ywchen0711/josh-jasper-rap"}},
+    {"key": "jasper", "scene": "event", "where": {"zh": "Jasper 的三十秒表演（恐龍吼、mic drop）", "en": "Jasper's 30-second audition (dino roar, mic drop)"}, "name": {"zh": "恐龍落麥", "en": "Dino Mic Drop"}, "mood": "playful", "file": "audio/sfx/beat_jasper.mp3", "alt": [],
+     "orig": {"title": "beat_jasper (trap, 140 BPM)", "artist": "synthesized by the game's own tools/perform.py", "pack": "Josh & Jasper 大嘻哈時代3 (original beats)", "license": "original to this repo", "url": "https://github.com/ywchen0711/josh-jasper-rap"}}
+  ],
+  "skipped": [
+    {"what": "audio/rap1/*.mp3", "why": "rap/sung vocals and dialogue (edge-tts), voice lines"},
+    {"what": "audio/sfx/ (airhorn, applause, laugh, drumroll, chain, roar, micdrop...)", "why": "sound effects and CC0 crowd recordings"}
+  ],
+  "notes": "No CREDITS.md. README says every beat is synthesized by the repo's own tools/perform.py (boom bap, trap, R&B, house, lo-fi; kick, snare, hat, 808, chords); songs defined in tools/songs.py. perform.py writes audio/sfx/beat_<id>.mp3 = the instrumental beat alone, played as a sample at the start of each 30 s performance (js/films/rap1.js line 76: sfx('sample', S.beatFile)). 'orig' is therefore our description, not copied from a credits file. Each file is ~30-34 s (audio/perf.json len: kaiwen 32.5, jinhua 33.6, paomian 32.5, ajie 34.1, max 32.6, youyu 30.1, josh 32.9, jasper 32.5), plays once, not looped."
+}

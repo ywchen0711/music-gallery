@@ -1,0 +1,192 @@
+{
+ "folder": "ChosenOnes",
+ "repo": "chosen-ones",
+ "lobbyId": "chosenones",
+ "kind": "procedural",
+ "tracks": [
+  {
+   "key": "title",
+   "scene": "title",
+   "where": {
+    "zh": "標題畫面",
+    "en": "Title screen"
+   },
+   "name": {
+    "zh": "命運之石",
+    "en": "The Fate Stones"
+   },
+   "mood": "heroic",
+   "play": "M.music('title')",
+   "loopSec": 13.04,
+   "renderSec": 30
+  },
+  {
+   "key": "field",
+   "scene": "field",
+   "where": {
+    "zh": "世界地圖",
+    "en": "World map"
+   },
+   "name": {
+    "zh": "八英雄之路",
+    "en": "Road of the Eight"
+   },
+   "mood": "heroic",
+   "play": "M.music('field')",
+   "loopSec": 16.0,
+   "renderSec": 32,
+   "sameAs": "asharia/field"
+  },
+  {
+   "key": "town",
+   "scene": "town",
+   "where": {
+    "zh": "各個城鎮",
+    "en": "The towns"
+   },
+   "name": {
+    "zh": "公會與旅店",
+    "en": "Guilds and Inns"
+   },
+   "mood": "cheerful",
+   "play": "M.music('town')",
+   "loopSec": 18.46,
+   "renderSec": 37,
+   "sameAs": "asharia/town"
+  },
+  {
+   "key": "castle",
+   "scene": "town",
+   "where": {
+    "zh": "布雷索城、桑達王宮、天空神殿",
+    "en": "Bressel Castle, Sandar Palace and the Sky Shrine"
+   },
+   "name": {
+    "zh": "布雷索王廷",
+    "en": "Halls of Bressel"
+   },
+   "mood": "heroic",
+   "play": "M.music('castle')",
+   "loopSec": 14.29,
+   "renderSec": 30,
+   "sameAs": "asharia/castle"
+  },
+  {
+   "key": "dungeon",
+   "scene": "dungeon",
+   "where": {
+    "zh": "迷宮（預設）",
+    "en": "Dungeons (the default)"
+   },
+   "name": {
+    "zh": "迷宮深處",
+    "en": "Into the Labyrinth"
+   },
+   "mood": "mysterious",
+   "play": "M.music('dungeon')",
+   "loopSec": 10.0,
+   "renderSec": 30,
+   "sameAs": "asharia/dungeon"
+  },
+  {
+   "key": "battle",
+   "scene": "battle",
+   "where": {
+    "zh": "一般戰鬥",
+    "en": "Ordinary battles"
+   },
+   "name": {
+    "zh": "拔劍",
+    "en": "Blades Drawn"
+   },
+   "mood": "tense",
+   "play": "M.music('battle')",
+   "loopSec": 10.0,
+   "renderSec": 30,
+   "sameAs": "asharia/battle"
+  },
+  {
+   "key": "boss",
+   "scene": "boss",
+   "where": {
+    "zh": "頭目戰、魔王城、村莊遇襲",
+    "en": "Boss battles, the Dark Castle and the attack on the village"
+   },
+   "name": {
+    "zh": "使徒降臨",
+    "en": "The Apostle Descends"
+   },
+   "mood": "dark",
+   "play": "M.music('boss')",
+   "loopSec": 10.91,
+   "renderSec": 30,
+   "sameAs": "asharia/boss"
+  },
+  {
+   "key": "boss2",
+   "scene": "boss",
+   "where": {
+    "zh": "頭目變身後的第二形態",
+    "en": "A boss's second form, after it transforms mid-battle"
+   },
+   "name": {
+    "zh": "真身覺醒",
+    "en": "True Form Awakens"
+   },
+   "mood": "tense",
+   "play": "M.music('boss2')",
+   "loopSec": 8.84,
+   "renderSec": 30
+  },
+  {
+   "key": "sad",
+   "scene": "event",
+   "where": {
+    "zh": "全滅時與悲傷的劇情",
+    "en": "When the party is wiped out, and in sad story scenes"
+   },
+   "name": {
+    "zh": "失落的同伴",
+    "en": "Lost Companions"
+   },
+   "mood": "sad",
+   "play": "M.music('sad')",
+   "loopSec": 13.71,
+   "renderSec": 30,
+   "sameAs": "asharia/sad"
+  },
+  {
+   "key": "ending",
+   "scene": "ending",
+   "where": {
+    "zh": "結局",
+    "en": "Ending"
+   },
+   "name": {
+    "zh": "封印之後",
+    "en": "After the Seal"
+   },
+   "mood": "calm",
+   "play": "M.music('ending')",
+   "loopSec": 21.82,
+   "renderSec": 44,
+   "sameAs": "asharia/ending"
+  }
+ ],
+ "harness": {
+  "module": true,
+  "scripts": [
+   "js/audio.js"
+  ],
+  "pre": "try { localStorage.setItem('co.mute', '0'); } catch (e) {}",
+  "init": "M.unlock();",
+  "notes": "Mute state is read from localStorage 'co.mute' at load time. unlock() creates the context; music(name) schedules a whole loop and re-schedules with setTimeout."
+ },
+ "skipped": [
+  {
+   "what": "JINGLE win/levelup/inn/item/save",
+   "why": "jingles under 3 s"
+  }
+ ],
+ "notes": "DUPLICATE WARNING: all ten themes are note-for-note the same as the same-named themes in Ash Aria's js/audio.js (same engine, same data), so they render identically to AshAria's title/field/town/castle/dungeon/battle/boss/sad/ending (AshAria lists boss2 and title as unused). loopSec = max(melody beats, bass beats) x 60/bpm."
+}

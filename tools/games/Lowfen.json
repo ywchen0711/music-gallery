@@ -1,0 +1,14 @@
+{
+  "folder": "Lowfen",
+  "repo": "lowfen",
+  "lobbyId": "lowfen",
+  "kind": "none",
+  "noneReason": "no music: js/audio.js plays recorded CC0 effects from assets/sfx plus ambience beds (synth saw drone, brown-noise rumble, looping wind/rain/fire/static/dread samples); CREDITS.md lists only sound-effect sources",
+  "tracks": [],
+  "skipped": [
+    {"what": "assets/sfx/amb_dread_0.mp3", "why": "ambience bed built with ffmpeg from ogrebane 'Dark Ambiences' (credited under sound effects); it is a dread ambience layer mixed by room, not a song"},
+    {"what": "assets/sfx/amb_dread_1.mp3", "why": "same ambience source; not referenced by js/audio.js startBeds (only amb_dread_0 is looped)"},
+    {"what": "startBeds() drone in js/audio.js", "why": "three detuned sawtooth oscillators through a breathing lowpass; drone ambience, no melody"}
+  ],
+  "notes": "Surveyed read-only at commit d11eed4 while another agent was editing the folder; re-check if music is added later."
+}

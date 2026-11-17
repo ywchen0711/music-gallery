@@ -1,0 +1,99 @@
+{
+  "folder": "StarSquad",
+  "repo": "star-squad",
+  "lobbyId": "starsquad",
+  "kind": "procedural",
+  "tracks": [
+    {
+      "key": "hangar",
+      "scene": "menu",
+      "where": {"zh": "標題畫面與機庫（升級、出擊前）", "en": "Title screen and the hangar between stages"},
+      "name": {"zh": "機庫待命", "en": "Standing By in the Hangar"},
+      "mood": "calm",
+      "play": "M.music.play('hangar')",
+      "loopSec": 9.23,
+      "renderSec": 30
+    },
+    {
+      "key": "s1",
+      "scene": "field",
+      "where": {"zh": "第 1 關：小行星帶", "en": "Stage 1: the asteroid belt"},
+      "name": {"zh": "碎石星帶", "en": "Through the Rubble Belt"},
+      "mood": "heroic",
+      "play": "M.music.play('s1')",
+      "loopSec": 6.86,
+      "renderSec": 30
+    },
+    {
+      "key": "s2",
+      "scene": "field",
+      "where": {"zh": "第 2 關：霓虹星域", "en": "Stage 2: the neon sector"},
+      "name": {"zh": "霓虹星域", "en": "Neon Nebula Run"},
+      "mood": "playful",
+      "play": "M.music.play('s2')",
+      "loopSec": 6.4,
+      "renderSec": 30
+    },
+    {
+      "key": "s3",
+      "scene": "field",
+      "where": {"zh": "第 3 關：水晶星域", "en": "Stage 3: the crystal fields"},
+      "name": {"zh": "水晶迴廊", "en": "Crystal Corridor"},
+      "mood": "mysterious",
+      "play": "M.music.play('s3')",
+      "loopSec": 7.27,
+      "renderSec": 30
+    },
+    {
+      "key": "s4",
+      "scene": "field",
+      "where": {"zh": "第 4 關：熔爐", "en": "Stage 4: the forge"},
+      "name": {"zh": "熔爐烈焰", "en": "Heart of the Forge"},
+      "mood": "tense",
+      "play": "M.music.play('s4')",
+      "loopSec": 6.15,
+      "renderSec": 30
+    },
+    {
+      "key": "s5",
+      "scene": "field",
+      "where": {"zh": "第 5 關：敵軍核心", "en": "Stage 5: the enemy core"},
+      "name": {"zh": "直搗核心", "en": "Strike at the Core"},
+      "mood": "epic",
+      "play": "M.music.play('s5')",
+      "loopSec": 6.0,
+      "renderSec": 30
+    },
+    {
+      "key": "boss",
+      "scene": "boss",
+      "where": {"zh": "每一關的頭目戰", "en": "The boss of every stage"},
+      "name": {"zh": "巨艦來襲", "en": "The Dreadnought Arrives"},
+      "mood": "dark",
+      "play": "M.music.play('boss')",
+      "loopSec": 5.65,
+      "renderSec": 30
+    },
+    {
+      "key": "ending",
+      "scene": "ending",
+      "where": {"zh": "通關後的結局", "en": "Ending after the final stage"},
+      "name": {"zh": "群星歸航", "en": "Homeward Among the Stars"},
+      "mood": "romantic",
+      "play": "M.music.play('ending')",
+      "loopSec": 10.0,
+      "renderSec": 30
+    }
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "",
+    "init": "M.sfx.unlock();",
+    "notes": "js/audio.js has no imports. sfx.unlock() creates the context; music.play() is a look-ahead scheduler on setInterval(150 ms), beat = 60/bpm/2, 4 bars of 8 steps = 32-step loop. musicOn defaults to true."
+  },
+  "skipped": [
+    {"what": "sfx 'clear', 'warn', 'revive'", "why": "short jingles / alarms"}
+  ],
+  "notes": "Stage music is 's' + stage number (js/main.js); stage backgrounds from js/data.js STAGES."
+}

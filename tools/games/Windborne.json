@@ -1,0 +1,126 @@
+{
+ "folder": "Windborne",
+ "repo": "windborne",
+ "lobbyId": "windborne",
+ "kind": "procedural",
+ "tracks": [
+  {
+   "key": "field-day",
+   "scene": "field",
+   "where": {
+    "zh": "白天在島上自由探索（也是標題畫面背景）",
+    "en": "Roaming the island by day (also behind the title screen)"
+   },
+   "name": {
+    "zh": "曙光高原",
+    "en": "Wind over Dawn Plateau"
+   },
+   "mood": "calm",
+   "play": "M.setMood('field'); setInterval(() => M.tick(0.01, false), 10);",
+   "loopSec": null,
+   "renderSec": 75,
+   "sameAs": "sagecanyon/field-day"
+  },
+  {
+   "key": "field-night",
+   "scene": "field",
+   "where": {
+    "zh": "夜晚在島上探索（音域低一個八度、更稀疏）",
+    "en": "Roaming the island at night (an octave lower, sparser)"
+   },
+   "name": {
+    "zh": "迷霧林夜語",
+    "en": "Night in Mistwood"
+   },
+   "mood": "mysterious",
+   "play": "M.setMood('field'); setInterval(() => M.tick(0.01, true), 10);",
+   "loopSec": null,
+   "renderSec": 75,
+   "sameAs": "sagecanyon/field-night"
+  },
+  {
+   "key": "village",
+   "scene": "town",
+   "where": {
+    "zh": "風谷村（村落 70 公尺內）",
+    "en": "Windhollow Village (within 70 m of the village)"
+   },
+   "name": {
+    "zh": "風谷村小調",
+    "en": "Windhollow Village Air"
+   },
+   "mood": "cheerful",
+   "play": "M.setMood('village'); setInterval(() => M.tick(0.01, false), 10);",
+   "loopSec": 6.08,
+   "renderSec": 30,
+   "sameAs": "sagecanyon/village"
+  },
+  {
+   "key": "shrine",
+   "scene": "dungeon",
+   "where": {
+    "zh": "符文神殿與大神殿內部",
+    "en": "Inside the rune shrines and great shrines"
+   },
+   "name": {
+    "zh": "古符低鳴",
+    "en": "Hum of the Old Runes"
+   },
+   "mood": "mysterious",
+   "play": "M.setMood('shrine'); setInterval(() => M.tick(0.01, false), 10);",
+   "loopSec": null,
+   "renderSec": 75,
+   "sameAs": "sagecanyon/shrine"
+  },
+  {
+   "key": "battle",
+   "scene": "battle",
+   "where": {
+    "zh": "被敵人發現、戰鬥中",
+    "en": "When enemies spot you and during fights"
+   },
+   "name": {
+    "zh": "哨兵甦醒",
+    "en": "The Sentinels Stir"
+   },
+   "mood": "tense",
+   "play": "M.setMood('field'); M.combat(false); setInterval(() => M.combat(false), 500); setInterval(() => M.tick(0.01, false), 10);",
+   "loopSec": 7.27,
+   "renderSec": 30,
+   "sameAs": "sagecanyon/battle"
+  },
+  {
+   "key": "boss",
+   "scene": "boss",
+   "where": {
+    "zh": "與四大魔影及城堡中的黑潮魔影決戰",
+    "en": "Fights with the Blights and the Gloomshade in the castle"
+   },
+   "name": {
+    "zh": "黑潮魔影",
+    "en": "Rise of the Gloomshade"
+   },
+   "mood": "epic",
+   "play": "M.combat(true); setInterval(() => M.combat(true), 500); setInterval(() => M.tick(0.01, false), 10);",
+   "loopSec": 6.4,
+   "renderSec": 30,
+   "sameAs": "sagecanyon/boss"
+  }
+ ],
+ "harness": {
+  "module": true,
+  "scripts": [
+   "js/audio.js"
+  ],
+  "pre": "try { localStorage.setItem('wb.mute', '0'); localStorage.setItem('wb.vol', '0.8'); } catch (e) {}",
+  "init": "M.unlock();",
+  "notes": "js/audio.js is self-contained (no imports). Music is driven by M.tick(dt, night), which the game calls every frame; play therefore starts a 10 ms setInterval. Battle/boss only sound while combatT > 0, so play keeps calling M.combat() every 0.5 s (it sets combatT = 2.5). Mute/volume are read from localStorage 'wb.mute'/'wb.vol' at load."
+ },
+ "skipped": [
+  {
+   "what": "sfx() cues 'jingle', 'orb', 'tower', 'heart', 'cook'",
+   "why": "short fanfares/sound effects"
+  }
+ ],
+ "notes": "Same sound engine as SageCanyon (identical music code), so these six tracks will sound like SageCanyon's; the gallery may want to keep only one copy. tick() also starts a quiet looping wind noise (ambience) that will be faintly audible under every track. Field/shrine are random phrases (no fixed loop). Battle 132 bpm, 32 half-beat steps = 7.27 s; boss 150 bpm = 6.4 s; village 16 x 0.38 s = 6.08 s."
+}

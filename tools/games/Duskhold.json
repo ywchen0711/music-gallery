@@ -1,0 +1,10 @@
+{
+  "folder": "Duskhold",
+  "repo": "duskhold",
+  "lobbyId": "duskhold",
+  "kind": "none",
+  "noneReason": "only sound effects (js/audio.js exports sfx with short synthesized one-shot tones, no sequencer; no audio files committed)",
+  "tracks": [],
+  "skipped": [],
+  "notes": ""
+}

@@ -1,0 +1,10 @@
+{
+  "folder": "Teahouse",
+  "repo": "teahouse",
+  "lobbyId": "teahouse",
+  "kind": "none",
+  "noneReason": "no audio at all (no AudioContext, no Audio elements, no audio files)",
+  "tracks": [],
+  "skipped": [],
+  "notes": ""
+}

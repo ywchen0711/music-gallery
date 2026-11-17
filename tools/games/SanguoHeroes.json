@@ -1,0 +1,49 @@
+{
+  "folder": "SanguoHeroes",
+  "repo": "sanguo-heroes",
+  "lobbyId": "sanguoheroes",
+  "kind": "procedural",
+  "tracks": [
+    {
+      "key": "field",
+      "scene": "field",
+      "where": {"zh": "在中原大地上騎馬遊歷、山洞之中", "en": "Riding across the open land of the Central Plains, and inside caves"},
+      "name": {"zh": "中原策馬", "en": "Riding the Central Plains"},
+      "mood": "calm",
+      "play": "A.music('field')",
+      "loopSec": 20.87,
+      "renderSec": 42
+    },
+    {
+      "key": "town",
+      "scene": "town",
+      "where": {"zh": "城池與城內、擂台之後", "en": "Cities and their streets, and after arena bouts"},
+      "name": {"zh": "洛陽城中", "en": "Within the Walls of Luoyang"},
+      "mood": "cheerful",
+      "play": "A.music('town')",
+      "loopSec": 18.46,
+      "renderSec": 37
+    },
+    {
+      "key": "battle",
+      "scene": "battle",
+      "where": {"zh": "戰鬥、擂台比武、宿敵來襲", "en": "Battles, arena duels and nemesis attacks"},
+      "name": {"zh": "群雄交鋒", "en": "Clash of the Warlords"},
+      "mood": "heroic",
+      "play": "A.music('battle')",
+      "loopSec": 12.8,
+      "renderSec": 30
+    }
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "",
+    "init": "window.A = new M.Audio(); window.dispatchEvent(new Event('keydown'));",
+    "notes": "js/audio.js exports class Audio (shadows the DOM Audio only inside the module) and has no imports. The AudioContext is created by a 'wake' listener on keydown/pointerdown, so init dispatches a synthetic keydown on window. The tune is generated from a seeded LCG (64 steps, beat = 60/bpm/2), so it is deterministic; loop = 64 steps."
+  },
+  "skipped": [
+    {"what": "sfx('level'), sfx('encounter')", "why": "short jingles"}
+  ],
+  "notes": "Seeds are fixed in TUNES, so each render is identical to in-game."
+}

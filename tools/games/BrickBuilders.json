@@ -1,0 +1,19 @@
+{
+  "folder": "BrickBuilders",
+  "repo": "brick-builders",
+  "lobbyId": "brickbuilders",
+  "kind": "procedural",
+  "tracks": [
+    {"key": "open", "scene": "field", "where": {"zh": "空蕩島上的探索與建造（全島同一種曲風）", "en": "Exploring and building on the Empty Isle (one mood for the whole island)"}, "name": {"zh": "空島箏聲", "en": "Zither on the Empty Isle"}, "mood": "calm", "play": "M.music.mood('open'); M.music.fight(false);", "loopSec": null, "renderSec": 75},
+    {"key": "fight", "scene": "battle", "where": {"zh": "附近有怪物（或哥布林王）來襲時，加上鼓聲與快速琴音", "en": "When monsters (or the awake Goblin King) are close: frame drum and fast zither runs"}, "name": {"zh": "鎚下迎敵", "en": "Hammer Up, Foes Ahead"}, "mood": "tense", "play": "M.music.mood('open'); M.music.fight(true);", "loopSec": null, "renderSec": 75}
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/music.js"],
+    "pre": "",
+    "init": "import('/brick-builders/js/sound.js').then((s) => { s.wake(); M.music.start(); });",
+    "notes": "js/music.js is an ES module that imports ./sound.js; it only plays once sound.js's wake() has created the AudioContext (tick() returns while audio().ac is null). wake() is not re-exported by music.js, so init imports the SAME module URL (/brick-builders/js/sound.js, which is what ./sound.js resolves to) and calls wake(), then music.start() (setInterval 200 ms, 0.6 s look-ahead). init returns a Promise: the renderer must await it before play/render. If init is not awaited, put the same code in play."
+  },
+  "skipped": [],
+  "notes": "Generative music: Karplus-Strong guzheng random-walking a pentatonic scale (Math.random), so there is no fixed loop; loopSec null, renderSec 75. game.js never calls music.mood(), so the island always uses the 'open' mood; only the fight flag changes it. music.js and sound.js are byte-identical to WulinWorld's. sound.js ambience (wind/birds/rain noise) is not music and not started here."
+}

@@ -1,0 +1,12 @@
+{
+  "folder": "Sango",
+  "repo": "Sango",
+  "lobbyId": "sango",
+  "kind": "none",
+  "noneReason": "only sound effects (js/sound.js S.Sound FX table: hits, arrows, magic, loot, win/lose stingers; no sequencer or music)",
+  "tracks": [],
+  "skipped": [
+    {"what": "js/sound.js FX.win / FX.lose", "why": "short stingers under 2 s"}
+  ],
+  "notes": "Repo name is capitalised 'Sango' (url /Sango/)."
+}

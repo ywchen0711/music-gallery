@@ -1,0 +1,29 @@
+{
+  "folder": "JasperGhost",
+  "repo": "jasper-ghost-house",
+  "lobbyId": "jasperghost",
+  "kind": "procedural",
+  "tracks": [
+    {"key": "title", "scene": "title", "where": {"zh": "標題畫面", "en": "Title screen"}, "name": {"zh": "幽暗書頁", "en": "The Gloomy Pages"}, "mood": "mysterious", "play": "M.music('title')", "loopSec": 11.43, "renderSec": 30},
+    {"key": "f1-dark", "scene": "dungeon", "where": {"zh": "一樓：鬼魂未清的暗房", "en": "Ground floor rooms before the ghosts are caught (lights off)"}, "name": {"zh": "大廳暗影", "en": "Shadows in the Hall"}, "mood": "mysterious", "play": "M.music('f1_dark')", "loopSec": 13.33, "renderSec": 30},
+    {"key": "f1", "scene": "town", "where": {"zh": "一樓：燈亮之後", "en": "Ground floor rooms once the lights come on"}, "name": {"zh": "燈火大廳", "en": "Lamplit Hall"}, "mood": "cheerful", "play": "M.music('f1')", "loopSec": 10, "renderSec": 30},
+    {"key": "f2-dark", "scene": "dungeon", "where": {"zh": "二樓：暗房", "en": "Upper floor rooms with the lights off"}, "name": {"zh": "樓上的呢喃", "en": "Whispers Upstairs"}, "mood": "mysterious", "play": "M.music('f2_dark')", "loopSec": 12.31, "renderSec": 30},
+    {"key": "f2", "scene": "town", "where": {"zh": "二樓：燈亮之後", "en": "Upper floor rooms once lit"}, "name": {"zh": "二樓音樂盒", "en": "Upstairs Music Box"}, "mood": "cheerful", "play": "M.music('f2')", "loopSec": 9.6, "renderSec": 30},
+    {"key": "f3-dark", "scene": "dungeon", "where": {"zh": "地下室：暗房", "en": "Basement rooms with the lights off"}, "name": {"zh": "地窖低語", "en": "Whispers in the Cellar"}, "mood": "dark", "play": "M.music('f3_dark')", "loopSec": 14.55, "renderSec": 30},
+    {"key": "f3", "scene": "town", "where": {"zh": "地下室：燈亮之後", "en": "Basement rooms once lit"}, "name": {"zh": "酒窖燭光", "en": "Candles in the Wine Cellar"}, "mood": "calm", "play": "M.music('f3')", "loopSec": 10.67, "renderSec": 30},
+    {"key": "f4-dark", "scene": "dungeon", "where": {"zh": "閣樓與屋頂：暗房", "en": "Attic and roof rooms with the lights off"}, "name": {"zh": "閣樓風聲", "en": "Wind in the Attic"}, "mood": "tense", "play": "M.music('f4_dark')", "loopSec": 11.43, "renderSec": 30},
+    {"key": "f4", "scene": "town", "where": {"zh": "閣樓與屋頂：燈亮之後", "en": "Attic and roof rooms once lit"}, "name": {"zh": "屋頂星光", "en": "Starlight on the Roof"}, "mood": "cheerful", "play": "M.music('f4')", "loopSec": 9.23, "renderSec": 30},
+    {"key": "boss", "scene": "boss", "where": {"zh": "肖像鬼魂（頭目）房間", "en": "Portrait ghost (boss) rooms until the boss is caught"}, "name": {"zh": "畫框裡的怒火", "en": "Fury from the Frame"}, "mood": "tense", "play": "M.music('boss')", "loopSec": 7.27, "renderSec": 30},
+    {"key": "lab", "scene": "town", "where": {"zh": "貓頭鷹博士的實驗室（戶外）", "en": "Professor Owlbert's lab (outdoor spread)"}, "name": {"zh": "博士的庭院", "en": "The Professor's Garden"}, "mood": "playful", "play": "M.music('lab')", "loopSec": 9.6, "renderSec": 30},
+    {"key": "ending", "scene": "ending", "where": {"zh": "結局", "en": "Ending"}, "name": {"zh": "合上的書", "en": "The Book Closes"}, "mood": "calm", "play": "M.music('ending')", "loopSec": 10.43, "renderSec": 30}
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "",
+    "init": "M.audioInit(); M.setMusic(true);",
+    "notes": "Self-contained module, no imports. audioInit creates the context and a 60 ms setInterval look-ahead scheduler; music(name) switches tune. Music is on by default (musOn=true). Loop = 32 eighth-note steps = 960/bpm seconds."
+  },
+  "skipped": [{"what": "sfx('fanfare'), sfx('lights') etc.", "why": "short jingles / sound effects"}, {"what": "loop('vac')", "why": "vacuum noise loop, not music"}],
+  "notes": "Each floor has a dark (minor) and a lit version; music(R.lit ? floor : floor+'_dark') in js/main.js:585. Bells are long (up to 1.8 s) so loops overlap slightly at the seam."
+}

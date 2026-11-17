@@ -1,0 +1,19 @@
+{
+  "folder": "JellyDash",
+  "repo": "jelly-dash",
+  "lobbyId": "jellydash",
+  "kind": "procedural",
+  "tracks": [
+    {"key": "round", "scene": "minigame", "where": {"zh": "比賽關卡（旋轉大道、真假門門、跳跳轉盤）", "en": "Rounds after GO! (Spin Avenue, Fake Doors, Bounce Wheel)"}, "name": {"zh": "果凍豆起跑", "en": "Jelly Bean Sprint"}, "mood": "playful", "play": "window.S.music(true, false)", "loopSec": 2.88, "renderSec": 30},
+    {"key": "final", "scene": "minigame", "where": {"zh": "決賽：蜂巢墜落", "en": "Final round: Hex Fall"}, "name": {"zh": "蜂巢決戰", "en": "Honeycomb Showdown"}, "mood": "cheerful", "play": "window.S.music(true, true)", "loopSec": 2.24, "renderSec": 30}
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "",
+    "init": "window.S = new M.Sound(); window.S.init(); window.S.musicOn = true;",
+    "notes": "Exports class Sound only (no imports). music(on, fast) runs a setInterval at step*1000 ms (0.18 s normal, 0.14 s final) and plays each note at ctx.currentTime, so it relies on virtual setInterval timing. 16-step pattern: 16*0.18 = 2.88 s, fast 16*0.14 = 2.24 s."
+  },
+  "skipped": [{"what": "sfx('win'), sfx('qual') etc.", "why": "short jingles / sound effects"}],
+  "notes": "Very short loop; game started it at the GO! countdown (js/main.js:355) with R.D.final for the hex round. The hi-hat noise ticks go to master, not the music bus."
+}

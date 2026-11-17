@@ -1,0 +1,19 @@
+{
+  "folder": "PaperPuppets",
+  "repo": "paperpuppets",
+  "lobbyId": "paperpuppets",
+  "kind": "procedural",
+  "tracks": [
+    {"key": "day", "scene": "town", "where": {"zh": "白天場景的配樂（〈鄰居〉第一集的公園白天戲）", "en": "Score under daytime scenes (the park by day in The Neighbours ep. 1)"}, "name": {"zh": "紙偶午後", "en": "Paper Puppet Afternoon"}, "mood": "cheerful", "play": "M.renderScore({len: 31, lines: [], scenes: [{t0: 0, t1: 31, tod: 'day'}]}).then((b) => { const c = M.audioCtx(), s = c.createBufferSource(); s.buffer = b; s.connect(c.destination); s.start(c.currentTime); })", "loopSec": 9.6, "renderSec": 30},
+    {"key": "evening", "scene": "event", "where": {"zh": "黃昏與夜晚場景的配樂（〈公園・黃昏〉）", "en": "Score under evening and night scenes (the park at dusk)"}, "name": {"zh": "黃昏公園", "en": "Dusk in the Park"}, "mood": "calm", "play": "M.renderScore({len: 31, lines: [], scenes: [{t0: 0, t1: 31, tod: 'evening'}]}).then((b) => { const c = M.audioCtx(), s = c.createBufferSource(); s.buffer = b; s.connect(c.destination); s.start(c.currentTime); })", "loopSec": 12.632, "renderSec": 30}
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "",
+    "init": "M.audioCtx();",
+    "notes": "js/audio.js (ES module) has no live sequencer: renderScore(T) builds the whole score in its OWN native OfflineAudioContext (2 ch, 22.05 kHz) from a timeline T {len, lines, scenes:[{t0,t1,tod}]} and returns a Promise<AudioBuffer>; the game then plays that buffer through audioCtx(). 'play' therefore passes a synthetic one-scene timeline and returns a Promise. DOUBT: the renderer must keep window.OfflineAudioContext native (only AudioContext replaced) and must await the Promise returned by 'play' before starting its own offline render, otherwise the buffer source starts late or never. With no lines, the master stays at full 0.22 (no ducking)."
+  },
+  "skipped": [{"what": "series/neighbours/audio/ep1/*.mp3", "why": "recorded voice lines (neural TTS), not music"}],
+  "notes": "Score = ukulele-like triangle plucks over sine pads, 4-bar progression; day is 100 bpm (bright prog, birds chirp ambience mixed in), any non-'day' tod is 76 bpm (soft prog, crickets). Ambience uses a seeded random so it is deterministic."
+}

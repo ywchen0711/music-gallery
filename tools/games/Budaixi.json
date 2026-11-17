@@ -1,0 +1,13 @@
+{
+  "folder": "Budaixi",
+  "repo": "budaixi",
+  "lobbyId": "budaixi",
+  "kind": "none",
+  "noneReason": "the only music is baked by tools/mix.py (offline Python, CC0 VSCO2 / VCSL samples: luogu gongs and drums, zheng zither, strings) into one finished per-episode mix together with the dialogue and effects (audio/<ep>.<zh|en>.mp3); there is no standalone music file and no in-browser sequencer (js/score.js just plays the mixed mp3)",
+  "tracks": [],
+  "skipped": [
+    {"what": "audio/ep1.*.mp3, audio/s1..s10.*.mp3", "why": "finished episode mixes: voices + effects + score together, the music cannot be isolated"},
+    {"what": "tools/mix.py music bus", "why": "rendered offline in Python from sample libraries that are not committed (RAW/VSCO/VCSL paths passed on the command line); not runnable on a web page"}
+  ],
+  "notes": "README credits the score samples as CC0 (Versilian Studios Chamber Orchestra 2, Versilian Community Sample Library). If a music-only stem were exported by mix.py it could be added later as a file track; none is committed now."
+}

@@ -1,0 +1,10 @@
+{
+  "folder": "HoldemNight",
+  "repo": "holdem-night",
+  "lobbyId": "holdem",
+  "kind": "none",
+  "noneReason": "only sound effects (short oscillator tones in js/main.js), no music",
+  "tracks": [],
+  "skipped": [],
+  "notes": ""
+}

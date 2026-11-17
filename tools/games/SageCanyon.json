@@ -1,0 +1,79 @@
+{
+  "folder": "SageCanyon",
+  "repo": "sage-canyon",
+  "lobbyId": "sagecanyon",
+  "kind": "procedural",
+  "tracks": [
+    {
+      "key": "field-day",
+      "scene": "field",
+      "where": {"zh": "白天在峽谷與校園自由探索（也是標題畫面背景）", "en": "Exploring the canyon and campus by day (also behind the title screen)"},
+      "name": {"zh": "峽谷晨光", "en": "Morning in the Canyon"},
+      "mood": "calm",
+      "play": "M.setMood('field'); setInterval(() => M.tick(0.01, false), 10);",
+      "loopSec": null,
+      "renderSec": 75
+    },
+    {
+      "key": "field-night",
+      "scene": "field",
+      "where": {"zh": "夜晚在峽谷探索（音域低一個八度、更稀疏）", "en": "Exploring the canyon at night (an octave lower, sparser)"},
+      "name": {"zh": "鼠尾草夜曲", "en": "Sage Scrub Nocturne"},
+      "mood": "mysterious",
+      "play": "M.setMood('field'); setInterval(() => M.tick(0.01, true), 10);",
+      "loopSec": null,
+      "renderSec": 75
+    },
+    {
+      "key": "village",
+      "scene": "town",
+      "where": {"zh": "走進峽谷社區（村落 70 公尺內）", "en": "Inside the Canyon Neighborhood (within 70 m of the village spot)"},
+      "name": {"zh": "社區午後", "en": "Afternoon on Our Street"},
+      "mood": "cheerful",
+      "play": "M.setMood('village'); setInterval(() => M.tick(0.01, false), 10);",
+      "loopSec": 6.08,
+      "renderSec": 30
+    },
+    {
+      "key": "shrine",
+      "scene": "dungeon",
+      "where": {"zh": "神殿與大神殿內部", "en": "Inside the shrines and great shrines"},
+      "name": {"zh": "神殿迴聲", "en": "Echoes in the Shrine"},
+      "mood": "mysterious",
+      "play": "M.setMood('shrine'); setInterval(() => M.tick(0.01, false), 10);",
+      "loopSec": null,
+      "renderSec": 75
+    },
+    {
+      "key": "battle",
+      "scene": "battle",
+      "where": {"zh": "被敵人發現、戰鬥中", "en": "When enemies spot you and during fights"},
+      "name": {"zh": "迷霧來襲", "en": "The Gloom Closes In"},
+      "mood": "tense",
+      "play": "M.setMood('field'); M.combat(false); setInterval(() => M.combat(false), 500); setInterval(() => M.tick(0.01, false), 10);",
+      "loopSec": 7.27,
+      "renderSec": 30
+    },
+    {
+      "key": "boss",
+      "scene": "boss",
+      "where": {"zh": "與黑霧魔及枯萎魔的首領戰（黑山電台）", "en": "Boss fights with the Blights and the Gloom (Black Mountain station)"},
+      "name": {"zh": "黑山決戰", "en": "Showdown on Black Mountain"},
+      "mood": "epic",
+      "play": "M.combat(true); setInterval(() => M.combat(true), 500); setInterval(() => M.tick(0.01, false), 10);",
+      "loopSec": 6.4,
+      "renderSec": 30
+    }
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "try { localStorage.setItem('sc.mute', '0'); localStorage.setItem('sc.vol', '0.8'); } catch (e) {}",
+    "init": "M.unlock();",
+    "notes": "js/audio.js is self-contained (no imports). Music is driven by M.tick(dt, night), which the game calls every frame; play therefore starts a 10 ms setInterval. Battle/boss only sound while combatT > 0, so play keeps calling M.combat() every 0.5 s (it sets combatT = 2.5). Mute/volume are read from localStorage 'sc.mute'/'sc.vol' at load."
+  },
+  "skipped": [
+    {"what": "sfx() cues 'jingle', 'orb', 'tower', 'heart', 'cook'", "why": "short fanfares/sound effects"}
+  ],
+  "notes": "tick() also starts a quiet looping low-passed wind noise on master (ambience, vol 0.04); it cannot be separated without editing the file, so it will be faintly audible under every track. Field and shrine music are randomly generated phrases (no fixed loop). Battle: 132 bpm half-beat steps, bass cycle 16 steps, pad cycle 32 steps = 16 beats = 7.27 s; boss same at 150 bpm = 6.4 s; village: 16 notes x 0.38 s = 6.08 s. Real step timing drifts slightly with the tick interval (nextAt is measured from the tick that fired). Windborne's js/audio.js is the same code (different localStorage keys)."
+}

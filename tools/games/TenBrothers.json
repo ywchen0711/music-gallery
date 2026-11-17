@@ -1,0 +1,89 @@
+{
+  "folder": "TenBrothers",
+  "repo": "tenbrothers",
+  "lobbyId": "tenbrothers",
+  "kind": "procedural",
+  "tracks": [
+    {
+      "key": "title",
+      "scene": "title",
+      "where": {"zh": "標題與選關畫面", "en": "Title and level select"},
+      "name": {"zh": "十兄弟出門", "en": "Ten Brothers Set Out"},
+      "mood": "cheerful",
+      "play": "M.music('title')",
+      "loopSec": 3.75,
+      "renderSec": 30
+    },
+    {
+      "key": "meadow",
+      "scene": "field",
+      "where": {"zh": "草原關卡", "en": "Meadow levels"},
+      "name": {"zh": "青青草原", "en": "Green Meadow Romp"},
+      "mood": "playful",
+      "play": "M.music('meadow')",
+      "loopSec": 3.64,
+      "renderSec": 30
+    },
+    {
+      "key": "cave",
+      "scene": "dungeon",
+      "where": {"zh": "山洞關卡", "en": "Cave levels"},
+      "name": {"zh": "山洞探險", "en": "Cave Crawl"},
+      "mood": "mysterious",
+      "play": "M.music('cave')",
+      "loopSec": 4.62,
+      "renderSec": 30
+    },
+    {
+      "key": "castle",
+      "scene": "dungeon",
+      "where": {"zh": "城堡關卡", "en": "Castle levels"},
+      "name": {"zh": "皇城高牆", "en": "Walls of the Emperor"},
+      "mood": "tense",
+      "play": "M.music('castle')",
+      "loopSec": 4.0,
+      "renderSec": 30
+    },
+    {
+      "key": "lake",
+      "scene": "field",
+      "where": {"zh": "湖泊關卡", "en": "Lake levels"},
+      "name": {"zh": "湖畔漣漪", "en": "Ripples on the Lake"},
+      "mood": "calm",
+      "play": "M.music('lake')",
+      "loopSec": 4.14,
+      "renderSec": 30
+    },
+    {
+      "key": "sky",
+      "scene": "field",
+      "where": {"zh": "天空關卡", "en": "Sky levels"},
+      "name": {"zh": "雲端跳躍", "en": "Hopping the Clouds"},
+      "mood": "cheerful",
+      "play": "M.music('sky')",
+      "loopSec": 3.43,
+      "renderSec": 30
+    },
+    {
+      "key": "sunset",
+      "scene": "field",
+      "where": {"zh": "夕陽關卡", "en": "Sunset levels"},
+      "name": {"zh": "夕陽歸途", "en": "Home by Sunset"},
+      "mood": "romantic",
+      "play": "M.music('sunset')",
+      "loopSec": 3.81,
+      "renderSec": 30
+    }
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/sound.js"],
+    "pre": "",
+    "init": "M.unlock();",
+    "notes": "sound.js has no imports. Sequencer is setInterval with step = 60/bpm/2; 16-step melody and a 4-note bass (one every 4 steps), so one loop is 16 steps."
+  },
+  "skipped": [
+    {"what": "SFX.done", "why": "level-clear jingle under 1 s"}
+  ],
+  "notes": "Loops are very short (3.4-4.6 s) but they are continuous looping level tunes, not jingles. Level theme comes from LEVELS[i].theme in js/data/levels.js."
+}

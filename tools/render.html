@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Music render harness</title>
+<script>
+// Offline renderer for the games' procedural (WebAudio) music.
+// Every `new AudioContext()` becomes one OfflineAudioContext, and all timers follow the audio clock
+// (virtual time), so the games' own look-ahead sequencers run unchanged and faster than real time.
+// Driven by tools/render.mjs; see README.md.
+(function () {
+  const Q = new URLSearchParams(location.search);
+  const SR = 44100;
+  const DUR = +Q.get('dur') || 60;
+  const OAC = window.OfflineAudioContext;
+  const errs = (window.__errs = []);
+  window.addEventListener('error', (e) => errs.push('error: ' + (e.message || e)));
+  window.addEventListener('unhandledrejection', (e) => errs.push('rejection: ' + (e.reason && (e.reason.stack || e.reason))));
+
+  const realTimeout = window.setTimeout.bind(window);
+  // ---------- virtual time ----------
+  let vt = 0;
+  const T0 = 1.7e12;
+  const timers = new Map();
+  let tid = 1;
+  const add = (fn, d, a, iv) => { const id = tid++; timers.set(id, { fn, a, due: vt + d, iv }); return id; };
+  window.setTimeout = (fn, d = 0, ...a) => add(fn, Math.max(0, +d || 0) / 1000, a, 0);
+  window.setInterval = (fn, d = 0, ...a) => { const iv = Math.max(4, +d || 0) / 1000; return add(fn, iv, a, iv); };
+  window.clearTimeout = window.clearInterval = (id) => { timers.delete(id); };
+  window.requestAnimationFrame = (fn) => add(() => fn(vt * 1000), 1 / 60, [], 0);
+  window.cancelAnimationFrame = (id) => { timers.delete(id); };
+  window.requestIdleCallback = (fn) => add(() => fn({ timeRemaining: () => 10, didTimeout: false }), 0.05, [], 0);
+  performance.now = () => vt * 1000;
+  Date.now = () => T0 + vt * 1000;
+  function runTimers() {
+    for (let guard = 0; guard < 20000; guard++) {
+      let best = null;
+      for (const e of timers) if (e[1].due <= vt + 1e-9 && (!best || e[1].due < best[1].due)) best = e;
+      if (!best) return;
+      const [id, t] = best;
+      if (t.iv) t.due += t.iv; else timers.delete(id);
+      try { if (typeof t.fn === 'function') t.fn(...t.a); else (0, eval)(String(t.fn)); }
+      catch (e) { if (errs.length < 50) errs.push('timer: ' + (e && (e.stack || e))); }
+    }
+  }
+
+  // ---------- the one offline context ----------
+  let the = null;
+  class FakeAC extends OAC {
+    constructor() {
+      if (the) return the;
+      super(2, Math.ceil(SR * DUR), SR);
+      the = this; window.__ctx = this; window.__ctxMade = (window.__ctxMade || 0) + 1;
+    }
+    get state() { return 'running'; }
+    set onstatechange(f) {}
+    resume() { return Promise.resolve(); }
+    suspend() { return Promise.resolve(); }
+    close() { return Promise.resolve(); }
+    get baseLatency() { return 0; }
+    get outputLatency() { return 0; }
+    createMediaElementSource() { return this.createGain(); }
+    createMediaStreamDestination() { const g = this.createGain(); g.stream = new MediaStream(); return g; }
+    getOutputTimestamp() { return { contextTime: this.currentTime, performanceTime: vt * 1000 }; }
+  }
+  window.AudioContext = window.webkitAudioContext = FakeAC;
+  try { Object.defineProperty(document, 'hidden', { get: () => false }); Object.defineProperty(document, 'visibilityState', { get: () => 'visible' }); } catch (e) {}
+  // games that also play HTML <audio> files for jingles: keep them quiet and harmless
+  HTMLMediaElement.prototype.play = function () { return Promise.resolve(); };
+
+  const loadClassic = (src) => new Promise((res) => {
+    const s = document.createElement('script');
+    s.src = src; s.onload = () => res(); s.onerror = () => { errs.push('load failed: ' + src); res(); };
+    document.head.appendChild(s);
+  });
+  const geval = (code) => { if (code) (0, eval)(code); };
+
+  // spec = {repo, harness:{module, scripts, pre, init}}, track = {play}
+  window.__run = async function (spec, track) {
+    const h = spec.harness || {};
+    const base = '/' + spec.repo + '/';
+    try { geval(h.pre); } catch (e) { errs.push('pre: ' + (e.stack || e)); }
+    const scripts = h.scripts || [];
+    for (let i = 0; i < scripts.length; i++) {
+      const url = base + scripts[i];
+      if (h.module && i === scripts.length - 1) {
+        try { window.M = await import(url); } catch (e) { errs.push('import: ' + (e.stack || e)); }
+      } else await loadClassic(url);
+    }
+    let ip;
+    try { ip = h.init ? (0, eval)(h.init) : null; } catch (e) { errs.push('init: ' + (e.stack || e)); }
+    if (ip && typeof ip.then === 'function') await Promise.race([ip.catch((e) => errs.push('init promise: ' + e)), new Promise((r) => realTimeout(r, 20000))]);
+    runTimers();
+    let pr;
+    try { pr = (0, eval)(track.play); } catch (e) { errs.push('play: ' + (e.stack || e)); }
+    // a play() that returns a promise (e.g. loads instruments over the network) is awaited in real time, max 20 s
+    if (pr && typeof pr.then === 'function') await Promise.race([pr.catch((e) => errs.push('play promise: ' + e)), new Promise((r) => realTimeout(r, 20000))]);
+    // let promise chains that start the song settle (they see time 0)
+    for (let i = 0; i < 20; i++) await Promise.resolve();
+    runTimers();
+    const made = !!the;
+    const ctx = the || new FakeAC();
+    const q = 512;
+    let k = 1;
+    const step = () => {
+      const t = (k * q) / SR;
+      if (t >= DUR - 0.001) return;
+      OAC.prototype.suspend.call(ctx, t).then(() => {
+        vt = t; runTimers(); k++; step();
+        OAC.prototype.resume.call(ctx);
+      });
+    };
+    step();
+    const buf = await OAC.prototype.startRendering.call(ctx);
+    const L = buf.getChannelData(0), R = buf.numberOfChannels > 1 ? buf.getChannelData(1) : L;
+    const n = L.length, pcm = new Int16Array(n * 2);
+    let peak = 0, sq = 0, clip = 0;
+    for (let i = 0; i < n; i++) {
+      const l = L[i], r = R[i];
+      const al = Math.abs(l), ar = Math.abs(r);
+      if (al > peak) peak = al; if (ar > peak) peak = ar;
+      if (al >= 0.999 || ar >= 0.999) clip++;
+      sq += l * l + r * r;
+      pcm[2 * i] = Math.max(-32768, Math.min(32767, Math.round(l * 32767)));
+      pcm[2 * i + 1] = Math.max(-32768, Math.min(32767, Math.round(r * 32767)));
+    }
+    window.__pcm = new Uint8Array(pcm.buffer);
+    return { made, ctxMade: window.__ctxMade || 0, frames: n, sr: SR, peak, rms: Math.sqrt(sq / (2 * n)), clip, errs: errs.slice(0, 12), bytes: window.__pcm.length };
+  };
+  window.__chunk = function (off, len) {
+    const a = window.__pcm.subarray(off, off + len);
+    let s = '';
+    for (let i = 0; i < a.length; i += 0x8000) s += String.fromCharCode.apply(null, a.subarray(i, i + 0x8000));
+    return btoa(s);
+  };
+})();
+</script>
+</head>
+<body></body>
+</html>

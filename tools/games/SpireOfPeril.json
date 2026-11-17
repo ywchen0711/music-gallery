@@ -1,0 +1,29 @@
+{
+  "folder": "SpireOfPeril",
+  "repo": "spire-of-peril",
+  "lobbyId": "spire",
+  "kind": "procedural",
+  "tracks": [
+    {
+      "key": "climb",
+      "scene": "field",
+      "where": {"zh": "整個遊戲：從第一次點擊或按鍵起一直播放（標題、攀塔、商店）", "en": "The whole game: starts on the first click or key and loops through the title, the climb and the shop"},
+      "name": {"zh": "險塔躍步", "en": "Hopping up the Spire"},
+      "mood": "playful",
+      "play": "window.S = new M.Sound(); S.start();",
+      "loopSec": 7.27,
+      "renderSec": 30
+    }
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "",
+    "init": "",
+    "notes": "js/audio.js exports class Sound; start() creates the context and immediately starts music() (setInterval look-ahead sequencer). musicOn defaults to true. Everything is in play, init is empty."
+  },
+  "skipped": [
+    {"what": "Sound.play() cases (jump, win, coin, tower...)", "why": "sound effects / short jingles"}
+  ],
+  "notes": "132 bpm, eighth-note steps (0.227 s), 4 chords x 8 steps = 32 steps = 7.27 s per loop. The lead adds extra notes on even steps with Math.random() < 0.4, so each loop varies slightly."
+}

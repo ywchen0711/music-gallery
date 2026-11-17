@@ -1,0 +1,10 @@
+{
+  "folder": "CodeDojo",
+  "repo": "code-dojo",
+  "lobbyId": "codedojo",
+  "kind": "none",
+  "noneReason": "only sound effects (js/ui.js short step/gem/win blips), no music",
+  "tracks": [],
+  "skipped": [],
+  "notes": ""
+}

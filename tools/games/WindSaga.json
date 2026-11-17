@@ -1,0 +1,185 @@
+{
+ "folder": "WindSaga",
+ "repo": "thousand-winds",
+ "lobbyId": "thousandwinds",
+ "kind": "procedural",
+ "tracks": [
+  {
+   "key": "title",
+   "scene": "title",
+   "where": {
+    "zh": "標題畫面",
+    "en": "Title screen"
+   },
+   "name": {
+    "zh": "千風序章",
+    "en": "Prelude of a Thousand Winds"
+   },
+   "mood": "epic",
+   "play": "M.playMusic('title')",
+   "loopSec": 45.71,
+   "renderSec": 46,
+   "sameAs": "spiretide/title"
+  },
+  {
+   "key": "town",
+   "scene": "town",
+   "where": {
+    "zh": "八座城鎮（瓦爾蒙王都、霧港、草海營地、鐵爪堡、星塔學院、鹽岬港、沙丘城、雪嶺村）與屋內",
+    "en": "The eight towns (Valmont, Mistport, Grassea Camp, Ironclaw, Astralis, Saltreach, Dunehold, Frostpeak) and their interiors"
+   },
+   "name": {
+    "zh": "酒館與市集",
+    "en": "Taverns and Markets"
+   },
+   "mood": "cheerful",
+   "play": "M.playMusic('town')",
+   "loopSec": 34.29,
+   "renderSec": 69,
+   "sameAs": "spiretide/town"
+  },
+  {
+   "key": "field",
+   "scene": "field",
+   "where": {
+    "zh": "世界地圖",
+    "en": "World map"
+   },
+   "name": {
+    "zh": "隨風啟程",
+    "en": "Setting Out on the Wind"
+   },
+   "mood": "heroic",
+   "play": "M.playMusic('field')",
+   "loopSec": 30.48,
+   "renderSec": 61,
+   "sameAs": "spiretide/field"
+  },
+  {
+   "key": "cave",
+   "scene": "dungeon",
+   "where": {
+    "zh": "洞窟、礦坑、沉船、冰窟與峽谷",
+    "en": "Caves, mines, the wreck, ice caverns and gorges"
+   },
+   "name": {
+    "zh": "地底礦脈",
+    "en": "Veins Beneath the Earth"
+   },
+   "mood": "mysterious",
+   "play": "M.playMusic('cave')",
+   "loopSec": 41.74,
+   "renderSec": 84,
+   "sameAs": "spiretide/cave"
+  },
+  {
+   "key": "tower",
+   "scene": "dungeon",
+   "where": {
+    "zh": "高塔、書庫、沙漠神殿與聖所",
+    "en": "Towers, libraries, desert temples and the sanctum"
+   },
+   "name": {
+    "zh": "星塔迴廊",
+    "en": "Halls of the Star Spire"
+   },
+   "mood": "tense",
+   "play": "M.playMusic('tower')",
+   "loopSec": 27.69,
+   "renderSec": 56,
+   "sameAs": "spiretide/tower"
+  },
+  {
+   "key": "battle",
+   "scene": "battle",
+   "where": {
+    "zh": "一般戰鬥",
+    "en": "Ordinary battles"
+   },
+   "name": {
+    "zh": "刀光風起",
+    "en": "Steel on the Wind"
+   },
+   "mood": "heroic",
+   "play": "M.playMusic('battle')",
+   "loopSec": 25.26,
+   "renderSec": 51,
+   "sameAs": "spiretide/battle"
+  },
+  {
+   "key": "boss",
+   "scene": "boss",
+   "where": {
+    "zh": "頭目戰",
+    "en": "Boss battles"
+   },
+   "name": {
+    "zh": "颶風之主",
+    "en": "Lord of the Gale"
+   },
+   "mood": "tense",
+   "play": "M.playMusic('boss')",
+   "loopSec": 12.0,
+   "renderSec": 30,
+   "sameAs": "spiretide/boss"
+  },
+  {
+   "key": "final",
+   "scene": "boss",
+   "where": {
+    "zh": "聖所中與虛無的最終決戰",
+    "en": "The final battle against Nul in the sanctum"
+   },
+   "name": {
+    "zh": "虛無之座",
+    "en": "Throne of Nul"
+   },
+   "mood": "epic",
+   "play": "M.playMusic('final')",
+   "loopSec": 11.43,
+   "renderSec": 30,
+   "sameAs": "spiretide/final"
+  },
+  {
+   "key": "ending",
+   "scene": "ending",
+   "where": {
+    "zh": "結局",
+    "en": "Ending"
+   },
+   "name": {
+    "zh": "風歸處",
+    "en": "Where the Winds Rest"
+   },
+   "mood": "calm",
+   "play": "M.playMusic('ending')",
+   "loopSec": 53.33,
+   "renderSec": 54,
+   "sameAs": "spiretide/ending"
+  }
+ ],
+ "harness": {
+  "module": true,
+  "scripts": [
+   "js/audio.js"
+  ],
+  "pre": "try { localStorage.setItem('thousandwinds-music', 'on'); } catch (e) {}",
+  "init": "M.initAudio();",
+  "notes": "music on/off is read from localStorage 'thousandwinds-music' at load time. initAudio() creates the context, playMusic() runs a setInterval(25ms) look-ahead sequencer."
+ },
+ "skipped": [
+  {
+   "what": "SONGS.victory",
+   "why": "4.1 s victory fanfare, plays once"
+  },
+  {
+   "what": "SONGS.inn",
+   "why": "3.3 s inn jingle, plays once"
+  },
+  {
+   "what": "SONGS.gameover",
+   "why": "10.3 s game-over jingle, plays once (once:true)"
+  }
+ ],
+ "notes": "DUPLICATE WARNING: the SONGS table in js/audio.js is byte-for-byte the same as Spire Tide's (the files differ only in the music-switch storage key and one extra sound effect), so every track here renders identically to SpireTide's track with the same key. The gallery may want to list them once."
+}

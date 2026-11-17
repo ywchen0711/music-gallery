@@ -1,0 +1,14 @@
+{
+  "folder": "JoshWordGold",
+  "repo": "josh-word-gold",
+  "lobbyId": "joshwordgold",
+  "kind": "none",
+  "noneReason": "brick film (game-show) with no background music: audio/abc1/*.mp3 are voice lines (edge-tts), audio/sfx/*.mp3 are drumrolls and CC0 crowd laughter/applause; js/sound.js only has one-shot sfx and noise ambience loops, no sequencer",
+  "tracks": [],
+  "skipped": [
+    {"what": "audio/abc1/*.mp3", "why": "voice lines / narration"},
+    {"what": "audio/sfx/*.mp3", "why": "drumrolls and crowd recordings, not music"},
+    {"what": "js/sound.js jingle()", "why": "short sting under 5 s"}
+  ],
+  "notes": ""
+}

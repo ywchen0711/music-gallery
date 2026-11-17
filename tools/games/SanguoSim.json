@@ -1,0 +1,10 @@
+{
+  "folder": "SanguoSim",
+  "repo": "sanguo-sim",
+  "lobbyId": "sanguo",
+  "kind": "none",
+  "noneReason": "no audio at all (no AudioContext, no Audio elements, no audio files)",
+  "tracks": [],
+  "skipped": [],
+  "notes": "Lobby id is 'sanguo' (url /sanguo-sim/)."
+}

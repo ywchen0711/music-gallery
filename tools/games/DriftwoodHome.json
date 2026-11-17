@@ -1,0 +1,50 @@
+{
+  "folder": "DriftwoodHome",
+  "repo": "driftwood-home",
+  "lobbyId": "driftwood",
+  "kind": "procedural",
+  "tracks": [
+    {
+      "key": "day",
+      "scene": "field",
+      "where": {"zh": "白天在荒島上求生（main.js 依時刻設定 mood: 'day'）", "en": "Daytime survival on the island (main.js sets mood 'day' by the hour)"},
+      "name": {"zh": "浮木晨光", "en": "Driftwood Morning"},
+      "mood": "calm",
+      "play": "S.mood = 'day';",
+      "loopSec": 10.24,
+      "renderSec": 30
+    },
+    {
+      "key": "night",
+      "scene": "field",
+      "where": {"zh": "島上的夜晚，以及結局出海的夜航", "en": "Nights on the island, and the night voyage of the ending"},
+      "name": {"zh": "營火星夜", "en": "Starlit Campfire"},
+      "mood": "sad",
+      "play": "S.mood = 'night';",
+      "loopSec": 13.44,
+      "renderSec": 30
+    },
+    {
+      "key": "home",
+      "scene": "ending",
+      "where": {"zh": "結局：獲救歸來、回到家人和狗身邊", "en": "The ending: rescued and back home with the family and the dog"},
+      "name": {"zh": "歸家爐火", "en": "Hearth of Homecoming"},
+      "mood": "romantic",
+      "play": "S.mood = 'home';",
+      "loopSec": 10.24,
+      "renderSec": 30
+    }
+  ],
+  "harness": {
+    "module": true,
+    "scripts": ["js/audio.js"],
+    "pre": "",
+    "init": "window.S = new M.Sound(); S.start(); ['surf','rain','wind','fire'].forEach(function (k) { S.amb[k].disconnect(); });",
+    "notes": "Sound.start() creates the context, starts the noise ambience beds (surf/rain/wind/fire, pure noise, not music) and loop(), a setInterval fingerpicked-guitar sequencer that reads this.mood on every tick. init disconnects the ambience beds so only music is recorded. play just sets the mood (it is read live, so setting it right after start() is enough). musicOn defaults to true."
+  },
+  "skipped": [
+    {"what": "surf/rain/wind/fire beds, bird(), cricket()", "why": "noise ambience, not music"},
+    {"what": "Sound.play() cases incl. 'win'", "why": "sound effects / short jingle"}
+  ],
+  "notes": "Same 4-chord x 8-step arpeggio engine, three progressions. day/home step 0.32 s -> 32 steps = 10.24 s; night step 0.42 s -> 13.44 s."
+}
