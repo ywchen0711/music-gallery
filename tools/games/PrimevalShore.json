@@ -1,0 +1,200 @@
+{
+ "folder": "PrimevalShore",
+ "repo": "primeval-shore",
+ "lobbyId": "primeval-shore",
+ "kind": "file",
+ "tracks": [
+  {
+   "key": "title",
+   "scene": "title",
+   "where": {
+    "zh": "æ¨é¡ç«é¢",
+    "en": "Title screen"
+   },
+   "name": {
+    "zh": "ç°è¨å³¶çé¼è²",
+    "en": "Drums of Ashfern Isle"
+   },
+   "mood": "epic",
+   "file": "assets/music/title.m4a",
+   "alt": [
+    "assets/music/title.ogg"
+   ],
+   "orig": {
+    "title": "Tribal",
+    "artist": "Of Far Different Nature",
+    "pack": null,
+    "license": "CC0 1.0",
+    "url": "https://opengameart.org/content/tribal"
+   }
+  },
+  {
+   "key": "explore",
+   "scene": "field",
+   "where": {
+    "zh": "æ±çæ¨¡å¼ç½å¤©æ¢ç´¢ï¼å¥æ¸å¤©ï¼",
+    "en": "Survival, exploring by day (odd days)"
+   },
+   "name": {
+    "zh": "è¨æçæ¥å¸¸",
+    "en": "A Day in the Ferns"
+   },
+   "mood": "calm",
+   "file": "assets/music/explore.m4a",
+   "alt": [
+    "assets/music/explore.ogg"
+   ],
+   "orig": {
+    "title": "Your Average Jungle Day",
+    "artist": "Umplix",
+    "pack": null,
+    "license": "CC0 1.0",
+    "url": "https://opengameart.org/content/your-average-jungle-day"
+   }
+  },
+  {
+   "key": "explore2",
+   "scene": "field",
+   "where": {
+    "zh": "æ±çæ¨¡å¼ç½å¤©æ¢ç´¢ï¼å¶æ¸å¤©ï¼",
+    "en": "Survival, exploring by day (even days)"
+   },
+   "name": {
+    "zh": "å·¨ç¸çå¤§å°",
+    "en": "Land of Giants"
+   },
+   "mood": "epic",
+   "file": "assets/music/explore2.m4a",
+   "alt": [
+    "assets/music/explore2.ogg"
+   ],
+   "orig": {
+    "title": "Epic at the Jungle",
+    "artist": "Indieteur",
+    "pack": null,
+    "license": "CC0 1.0",
+    "url": "https://opengameart.org/content/epic-at-the-jungle"
+   }
+  },
+  {
+   "key": "night",
+   "scene": "field",
+   "where": {
+    "zh": "æ±çæ¨¡å¼çå¤æ",
+    "en": "Survival at night"
+   },
+   "name": {
+    "zh": "è¢ç«è²ä¹å¤",
+    "en": "Night of Fireflies"
+   },
+   "mood": "mysterious",
+   "file": "assets/music/night.m4a",
+   "alt": [
+    "assets/music/night.ogg"
+   ],
+   "orig": {
+    "title": "Chill Jungle",
+    "artist": "Pro Sensory",
+    "pack": null,
+    "license": "CC0 1.0",
+    "url": "https://opengameart.org/content/chill-jungle"
+   }
+  },
+  {
+   "key": "fight",
+   "scene": "battle",
+   "where": {
+    "zh": "æ±çæ¨¡å¼èå¶ä»æé¾æ°é¬¥",
+    "en": "Survival, fighting another dinosaur"
+   },
+   "name": {
+    "zh": "çèçª",
+    "en": "Tooth and Claw"
+   },
+   "mood": "tense",
+   "file": "assets/music/fight.m4a",
+   "alt": [
+    "assets/music/fight.ogg"
+   ],
+   "orig": {
+    "title": "Jungle Battle Loop",
+    "artist": "omfgdude",
+    "pack": null,
+    "license": "CC0 1.0",
+    "url": "https://opengameart.org/content/jungle-battle-loop"
+   }
+  },
+  {
+   "key": "fight2",
+   "scene": "boss",
+   "where": {
+    "zh": "å°ä¸å·¨åæ é£èãç«¶æå ´",
+    "en": "Facing a giant predator, the arena"
+   },
+   "name": {
+    "zh": "é¸ä¸»éè¨",
+    "en": "The Apex Arrives"
+   },
+   "mood": "epic",
+   "file": "assets/music/fight2.m4a",
+   "alt": [
+    "assets/music/fight2.ogg"
+   ],
+   "orig": {
+    "title": "Determined Pursuit (epic orchestra loop)",
+    "artist": "Emma_MA",
+    "pack": null,
+    "license": "CC0 1.0",
+    "url": "https://opengameart.org/content/determined-pursuit-epic-orchestra-loop"
+   }
+  },
+  {
+   "key": "arena",
+   "scene": "battle",
+   "where": {
+    "zh": "ç«¶æå ´å°æ°",
+    "en": "Arena duels"
+   },
+   "name": {
+    "zh": "ç«å±±ä¸çæ±ºé¬¥",
+    "en": "Duel Under the Volcano"
+   },
+   "mood": "heroic",
+   "file": "assets/music/arena.m4a",
+   "alt": [
+    "assets/music/arena.ogg"
+   ],
+   "orig": {
+    "title": "Krakatoa",
+    "artist": "Kistol",
+    "pack": null,
+    "license": "CC0 1.0",
+    "url": "https://opengameart.org/content/krakatoa"
+   }
+  },
+  {
+   "key": "dawn",
+   "scene": "ending",
+   "where": {
+    "zh": "ä¸ççµææ",
+    "en": "When a life ends"
+   },
+   "name": {
+    "zh": "æ°çé»æ",
+    "en": "A New Dawn"
+   },
+   "mood": "sad",
+   "file": "assets/music/dawn.m4a",
+   "alt": [
+    "assets/music/dawn.ogg"
+   ],
+   "orig": {
+    "title": "New Sunrise",
+    "artist": "nene",
+    "pack": null,
+    "license": "CC0 1.0",
+    "url": "https://opengameart.org/content/new-sunrise"
+   }
+  }
+ ]
+}

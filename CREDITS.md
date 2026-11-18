@@ -9,6 +9,19 @@ each track in the player.
 File-based tracks are played from the game's own published folder (they are not copied here). Songs marked
 "original" were composed in code for that game and rendered to audio/ by tools/render.mjs.
 
+## 遠古之岸 / Primeval Shore
+
+Play: https://ywchen0711.github.io/primeval-shore/
+
+- **ç°è¨å³¶çé¼è² / Drums of Ashfern Isle**: "Tribal" by Of Far Different Nature, CC0 1.0 - https://opengameart.org/content/tribal (`/primeval-shore/assets/music/title.m4a`)
+- **è¨æçæ¥å¸¸ / A Day in the Ferns**: "Your Average Jungle Day" by Umplix, CC0 1.0 - https://opengameart.org/content/your-average-jungle-day (`/primeval-shore/assets/music/explore.m4a`)
+- **å·¨ç¸çå¤§å° / Land of Giants**: "Epic at the Jungle" by Indieteur, CC0 1.0 - https://opengameart.org/content/epic-at-the-jungle (`/primeval-shore/assets/music/explore2.m4a`)
+- **è¢ç«è²ä¹å¤ / Night of Fireflies**: "Chill Jungle" by Pro Sensory, CC0 1.0 - https://opengameart.org/content/chill-jungle (`/primeval-shore/assets/music/night.m4a`)
+- **çèçª / Tooth and Claw**: "Jungle Battle Loop" by omfgdude, CC0 1.0 - https://opengameart.org/content/jungle-battle-loop (`/primeval-shore/assets/music/fight.m4a`)
+- **é¸ä¸»éè¨ / The Apex Arrives**: "Determined Pursuit (epic orchestra loop)" by Emma_MA, CC0 1.0 - https://opengameart.org/content/determined-pursuit-epic-orchestra-loop (`/primeval-shore/assets/music/fight2.m4a`)
+- **ç«å±±ä¸çæ±ºé¬¥ / Duel Under the Volcano**: "Krakatoa" by Kistol, CC0 1.0 - https://opengameart.org/content/krakatoa (`/primeval-shore/assets/music/arena.m4a`)
+- **æ°çé»æ / A New Dawn**: "New Sunrise" by nene, CC0 1.0 - https://opengameart.org/content/new-sunrise (`/primeval-shore/assets/music/dawn.m4a`)
+
 ## 江東霸業傳 / Saga of Jiangdong
 
 Play: https://ywchen0711.github.io/jiangdong-saga/
