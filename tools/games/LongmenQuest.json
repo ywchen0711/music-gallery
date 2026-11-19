@@ -1,0 +1,248 @@
+{
+ "folder": "LongmenQuest",
+ "repo": "longmen-quest",
+ "lobbyId": "longmen-quest",
+ "kind": "file",
+ "tracks": [
+  {
+   "key": "title",
+   "scene": "title",
+   "where": {
+    "zh": "標題畫面",
+    "en": "Title screen"
+   },
+   "name": {
+    "zh": "龍門刀客傳",
+    "en": "Ballad of the Longmen Blade"
+   },
+   "mood": "heroic",
+   "file": "audio/title.m4a",
+   "alt": [
+    "audio/title.ogg"
+   ],
+   "orig": {
+    "title": "title",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 Longmen Quest (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest"
+   }
+  },
+  {
+   "key": "town",
+   "scene": "town",
+   "where": {
+    "zh": "城鎮與村莊",
+    "en": "Towns and villages"
+   },
+   "name": {
+    "zh": "龍門鎮的早晨",
+    "en": "Morning in Longmen Town"
+   },
+   "mood": "calm",
+   "file": "audio/town.m4a",
+   "alt": [
+    "audio/town.ogg"
+   ],
+   "orig": {
+    "title": "town",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 Longmen Quest (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest"
+   }
+  },
+  {
+   "key": "field",
+   "scene": "field",
+   "where": {
+    "zh": "大地圖",
+    "en": "Overworld"
+   },
+   "name": {
+    "zh": "踏上江湖",
+    "en": "Into the Jianghu"
+   },
+   "mood": "heroic",
+   "file": "audio/field.m4a",
+   "alt": [
+    "audio/field.ogg"
+   ],
+   "orig": {
+    "title": "field",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 Longmen Quest (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest"
+   }
+  },
+  {
+   "key": "dungeon",
+   "scene": "dungeon",
+   "where": {
+    "zh": "山洞、樹林與山寨",
+    "en": "Caves, forests and forts"
+   },
+   "name": {
+    "zh": "幽洞迴聲",
+    "en": "Echoes in the Cave"
+   },
+   "mood": "mysterious",
+   "file": "audio/dungeon.m4a",
+   "alt": [
+    "audio/dungeon.ogg"
+   ],
+   "orig": {
+    "title": "dungeon",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 Longmen Quest (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest"
+   }
+  },
+  {
+   "key": "tower",
+   "scene": "dungeon",
+   "where": {
+    "zh": "千佛塔",
+    "en": "Thousand Buddha Tower"
+   },
+   "name": {
+    "zh": "千佛塔",
+    "en": "Tower of a Thousand Buddhas"
+   },
+   "mood": "mysterious",
+   "file": "audio/tower.m4a",
+   "alt": [
+    "audio/tower.ogg"
+   ],
+   "orig": {
+    "title": "tower",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 Longmen Quest (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest"
+   }
+  },
+  {
+   "key": "battle",
+   "scene": "battle",
+   "where": {
+    "zh": "一般戰鬥",
+    "en": "Battle"
+   },
+   "name": {
+    "zh": "拔刀",
+    "en": "Draw the Blade"
+   },
+   "mood": "tense",
+   "file": "audio/battle.m4a",
+   "alt": [
+    "audio/battle.ogg"
+   ],
+   "orig": {
+    "title": "battle",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 Longmen Quest (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest"
+   }
+  },
+  {
+   "key": "boss",
+   "scene": "boss",
+   "where": {
+    "zh": "頭目戰",
+    "en": "Boss battle"
+   },
+   "name": {
+    "zh": "生死一決",
+    "en": "Duel to the Death"
+   },
+   "mood": "epic",
+   "file": "audio/boss.m4a",
+   "alt": [
+    "audio/boss.ogg"
+   ],
+   "orig": {
+    "title": "boss",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 Longmen Quest (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest"
+   }
+  },
+  {
+   "key": "lair",
+   "scene": "dungeon",
+   "where": {
+    "zh": "幽冥殿",
+    "en": "Hall of the Netherworld"
+   },
+   "name": {
+    "zh": "幽冥殿",
+    "en": "Hall of the Netherworld"
+   },
+   "mood": "dark",
+   "file": "audio/lair.m4a",
+   "alt": [
+    "audio/lair.ogg"
+   ],
+   "orig": {
+    "title": "lair",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 Longmen Quest (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest"
+   }
+  },
+  {
+   "key": "final",
+   "scene": "boss",
+   "where": {
+    "zh": "最終決戰",
+    "en": "Final battle"
+   },
+   "name": {
+    "zh": "屠千秋",
+    "en": "Tu Qianqiu"
+   },
+   "mood": "epic",
+   "file": "audio/final.m4a",
+   "alt": [
+    "audio/final.ogg"
+   ],
+   "orig": {
+    "title": "final",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 Longmen Quest (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest"
+   }
+  },
+  {
+   "key": "ending",
+   "scene": "ending",
+   "where": {
+    "zh": "結局",
+    "en": "Ending"
+   },
+   "name": {
+    "zh": "說書人的紙鶴",
+    "en": "The Storyteller's Paper Crane"
+   },
+   "mood": "sad",
+   "file": "audio/ending.m4a",
+   "alt": [
+    "audio/ending.ogg"
+   ],
+   "orig": {
+    "title": "ending",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 Longmen Quest (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest"
+   }
+  }
+ ]
+}

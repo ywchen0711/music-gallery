@@ -9,6 +9,21 @@ each track in the player.
 File-based tracks are played from the game's own published folder (they are not copied here). Songs marked
 "original" were composed in code for that game and rendered to audio/ by tools/render.mjs.
 
+## 龍門刀客傳 / Longmen Quest
+
+Play: https://ywchen0711.github.io/longmen-quest/
+
+- **龍門刀客傳 / Ballad of the Longmen Blade**: original, composed in code for Longmen Quest (`/longmen-quest/audio/title.m4a`)
+- **龍門鎮的早晨 / Morning in Longmen Town**: original, composed in code for Longmen Quest (`/longmen-quest/audio/town.m4a`)
+- **踏上江湖 / Into the Jianghu**: original, composed in code for Longmen Quest (`/longmen-quest/audio/field.m4a`)
+- **幽洞迴聲 / Echoes in the Cave**: original, composed in code for Longmen Quest (`/longmen-quest/audio/dungeon.m4a`)
+- **千佛塔 / Tower of a Thousand Buddhas**: original, composed in code for Longmen Quest (`/longmen-quest/audio/tower.m4a`)
+- **拔刀 / Draw the Blade**: original, composed in code for Longmen Quest (`/longmen-quest/audio/battle.m4a`)
+- **生死一決 / Duel to the Death**: original, composed in code for Longmen Quest (`/longmen-quest/audio/boss.m4a`)
+- **幽冥殿 / Hall of the Netherworld**: original, composed in code for Longmen Quest (`/longmen-quest/audio/lair.m4a`)
+- **屠千秋 / Tu Qianqiu**: original, composed in code for Longmen Quest (`/longmen-quest/audio/final.m4a`)
+- **說書人的紙鶴 / The Storyteller's Paper Crane**: original, composed in code for Longmen Quest (`/longmen-quest/audio/ending.m4a`)
+
 ## 遠古之岸 / Primeval Shore
 
 Play: https://ywchen0711.github.io/primeval-shore/
