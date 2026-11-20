@@ -721,7 +721,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/title.m4a",
 "ogg":"/longmen-quest-2/audio/title.ogg",
-"dur":34.3,
+"dur":68.6,
 "orig":{
 "title":"title",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); Anuj_Shrestha1; kyles",
@@ -746,7 +746,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/town.m4a",
 "ogg":"/longmen-quest-2/audio/town.ogg",
-"dur":30.5,
+"dur":61.0,
 "orig":{
 "title":"town",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); sazanami12",
@@ -771,7 +771,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/town2.m4a",
 "ogg":"/longmen-quest-2/audio/town2.ogg",
-"dur":20.0,
+"dur":40.0,
 "orig":{
 "title":"town2",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); jonopodmore; sazanami12",
@@ -796,7 +796,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/town3.m4a",
 "ogg":"/longmen-quest-2/audio/town3.ogg",
-"dur":19.2,
+"dur":38.4,
 "orig":{
 "title":"town3",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition)",
@@ -821,7 +821,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/village.m4a",
 "ogg":"/longmen-quest-2/audio/village.ogg",
-"dur":18.5,
+"dur":36.9,
 "orig":{
 "title":"village",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); jonopodmore; sazanami12",
@@ -846,7 +846,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/camp.m4a",
 "ogg":"/longmen-quest-2/audio/camp.ogg",
-"dur":16.0,
+"dur":32.0,
 "orig":{
 "title":"camp",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); sazanami12",
@@ -871,7 +871,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/field.m4a",
 "ogg":"/longmen-quest-2/audio/field.ogg",
-"dur":35.6,
+"dur":71.1,
 "orig":{
 "title":"field",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\")",
@@ -896,7 +896,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/sea.m4a",
 "ogg":"/longmen-quest-2/audio/sea.ogg",
-"dur":17.1,
+"dur":34.3,
 "orig":{
 "title":"sea",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition)",
@@ -921,7 +921,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/dungeon.m4a",
 "ogg":"/longmen-quest-2/audio/dungeon.ogg",
-"dur":22.3,
+"dur":44.7,
 "orig":{
 "title":"dungeon",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); jonopodmore",
@@ -946,7 +946,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/temple.m4a",
 "ogg":"/longmen-quest-2/audio/temple.ogg",
-"dur":27.4,
+"dur":54.9,
 "orig":{
 "title":"temple",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); jonopodmore; sazanami12",
@@ -971,7 +971,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/mansion.m4a",
 "ogg":"/longmen-quest-2/audio/mansion.ogg",
-"dur":24.6,
+"dur":49.2,
 "orig":{
 "title":"mansion",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); jonopodmore",
@@ -996,7 +996,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/tower.m4a",
 "ogg":"/longmen-quest-2/audio/tower.ogg",
-"dur":20.9,
+"dur":41.7,
 "orig":{
 "title":"tower",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Anuj_Shrestha1",
@@ -1021,7 +1021,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/battle.m4a",
 "ogg":"/longmen-quest-2/audio/battle.ogg",
-"dur":22.6,
+"dur":45.2,
 "orig":{
 "title":"battle",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Anuj_Shrestha1; kyles",
@@ -1046,7 +1046,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/boss.m4a",
 "ogg":"/longmen-quest-2/audio/boss.ogg",
-"dur":22.4,
+"dur":44.8,
 "orig":{
 "title":"boss",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Anuj_Shrestha1; kyles",
@@ -1071,7 +1071,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/final.m4a",
 "ogg":"/longmen-quest-2/audio/final.ogg",
-"dur":24.5,
+"dur":49.1,
 "orig":{
 "title":"final",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Anuj_Shrestha1; kyles",
@@ -1096,7 +1096,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/beasts.m4a",
 "ogg":"/longmen-quest-2/audio/beasts.ogg",
-"dur":108.0,
+"dur":216.0,
 "orig":{
 "title":"beasts",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Anuj_Shrestha1; kyles",
@@ -1121,7 +1121,7 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/ending.m4a",
 "ogg":"/longmen-quest-2/audio/ending.ogg",
-"dur":76.5,
+"dur":147.5,
 "orig":{
 "title":"ending",
 "artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); Anuj_Shrestha1; kyles; jonopodmore; sazanami12",
