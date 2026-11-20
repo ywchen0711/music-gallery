@@ -4,6 +4,20 @@ window.MUSIC = {
 "site":"https://ywchen0711.github.io",
 "games":[
 {
+"id":"longmen-ruckus",
+"url":"/longmen-ruckus/",
+"title":{
+"zh":"longmen-ruckus",
+"en":"longmen-ruckus"
+},
+"color":"#c8602a",
+"repo":"longmen-ruckus",
+"thumb":"/thumbs/longmen-ruckus.jpg",
+"count":8,
+"kind":"file",
+"added":"2026-11-20"
+},
+{
 "id":"sects-of-longmen",
 "url":"/sects-of-longmen/",
 "title":{
@@ -719,6 +733,198 @@ window.MUSIC = {
 }
 ],
 "tracks":[
+{
+"id":"longmen-ruckus/title",
+"game":"longmen-ruckus",
+"key":"title",
+"scene":"title",
+"mood":"heroic",
+"name":{
+"zh":"江湖開鑼",
+"en":"The Gong Opens the Jianghu"
+},
+"where":{
+"zh":"標題畫面",
+"en":"Title screen"
+},
+"src":"/longmen-ruckus/audio/title.m4a",
+"dur":32.0,
+"orig":{
+"title":"title",
+"artist":"composed for the game (tools/score.py), played by the Longmen Quest II sampler (tools/orch.py) with free samples: Anuj_Shrestha1; Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); Versilian Studios (VSCO-2 Community Edition); kyles",
+"pack":"龍門鬧江湖 Longmen Ruckus (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-ruckus"
+}
+},
+{
+"id":"longmen-ruckus/town",
+"game":"longmen-ruckus",
+"key":"town",
+"scene":"town",
+"mood":"calm",
+"name":{
+"zh":"客棧大街",
+"en":"Longmen Inn Street"
+},
+"where":{
+"zh":"龍門客棧大街（地圖）",
+"en":"Longmen Inn Street board"
+},
+"src":"/longmen-ruckus/audio/town.m4a",
+"dur":33.1,
+"orig":{
+"title":"town",
+"artist":"composed for the game (tools/score.py), played by the Longmen Quest II sampler (tools/orch.py) with free samples: Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); Versilian Studios (VSCO-2 Community Edition); sazanami12",
+"pack":"龍門鬧江湖 Longmen Ruckus (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-ruckus"
+}
+},
+{
+"id":"longmen-ruckus/mountain",
+"game":"longmen-ruckus",
+"key":"mountain",
+"scene":"field",
+"mood":"heroic",
+"name":{
+"zh":"萬妖山上",
+"en":"Up Myriad Beast Mountain"
+},
+"where":{
+"zh":"萬妖山（地圖）",
+"en":"Myriad Beast Mountain board"
+},
+"src":"/longmen-ruckus/audio/mountain.m4a",
+"dur":38.4,
+"orig":{
+"title":"mountain",
+"artist":"composed for the game (tools/score.py), played by the Longmen Quest II sampler (tools/orch.py) with free samples: Anuj_Shrestha1; Versilian Studios (VSCO-2 Community Edition); kyles; tarane468 (\"Chinese Erhu\")",
+"pack":"龍門鬧江湖 Longmen Ruckus (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-ruckus"
+}
+},
+{
+"id":"longmen-ruckus/river",
+"game":"longmen-ruckus",
+"key":"river",
+"scene":"field",
+"mood":"calm",
+"name":{
+"zh":"畫舫遊江",
+"en":"Painted Boats on the River"
+},
+"where":{
+"zh":"江上畫舫（地圖）",
+"en":"Painted Boats board"
+},
+"src":"/longmen-ruckus/audio/river.m4a",
+"dur":43.6,
+"orig":{
+"title":"river",
+"artist":"composed for the game (tools/score.py), played by the Longmen Quest II sampler (tools/orch.py) with free samples: Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); Versilian Studios (VSCO-2 Community Edition); jonopodmore; sazanami12",
+"pack":"龍門鬧江湖 Longmen Ruckus (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-ruckus"
+}
+},
+{
+"id":"longmen-ruckus/minigame",
+"game":"longmen-ruckus",
+"key":"minigame",
+"scene":"battle",
+"mood":"tense",
+"name":{
+"zh":"小試身手",
+"en":"A Quick Test of Skill"
+},
+"where":{
+"zh":"小遊戲",
+"en":"Minigames"
+},
+"src":"/longmen-ruckus/audio/minigame.m4a",
+"dur":27.4,
+"orig":{
+"title":"minigame",
+"artist":"composed for the game (tools/score.py), played by the Longmen Quest II sampler (tools/orch.py) with free samples: Anuj_Shrestha1; Hypnotriod (\"Flute Dizi C all notes\"); Versilian Studios (VSCO-2 Community Edition)",
+"pack":"龍門鬧江湖 Longmen Ruckus (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-ruckus"
+}
+},
+{
+"id":"longmen-ruckus/minigame2",
+"game":"longmen-ruckus",
+"key":"minigame2",
+"scene":"battle",
+"mood":"heroic",
+"name":{
+"zh":"手忙腳亂",
+"en":"All Thumbs"
+},
+"where":{
+"zh":"小遊戲",
+"en":"Minigames"
+},
+"src":"/longmen-ruckus/audio/minigame2.m4a",
+"dur":25.9,
+"orig":{
+"title":"minigame2",
+"artist":"composed for the game (tools/score.py), played by the Longmen Quest II sampler (tools/orch.py) with free samples: Versilian Studios (VSCO-2 Community Edition); sazanami12",
+"pack":"龍門鬧江湖 Longmen Ruckus (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-ruckus"
+}
+},
+{
+"id":"longmen-ruckus/results",
+"game":"longmen-ruckus",
+"key":"results",
+"scene":"ending",
+"mood":"heroic",
+"name":{
+"zh":"放榜",
+"en":"The Scores Go Up"
+},
+"where":{
+"zh":"小遊戲結果",
+"en":"Minigame results"
+},
+"src":"/longmen-ruckus/audio/results.m4a",
+"dur":6.1,
+"orig":{
+"title":"results",
+"artist":"composed for the game (tools/score.py), played by the Longmen Quest II sampler (tools/orch.py) with free samples: Hypnotriod (\"Flute Dizi C all notes\"); Versilian Studios (VSCO-2 Community Edition)",
+"pack":"龍門鬧江湖 Longmen Ruckus (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-ruckus"
+}
+},
+{
+"id":"longmen-ruckus/final",
+"game":"longmen-ruckus",
+"key":"final",
+"scene":"ending",
+"mood":"epic",
+"name":{
+"zh":"江湖第一",
+"en":"Champion of the Jianghu"
+},
+"where":{
+"zh":"最終排行",
+"en":"Final rankings"
+},
+"src":"/longmen-ruckus/audio/final.m4a",
+"dur":22.3,
+"orig":{
+"title":"final",
+"artist":"composed for the game (tools/score.py), played by the Longmen Quest II sampler (tools/orch.py) with free samples: Anuj_Shrestha1; Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); Versilian Studios (VSCO-2 Community Edition)",
+"pack":"龍門鬧江湖 Longmen Ruckus (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-ruckus"
+}
+},
 {
 "id":"sects-of-longmen/menu",
 "game":"sects-of-longmen",
