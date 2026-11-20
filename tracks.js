@@ -722,7 +722,13 @@ window.MUSIC = {
 "src":"/longmen-quest-2/audio/title.m4a",
 "ogg":"/longmen-quest-2/audio/title.ogg",
 "dur":34.3,
-"original":true
+"orig":{
+"title":"title",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); Anuj_Shrestha1; kyles",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest-2/town",
@@ -741,7 +747,13 @@ window.MUSIC = {
 "src":"/longmen-quest-2/audio/town.m4a",
 "ogg":"/longmen-quest-2/audio/town.ogg",
 "dur":30.5,
-"original":true
+"orig":{
+"title":"town",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); sazanami12",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest-2/town2",
@@ -760,7 +772,13 @@ window.MUSIC = {
 "src":"/longmen-quest-2/audio/town2.m4a",
 "ogg":"/longmen-quest-2/audio/town2.ogg",
 "dur":20.0,
-"original":true
+"orig":{
+"title":"town2",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); jonopodmore; sazanami12",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest-2/town3",
@@ -779,7 +797,13 @@ window.MUSIC = {
 "src":"/longmen-quest-2/audio/town3.m4a",
 "ogg":"/longmen-quest-2/audio/town3.ogg",
 "dur":19.2,
-"original":true
+"orig":{
+"title":"town3",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition)",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest-2/village",
@@ -798,7 +822,13 @@ window.MUSIC = {
 "src":"/longmen-quest-2/audio/village.m4a",
 "ogg":"/longmen-quest-2/audio/village.ogg",
 "dur":18.5,
-"original":true
+"orig":{
+"title":"village",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); jonopodmore; sazanami12",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest-2/camp",
@@ -817,7 +847,13 @@ window.MUSIC = {
 "src":"/longmen-quest-2/audio/camp.m4a",
 "ogg":"/longmen-quest-2/audio/camp.ogg",
 "dur":16.0,
-"original":true
+"orig":{
+"title":"camp",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); sazanami12",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest-2/field",
@@ -836,7 +872,13 @@ window.MUSIC = {
 "src":"/longmen-quest-2/audio/field.m4a",
 "ogg":"/longmen-quest-2/audio/field.ogg",
 "dur":35.6,
-"original":true
+"orig":{
+"title":"field",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\")",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest-2/sea",
@@ -855,7 +897,13 @@ window.MUSIC = {
 "src":"/longmen-quest-2/audio/sea.m4a",
 "ogg":"/longmen-quest-2/audio/sea.ogg",
 "dur":17.1,
-"original":true
+"orig":{
+"title":"sea",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition)",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest-2/dungeon",
@@ -874,7 +922,13 @@ window.MUSIC = {
 "src":"/longmen-quest-2/audio/dungeon.m4a",
 "ogg":"/longmen-quest-2/audio/dungeon.ogg",
 "dur":22.3,
-"original":true
+"orig":{
+"title":"dungeon",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); jonopodmore",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest-2/temple",
@@ -893,7 +947,13 @@ window.MUSIC = {
 "src":"/longmen-quest-2/audio/temple.m4a",
 "ogg":"/longmen-quest-2/audio/temple.ogg",
 "dur":27.4,
-"original":true
+"orig":{
+"title":"temple",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); jonopodmore; sazanami12",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest-2/mansion",
@@ -912,7 +972,13 @@ window.MUSIC = {
 "src":"/longmen-quest-2/audio/mansion.m4a",
 "ogg":"/longmen-quest-2/audio/mansion.ogg",
 "dur":24.6,
-"original":true
+"orig":{
+"title":"mansion",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); jonopodmore",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest-2/tower",
@@ -931,7 +997,13 @@ window.MUSIC = {
 "src":"/longmen-quest-2/audio/tower.m4a",
 "ogg":"/longmen-quest-2/audio/tower.ogg",
 "dur":20.9,
-"original":true
+"orig":{
+"title":"tower",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Anuj_Shrestha1",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest-2/battle",
@@ -950,7 +1022,13 @@ window.MUSIC = {
 "src":"/longmen-quest-2/audio/battle.m4a",
 "ogg":"/longmen-quest-2/audio/battle.ogg",
 "dur":22.6,
-"original":true
+"orig":{
+"title":"battle",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Anuj_Shrestha1; kyles",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest-2/boss",
@@ -969,7 +1047,13 @@ window.MUSIC = {
 "src":"/longmen-quest-2/audio/boss.m4a",
 "ogg":"/longmen-quest-2/audio/boss.ogg",
 "dur":22.4,
-"original":true
+"orig":{
+"title":"boss",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Anuj_Shrestha1; kyles",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest-2/final",
@@ -988,7 +1072,13 @@ window.MUSIC = {
 "src":"/longmen-quest-2/audio/final.m4a",
 "ogg":"/longmen-quest-2/audio/final.ogg",
 "dur":24.5,
-"original":true
+"orig":{
+"title":"final",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Anuj_Shrestha1; kyles",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest-2/beasts",
@@ -1007,7 +1097,13 @@ window.MUSIC = {
 "src":"/longmen-quest-2/audio/beasts.m4a",
 "ogg":"/longmen-quest-2/audio/beasts.ogg",
 "dur":108.0,
-"original":true
+"orig":{
+"title":"beasts",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Anuj_Shrestha1; kyles",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest-2/ending",
@@ -1025,8 +1121,14 @@ window.MUSIC = {
 },
 "src":"/longmen-quest-2/audio/ending.m4a",
 "ogg":"/longmen-quest-2/audio/ending.ogg",
-"dur":73.2,
-"original":true
+"dur":76.5,
+"orig":{
+"title":"ending",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); Anuj_Shrestha1; kyles; jonopodmore; sazanami12",
+"pack":"龍門刀客傳 貳 Longmen Quest II (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-quest-2"
+}
 },
 {
 "id":"longmen-quest/title",
