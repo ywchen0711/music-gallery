@@ -4,6 +4,20 @@ window.MUSIC = {
 "site":"https://ywchen0711.github.io",
 "games":[
 {
+"id":"sects-of-longmen",
+"url":"/sects-of-longmen/",
+"title":{
+"zh":"sects-of-longmen",
+"en":"sects-of-longmen"
+},
+"color":"#8a3a2a",
+"repo":"sects-of-longmen",
+"thumb":"/thumbs/sects-of-longmen.jpg",
+"count":8,
+"kind":"file",
+"added":"2026-11-20"
+},
+{
 "id":"longmen-quest-2",
 "url":"/longmen-quest-2/",
 "title":{
@@ -705,6 +719,206 @@ window.MUSIC = {
 }
 ],
 "tracks":[
+{
+"id":"sects-of-longmen/menu",
+"game":"sects-of-longmen",
+"key":"menu",
+"scene":"title",
+"mood":"heroic",
+"name":{
+"zh":"龍門江湖志",
+"en":"Sects of Longmen"
+},
+"where":{
+"zh":"標題畫面",
+"en":"Title screen"
+},
+"src":"/sects-of-longmen/audio/menu.m4a",
+"ogg":"/sects-of-longmen/audio/menu.ogg",
+"dur":71.1,
+"orig":{
+"title":"menu",
+"artist":"composed for the game (tools/score.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468; Hypnotriod; Pufermufin; jonopodmore; sazanami12; Anuj_Shrestha1; kyles",
+"pack":"龍門江湖志 Sects of Longmen (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/sects-of-longmen"
+}
+},
+{
+"id":"sects-of-longmen/peace1",
+"game":"sects-of-longmen",
+"key":"peace1",
+"scene":"field",
+"mood":"calm",
+"name":{
+"zh":"山門晨鐘",
+"en":"Morning Bell at the Sect Gate"
+},
+"where":{
+"zh":"承平時節（一）",
+"en":"Times of peace (1)"
+},
+"src":"/sects-of-longmen/audio/peace1.m4a",
+"ogg":"/sects-of-longmen/audio/peace1.ogg",
+"dur":91.4,
+"orig":{
+"title":"peace1",
+"artist":"composed for the game (tools/score.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468; Hypnotriod; Pufermufin; jonopodmore; sazanami12; Anuj_Shrestha1; kyles",
+"pack":"龍門江湖志 Sects of Longmen (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/sects-of-longmen"
+}
+},
+{
+"id":"sects-of-longmen/peace2",
+"game":"sects-of-longmen",
+"key":"peace2",
+"scene":"field",
+"mood":"calm",
+"name":{
+"zh":"江湖行",
+"en":"On the Road of the Jianghu"
+},
+"where":{
+"zh":"承平時節（二）",
+"en":"Times of peace (2)"
+},
+"src":"/sects-of-longmen/audio/peace2.m4a",
+"ogg":"/sects-of-longmen/audio/peace2.ogg",
+"dur":73.8,
+"orig":{
+"title":"peace2",
+"artist":"composed for the game (tools/score.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468; Hypnotriod; Pufermufin; jonopodmore; sazanami12; Anuj_Shrestha1; kyles",
+"pack":"龍門江湖志 Sects of Longmen (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/sects-of-longmen"
+}
+},
+{
+"id":"sects-of-longmen/peace3",
+"game":"sects-of-longmen",
+"key":"peace3",
+"scene":"town",
+"mood":"playful",
+"name":{
+"zh":"茶樓聽書",
+"en":"Tales at the Teahouse"
+},
+"where":{
+"zh":"承平時節（三）",
+"en":"Times of peace (3)"
+},
+"src":"/sects-of-longmen/audio/peace3.m4a",
+"ogg":"/sects-of-longmen/audio/peace3.ogg",
+"dur":83.5,
+"orig":{
+"title":"peace3",
+"artist":"composed for the game (tools/score.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468; Hypnotriod; Pufermufin; jonopodmore; sazanami12; Anuj_Shrestha1; kyles",
+"pack":"龍門江湖志 Sects of Longmen (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/sects-of-longmen"
+}
+},
+{
+"id":"sects-of-longmen/war",
+"game":"sects-of-longmen",
+"key":"war",
+"scene":"battle",
+"mood":"tense",
+"name":{
+"zh":"烽煙四起",
+"en":"Beacon Smoke on Every Side"
+},
+"where":{
+"zh":"戰爭中",
+"en":"At war"
+},
+"src":"/sects-of-longmen/audio/war.m4a",
+"ogg":"/sects-of-longmen/audio/war.ogg",
+"dur":49.2,
+"orig":{
+"title":"war",
+"artist":"composed for the game (tools/score.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468; Hypnotriod; Pufermufin; jonopodmore; sazanami12; Anuj_Shrestha1; kyles",
+"pack":"龍門江湖志 Sects of Longmen (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/sects-of-longmen"
+}
+},
+{
+"id":"sects-of-longmen/congress",
+"game":"sects-of-longmen",
+"key":"congress",
+"scene":"event",
+"mood":"calm",
+"name":{
+"zh":"武林大會",
+"en":"The Wulin Assembly"
+},
+"where":{
+"zh":"武林大會",
+"en":"The Wulin Assembly"
+},
+"src":"/sects-of-longmen/audio/congress.m4a",
+"ogg":"/sects-of-longmen/audio/congress.ogg",
+"dur":76.8,
+"orig":{
+"title":"congress",
+"artist":"composed for the game (tools/score.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468; Hypnotriod; Pufermufin; jonopodmore; sazanami12; Anuj_Shrestha1; kyles",
+"pack":"龍門江湖志 Sects of Longmen (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/sects-of-longmen"
+}
+},
+{
+"id":"sects-of-longmen/victory",
+"game":"sects-of-longmen",
+"key":"victory",
+"scene":"ending",
+"mood":"calm",
+"name":{
+"zh":"一統江湖",
+"en":"The Jianghu United"
+},
+"where":{
+"zh":"勝利",
+"en":"Victory"
+},
+"src":"/sects-of-longmen/audio/victory.m4a",
+"ogg":"/sects-of-longmen/audio/victory.ogg",
+"dur":27.8,
+"orig":{
+"title":"victory",
+"artist":"composed for the game (tools/score.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468; Hypnotriod; Pufermufin; jonopodmore; sazanami12; Anuj_Shrestha1; kyles",
+"pack":"龍門江湖志 Sects of Longmen (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/sects-of-longmen"
+}
+},
+{
+"id":"sects-of-longmen/defeat",
+"game":"sects-of-longmen",
+"key":"defeat",
+"scene":"ending",
+"mood":"sad",
+"name":{
+"zh":"江湖夜雨",
+"en":"Night Rain on the Jianghu"
+},
+"where":{
+"zh":"落敗",
+"en":"Defeat"
+},
+"src":"/sects-of-longmen/audio/defeat.m4a",
+"ogg":"/sects-of-longmen/audio/defeat.ogg",
+"dur":38.3,
+"orig":{
+"title":"defeat",
+"artist":"composed for the game (tools/score.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468; Hypnotriod; Pufermufin; jonopodmore; sazanami12; Anuj_Shrestha1; kyles",
+"pack":"龍門江湖志 Sects of Longmen (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/sects-of-longmen"
+}
+},
 {
 "id":"longmen-quest-2/title",
 "game":"longmen-quest-2",
