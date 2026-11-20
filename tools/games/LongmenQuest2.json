@@ -1,0 +1,392 @@
+{
+ "folder": "LongmenQuest2",
+ "repo": "longmen-quest-2",
+ "lobbyId": "longmen-quest-2",
+ "kind": "file",
+ "tracks": [
+  {
+   "key": "title",
+   "scene": "title",
+   "where": {
+    "zh": "標題畫面",
+    "en": "Title screen"
+   },
+   "name": {
+    "zh": "萬妖鈴",
+    "en": "The Bell of Ten Thousand Beasts"
+   },
+   "mood": "heroic",
+   "file": "audio/title.m4a",
+   "alt": [
+    "audio/title.ogg"
+   ],
+   "orig": {
+    "title": "title",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  },
+  {
+   "key": "town",
+   "scene": "town",
+   "where": {
+    "zh": "龍門鎮與落霞鎮",
+    "en": "Longmen and Luoxia"
+   },
+   "name": {
+    "zh": "市井",
+    "en": "Market Streets"
+   },
+   "mood": "calm",
+   "file": "audio/town.m4a",
+   "alt": [
+    "audio/town.ogg"
+   ],
+   "orig": {
+    "title": "town",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  },
+  {
+   "key": "town2",
+   "scene": "town",
+   "where": {
+    "zh": "蘇河城、望月渡",
+    "en": "Suhe City and Wangyue Ferry"
+   },
+   "name": {
+    "zh": "水鄉茶館",
+    "en": "A Teahouse in the Water Country"
+   },
+   "mood": "calm",
+   "file": "audio/town2.m4a",
+   "alt": [
+    "audio/town2.ogg"
+   ],
+   "orig": {
+    "title": "town2",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  },
+  {
+   "key": "town3",
+   "scene": "town",
+   "where": {
+    "zh": "北雁關",
+    "en": "Beiyan Pass"
+   },
+   "name": {
+    "zh": "北雁關",
+    "en": "Beiyan Pass"
+   },
+   "mood": "tense",
+   "file": "audio/town3.m4a",
+   "alt": [
+    "audio/town3.ogg"
+   ],
+   "orig": {
+    "title": "town3",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  },
+  {
+   "key": "village",
+   "scene": "town",
+   "where": {
+    "zh": "村莊與苗寨",
+    "en": "Villages"
+   },
+   "name": {
+    "zh": "杏花炊煙",
+    "en": "Cookfire Smoke among the Apricot Blossoms"
+   },
+   "mood": "calm",
+   "file": "audio/village.m4a",
+   "alt": [
+    "audio/village.ogg"
+   ],
+   "orig": {
+    "title": "village",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  },
+  {
+   "key": "camp",
+   "scene": "town",
+   "where": {
+    "zh": "百獸山寨",
+    "en": "The Hundred Beasts Camp"
+   },
+   "name": {
+    "zh": "百獸山寨",
+    "en": "The Hundred Beasts Camp"
+   },
+   "mood": "calm",
+   "file": "audio/camp.m4a",
+   "alt": [
+    "audio/camp.ogg"
+   ],
+   "orig": {
+    "title": "camp",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  },
+  {
+   "key": "field",
+   "scene": "field",
+   "where": {
+    "zh": "野外",
+    "en": "The overworld"
+   },
+   "name": {
+    "zh": "江湖再行",
+    "en": "Back on the Road of the Jianghu"
+   },
+   "mood": "heroic",
+   "file": "audio/field.m4a",
+   "alt": [
+    "audio/field.ogg"
+   ],
+   "orig": {
+    "title": "field",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  },
+  {
+   "key": "sea",
+   "scene": "field",
+   "where": {
+    "zh": "航海",
+    "en": "At sea"
+   },
+   "name": {
+    "zh": "破浪",
+    "en": "Breaking the Waves"
+   },
+   "mood": "heroic",
+   "file": "audio/sea.m4a",
+   "alt": [
+    "audio/sea.ogg"
+   ],
+   "orig": {
+    "title": "sea",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  },
+  {
+   "key": "dungeon",
+   "scene": "dungeon",
+   "where": {
+    "zh": "洞窟與迷宮",
+    "en": "Caves and mazes"
+   },
+   "name": {
+    "zh": "幽洞",
+    "en": "Hollow Dark"
+   },
+   "mood": "mysterious",
+   "file": "audio/dungeon.m4a",
+   "alt": [
+    "audio/dungeon.ogg"
+   ],
+   "orig": {
+    "title": "dungeon",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  },
+  {
+   "key": "temple",
+   "scene": "dungeon",
+   "where": {
+    "zh": "鈴音寺",
+    "en": "The Bell Temple"
+   },
+   "name": {
+    "zh": "鈴音寺",
+    "en": "The Bell Temple"
+   },
+   "mood": "mysterious",
+   "file": "audio/temple.m4a",
+   "alt": [
+    "audio/temple.ogg"
+   ],
+   "orig": {
+    "title": "temple",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  },
+  {
+   "key": "mansion",
+   "scene": "dungeon",
+   "where": {
+    "zh": "蘇家舊宅",
+    "en": "The haunted Su mansion"
+   },
+   "name": {
+    "zh": "舊宅幽魂",
+    "en": "The Ghost of the Old Mansion"
+   },
+   "mood": "dark",
+   "file": "audio/mansion.m4a",
+   "alt": [
+    "audio/mansion.ogg"
+   ],
+   "orig": {
+    "title": "mansion",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  },
+  {
+   "key": "tower",
+   "scene": "dungeon",
+   "where": {
+    "zh": "萬妖塔",
+    "en": "The Tower of Ten Thousand Beasts"
+   },
+   "name": {
+    "zh": "萬妖塔",
+    "en": "The Tower of Ten Thousand Beasts"
+   },
+   "mood": "dark",
+   "file": "audio/tower.m4a",
+   "alt": [
+    "audio/tower.ogg"
+   ],
+   "orig": {
+    "title": "tower",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  },
+  {
+   "key": "battle",
+   "scene": "battle",
+   "where": {
+    "zh": "戰鬥",
+    "en": "Battles"
+   },
+   "name": {
+    "zh": "群戰",
+    "en": "Many Against Many"
+   },
+   "mood": "tense",
+   "file": "audio/battle.m4a",
+   "alt": [
+    "audio/battle.ogg"
+   ],
+   "orig": {
+    "title": "battle",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  },
+  {
+   "key": "boss",
+   "scene": "boss",
+   "where": {
+    "zh": "首領戰",
+    "en": "Boss battles"
+   },
+   "name": {
+    "zh": "宗門魔影",
+    "en": "Shadows of the Sect"
+   },
+   "mood": "tense",
+   "file": "audio/boss.m4a",
+   "alt": [
+    "audio/boss.ogg"
+   ],
+   "orig": {
+    "title": "boss",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  },
+  {
+   "key": "final",
+   "scene": "boss",
+   "where": {
+    "zh": "最終決戰",
+    "en": "The final battle"
+   },
+   "name": {
+    "zh": "鈴心決戰",
+    "en": "Battle at the Heart of the Bell"
+   },
+   "mood": "epic",
+   "file": "audio/final.m4a",
+   "alt": [
+    "audio/final.ogg"
+   ],
+   "orig": {
+    "title": "final",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  },
+  {
+   "key": "ending",
+   "scene": "ending",
+   "where": {
+    "zh": "結局",
+    "en": "Ending"
+   },
+   "name": {
+    "zh": "江湖又一年",
+    "en": "Another Year in the Jianghu"
+   },
+   "mood": "sad",
+   "file": "audio/ending.m4a",
+   "alt": [
+    "audio/ending.ogg"
+   ],
+   "orig": {
+    "title": "ending",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  }
+ ]
+}

@@ -9,6 +9,27 @@ each track in the player.
 File-based tracks are played from the game's own published folder (they are not copied here). Songs marked
 "original" were composed in code for that game and rendered to audio/ by tools/render.mjs.
 
+## 龍門刀客傳 貳・萬妖鈴 / Longmen Quest II
+
+Play: https://ywchen0711.github.io/longmen-quest-2/
+
+- **萬妖鈴 / The Bell of Ten Thousand Beasts**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/title.m4a`)
+- **市井 / Market Streets**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/town.m4a`)
+- **水鄉茶館 / A Teahouse in the Water Country**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/town2.m4a`)
+- **北雁關 / Beiyan Pass**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/town3.m4a`)
+- **杏花炊煙 / Cookfire Smoke among the Apricot Blossoms**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/village.m4a`)
+- **百獸山寨 / The Hundred Beasts Camp**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/camp.m4a`)
+- **江湖再行 / Back on the Road of the Jianghu**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/field.m4a`)
+- **破浪 / Breaking the Waves**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/sea.m4a`)
+- **幽洞 / Hollow Dark**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/dungeon.m4a`)
+- **鈴音寺 / The Bell Temple**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/temple.m4a`)
+- **舊宅幽魂 / The Ghost of the Old Mansion**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/mansion.m4a`)
+- **萬妖塔 / The Tower of Ten Thousand Beasts**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/tower.m4a`)
+- **群戰 / Many Against Many**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/battle.m4a`)
+- **宗門魔影 / Shadows of the Sect**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/boss.m4a`)
+- **鈴心決戰 / Battle at the Heart of the Bell**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/final.m4a`)
+- **江湖又一年 / Another Year in the Jianghu**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/ending.m4a`)
+
 ## 龍門刀客傳 / Longmen Quest
 
 Play: https://ywchen0711.github.io/longmen-quest/
