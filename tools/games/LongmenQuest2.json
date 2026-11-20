@@ -344,8 +344,8 @@
    "key": "final",
    "scene": "boss",
    "where": {
-    "zh": "最終決戰",
-    "en": "The final battle"
+    "zh": "三魄守護與鎮塔石獅之戰",
+    "en": "The three bell-soul guardians and the tower lion"
    },
    "name": {
     "zh": "鈴心決戰",
@@ -358,6 +358,30 @@
    ],
    "orig": {
     "title": "final",
+    "artist": "synthesized by the game's own NES-style chiptune tools",
+    "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
+    "license": "original to this repo",
+    "url": "https://github.com/ywchen0711/longmen-quest-2"
+   }
+  },
+  {
+   "key": "beasts",
+   "scene": "boss",
+   "where": {
+    "zh": "最終決戰：墨無涯與萬妖鈴",
+    "en": "The final battle: Mo Wuya and the great bell"
+   },
+   "name": {
+    "zh": "萬妖亂舞",
+    "en": "Riot of Ten Thousand Beasts"
+   },
+   "mood": "epic",
+   "file": "audio/beasts.m4a",
+   "alt": [
+    "audio/beasts.ogg"
+   ],
+   "orig": {
+    "title": "beasts",
     "artist": "synthesized by the game's own NES-style chiptune tools",
     "pack": "龍門刀客傳 貳 Longmen Quest II (original score)",
     "license": "original to this repo",

@@ -28,6 +28,7 @@ Play: https://ywchen0711.github.io/longmen-quest-2/
 - **群戰 / Many Against Many**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/battle.m4a`)
 - **宗門魔影 / Shadows of the Sect**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/boss.m4a`)
 - **鈴心決戰 / Battle at the Heart of the Bell**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/final.m4a`)
+- **萬妖亂舞 / Riot of Ten Thousand Beasts**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/beasts.m4a`)
 - **江湖又一年 / Another Year in the Jianghu**: original, composed in code for Longmen Quest II (`/longmen-quest-2/audio/ending.m4a`)
 
 ## 龍門刀客傳 / Longmen Quest

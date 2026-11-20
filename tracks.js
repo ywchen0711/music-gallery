@@ -13,7 +13,7 @@ window.MUSIC = {
 "color":"#8a2a2a",
 "repo":"longmen-quest-2",
 "thumb":"/thumbs/longmen-quest-2.jpg",
-"count":16,
+"count":17,
 "kind":"file",
 "added":"2026-11-20"
 },
@@ -982,12 +982,31 @@ window.MUSIC = {
 "en":"Battle at the Heart of the Bell"
 },
 "where":{
-"zh":"最終決戰",
-"en":"The final battle"
+"zh":"三魄守護與鎮塔石獅之戰",
+"en":"The three bell-soul guardians and the tower lion"
 },
 "src":"/longmen-quest-2/audio/final.m4a",
 "ogg":"/longmen-quest-2/audio/final.ogg",
 "dur":24.5,
+"original":true
+},
+{
+"id":"longmen-quest-2/beasts",
+"game":"longmen-quest-2",
+"key":"beasts",
+"scene":"boss",
+"mood":"epic",
+"name":{
+"zh":"萬妖亂舞",
+"en":"Riot of Ten Thousand Beasts"
+},
+"where":{
+"zh":"最終決戰：墨無涯與萬妖鈴",
+"en":"The final battle: Mo Wuya and the great bell"
+},
+"src":"/longmen-quest-2/audio/beasts.m4a",
+"ogg":"/longmen-quest-2/audio/beasts.ogg",
+"dur":108.0,
 "original":true
 },
 {
