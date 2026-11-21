@@ -4,6 +4,20 @@ window.MUSIC = {
 "site":"https://ywchen0711.github.io",
 "games":[
 {
+"id":"longmen-tactics",
+"url":"/longmen-tactics/",
+"title":{
+"zh":"longmen-tactics",
+"en":"longmen-tactics"
+},
+"color":"#8a2f2a",
+"repo":"longmen-tactics",
+"thumb":"/thumbs/longmen-tactics.jpg",
+"count":13,
+"kind":"file",
+"added":"2026-11-20"
+},
+{
 "id":"longmen-ruckus",
 "url":"/longmen-ruckus/",
 "title":{
@@ -733,6 +747,318 @@ window.MUSIC = {
 }
 ],
 "tracks":[
+{
+"id":"longmen-tactics/title",
+"game":"longmen-tactics",
+"key":"title",
+"scene":"title",
+"mood":"heroic",
+"name":{
+"zh":"龍門戰旗",
+"en":"The Banners of Longmen"
+},
+"where":{
+"zh":"標題畫面",
+"en":"Title screen"
+},
+"src":"/longmen-tactics/assets/music/title.m4a",
+"dur":73.8,
+"orig":{
+"title":"title",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); Anuj_Shrestha1; kyles",
+"pack":"龍門戰記 Longmen Tactics (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-tactics"
+}
+},
+{
+"id":"longmen-tactics/world",
+"game":"longmen-tactics",
+"key":"world",
+"scene":"field",
+"mood":"heroic",
+"name":{
+"zh":"江湖行",
+"en":"Walking the Jianghu"
+},
+"where":{
+"zh":"江湖地圖",
+"en":"Map of the jianghu"
+},
+"src":"/longmen-tactics/assets/music/world.m4a",
+"dur":66.2,
+"orig":{
+"title":"world",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\")",
+"pack":"龍門戰記 Longmen Tactics (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-tactics"
+}
+},
+{
+"id":"longmen-tactics/town",
+"game":"longmen-tactics",
+"key":"town",
+"scene":"town",
+"mood":"calm",
+"name":{
+"zh":"茶館閒話",
+"en":"Gossip over Tea"
+},
+"where":{
+"zh":"城鎮與茶館",
+"en":"Towns and teahouses"
+},
+"src":"/longmen-tactics/assets/music/town.m4a",
+"dur":76.8,
+"orig":{
+"title":"town",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); jonopodmore (\"Mokugyo.wav\"); sazanami12",
+"pack":"龍門戰記 Longmen Tactics (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-tactics"
+}
+},
+{
+"id":"longmen-tactics/calm",
+"game":"longmen-tactics",
+"key":"calm",
+"scene":"event",
+"mood":"calm",
+"name":{
+"zh":"說書人",
+"en":"The Storyteller"
+},
+"where":{
+"zh":"劇情對話（平靜）",
+"en":"Story scenes (calm)"
+},
+"src":"/longmen-tactics/assets/music/calm.m4a",
+"dur":43.6,
+"orig":{
+"title":"calm",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); jonopodmore (\"Mokugyo.wav\"); sazanami12",
+"pack":"龍門戰記 Longmen Tactics (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-tactics"
+}
+},
+{
+"id":"longmen-tactics/tense",
+"game":"longmen-tactics",
+"key":"tense",
+"scene":"event",
+"mood":"tense",
+"name":{
+"zh":"黑旗",
+"en":"The Black Banner"
+},
+"where":{
+"zh":"劇情對話（緊張）、第四章以後",
+"en":"Story scenes (tense), Chapter 4 on"
+},
+"src":"/longmen-tactics/assets/music/tense.m4a",
+"dur":41.7,
+"orig":{
+"title":"tense",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); jonopodmore (\"Mokugyo.wav\")",
+"pack":"龍門戰記 Longmen Tactics (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-tactics"
+}
+},
+{
+"id":"longmen-tactics/sad",
+"game":"longmen-tactics",
+"key":"sad",
+"scene":"event",
+"mood":"sad",
+"name":{
+"zh":"寒江雪",
+"en":"Snow on the Cold River"
+},
+"where":{
+"zh":"悲傷的場面",
+"en":"Sad scenes"
+},
+"src":"/longmen-tactics/assets/music/sad.m4a",
+"dur":53.3,
+"orig":{
+"title":"sad",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\")",
+"pack":"龍門戰記 Longmen Tactics (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-tactics"
+}
+},
+{
+"id":"longmen-tactics/battle",
+"game":"longmen-tactics",
+"key":"battle",
+"scene":"battle",
+"mood":"epic",
+"name":{
+"zh":"八方風雨",
+"en":"Storm from Eight Directions"
+},
+"where":{
+"zh":"戰鬥（平地、山路、雪峰）",
+"en":"Battle (open ground, passes, snow)"
+},
+"src":"/longmen-tactics/assets/music/battle.m4a",
+"dur":45.7,
+"orig":{
+"title":"battle",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Anuj_Shrestha1",
+"pack":"龍門戰記 Longmen Tactics (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-tactics"
+}
+},
+{
+"id":"longmen-tactics/battle2",
+"game":"longmen-tactics",
+"key":"battle2",
+"scene":"battle",
+"mood":"epic",
+"name":{
+"zh":"刀光劍影",
+"en":"Flashing Blades"
+},
+"where":{
+"zh":"戰鬥（江上、碼頭、屋頂、竹林）",
+"en":"Battle (on the river, docks, rooftops, bamboo)"
+},
+"src":"/longmen-tactics/assets/music/battle2.m4a",
+"dur":43.6,
+"orig":{
+"title":"battle2",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); Anuj_Shrestha1",
+"pack":"龍門戰記 Longmen Tactics (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-tactics"
+}
+},
+{
+"id":"longmen-tactics/battle3",
+"game":"longmen-tactics",
+"key":"battle3",
+"scene":"dungeon",
+"mood":"tense",
+"name":{
+"zh":"過關斬將",
+"en":"Through the Passes"
+},
+"where":{
+"zh":"戰鬥（寺塔、古墓、隱藏迷宮）",
+"en":"Battle (temples, tombs, hidden labyrinths)"
+},
+"src":"/longmen-tactics/assets/music/battle3.m4a",
+"dur":48.0,
+"orig":{
+"title":"battle3",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition)",
+"pack":"龍門戰記 Longmen Tactics (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-tactics"
+}
+},
+{
+"id":"longmen-tactics/boss",
+"game":"longmen-tactics",
+"key":"boss",
+"scene":"boss",
+"mood":"dark",
+"name":{
+"zh":"幽冥殿",
+"en":"The Netherworld Hall"
+},
+"where":{
+"zh":"與首領決戰",
+"en":"Battles with the masters"
+},
+"src":"/longmen-tactics/assets/music/boss.m4a",
+"dur":51.2,
+"orig":{
+"title":"boss",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Anuj_Shrestha1",
+"pack":"龍門戰記 Longmen Tactics (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-tactics"
+}
+},
+{
+"id":"longmen-tactics/victory",
+"game":"longmen-tactics",
+"key":"victory",
+"scene":"battle",
+"mood":"heroic",
+"name":{
+"zh":"旗開得勝",
+"en":"Victory at the First Banner"
+},
+"where":{
+"zh":"戰鬥勝利",
+"en":"Victory"
+},
+"src":"/longmen-tactics/assets/music/victory.m4a",
+"dur":4.8,
+"orig":{
+"title":"victory",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); Anuj_Shrestha1; kyles",
+"pack":"龍門戰記 Longmen Tactics (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-tactics"
+}
+},
+{
+"id":"longmen-tactics/defeat",
+"game":"longmen-tactics",
+"key":"defeat",
+"scene":"battle",
+"mood":"sad",
+"name":{
+"zh":"壯志未酬",
+"en":"Ambition Unfulfilled"
+},
+"where":{
+"zh":"戰鬥失敗",
+"en":"Defeat"
+},
+"src":"/longmen-tactics/assets/music/defeat.m4a",
+"dur":8.5,
+"orig":{
+"title":"defeat",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\")",
+"pack":"龍門戰記 Longmen Tactics (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-tactics"
+}
+},
+{
+"id":"longmen-tactics/ending",
+"game":"longmen-tactics",
+"key":"ending",
+"scene":"ending",
+"mood":"heroic",
+"name":{
+"zh":"八旗同風",
+"en":"Eight Banners in One Wind"
+},
+"where":{
+"zh":"結局",
+"en":"The ending"
+},
+"src":"/longmen-tactics/assets/music/ending.m4a",
+"dur":153.1,
+"orig":{
+"title":"ending",
+"artist":"composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); tarane468 (\"Chinese Erhu\"); Anuj_Shrestha1; kyles",
+"pack":"龍門戰記 Longmen Tactics (original score, recorded instruments)",
+"license":"CC0 1.0 samples; original composition",
+"url":"https://github.com/ywchen0711/longmen-tactics"
+}
+},
 {
 "id":"longmen-ruckus/title",
 "game":"longmen-ruckus",

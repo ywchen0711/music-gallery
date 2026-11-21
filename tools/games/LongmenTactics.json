@@ -1,0 +1,771 @@
+{
+ "folder": "LongmenTactics",
+ "repo": "longmen-tactics",
+ "lobbyId": "longmen-tactics",
+ "kind": "file",
+ "tracks": [
+  {
+   "key": "title",
+   "scene": "title",
+   "where": {
+    "zh": "標題畫面",
+    "en": "Title screen"
+   },
+   "name": {
+    "zh": "龍門戰旗",
+    "en": "The Banners of Longmen"
+   },
+   "mood": "heroic",
+   "file": "assets/music/title.m4a",
+   "alt": [],
+   "orig": {
+    "title": "title",
+    "artist": "composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); Anuj_Shrestha1; kyles",
+    "pack": "龍門戰記 Longmen Tactics (original score, recorded instruments)",
+    "license": "CC0 1.0 samples; original composition",
+    "url": "https://github.com/ywchen0711/longmen-tactics"
+   },
+   "instruments": [
+    "dizi",
+    "violins",
+    "guzheng",
+    "harp",
+    "violas",
+    "cellos",
+    "double bass",
+    "French horns",
+    "taiko",
+    "opera cymbal",
+    "gong",
+    "shaker"
+   ],
+   "credits": [
+    {
+     "what": "orchestra and percussion samples",
+     "by": "Versilian Studios (VSCO-2 Community Edition)",
+     "license": "CC0 1.0",
+     "url": "https://github.com/sgossner/VSCO-2-CE"
+    },
+    {
+     "what": "dizi samples",
+     "by": "Hypnotriod (\"Flute Dizi C all notes\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Hypnotriod/packs/21613/"
+    },
+    {
+     "what": "guzheng notes",
+     "by": "Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Pufermufin/sounds/396868/"
+    },
+    {
+     "what": "taiko",
+     "by": "Anuj_Shrestha1",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Anuj_Shrestha1/sounds/486140/"
+    },
+    {
+     "what": "opera cymbal",
+     "by": "kyles",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/kyles/sounds/452400/"
+    }
+   ],
+   "loop": true,
+   "dur": 73.846
+  },
+  {
+   "key": "world",
+   "scene": "field",
+   "where": {
+    "zh": "江湖地圖",
+    "en": "Map of the jianghu"
+   },
+   "name": {
+    "zh": "江湖行",
+    "en": "Walking the Jianghu"
+   },
+   "mood": "heroic",
+   "file": "assets/music/world.m4a",
+   "alt": [],
+   "orig": {
+    "title": "world",
+    "artist": "composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\")",
+    "pack": "龍門戰記 Longmen Tactics (original score, recorded instruments)",
+    "license": "CC0 1.0 samples; original composition",
+    "url": "https://github.com/ywchen0711/longmen-tactics"
+   },
+   "instruments": [
+    "dizi",
+    "violins",
+    "harp",
+    "violas",
+    "guzheng",
+    "cellos",
+    "double bass",
+    "French horns",
+    "bass drum",
+    "tenor drum",
+    "shaker"
+   ],
+   "credits": [
+    {
+     "what": "orchestra and percussion samples",
+     "by": "Versilian Studios (VSCO-2 Community Edition)",
+     "license": "CC0 1.0",
+     "url": "https://github.com/sgossner/VSCO-2-CE"
+    },
+    {
+     "what": "dizi samples",
+     "by": "Hypnotriod (\"Flute Dizi C all notes\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Hypnotriod/packs/21613/"
+    },
+    {
+     "what": "guzheng notes",
+     "by": "Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Pufermufin/sounds/396868/"
+    }
+   ],
+   "loop": true,
+   "dur": 66.207
+  },
+  {
+   "key": "town",
+   "scene": "town",
+   "where": {
+    "zh": "城鎮與茶館",
+    "en": "Towns and teahouses"
+   },
+   "name": {
+    "zh": "茶館閒話",
+    "en": "Gossip over Tea"
+   },
+   "mood": "calm",
+   "file": "assets/music/town.m4a",
+   "alt": [],
+   "orig": {
+    "title": "town",
+    "artist": "composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); jonopodmore (\"Mokugyo.wav\"); sazanami12",
+    "pack": "龍門戰記 Longmen Tactics (original score, recorded instruments)",
+    "license": "CC0 1.0 samples; original composition",
+    "url": "https://github.com/ywchen0711/longmen-tactics"
+   },
+   "instruments": [
+    "erhu",
+    "guzheng",
+    "cellos",
+    "double bass",
+    "violas",
+    "wood blocks",
+    "muyu"
+   ],
+   "credits": [
+    {
+     "what": "orchestra and percussion samples",
+     "by": "Versilian Studios (VSCO-2 Community Edition)",
+     "license": "CC0 1.0",
+     "url": "https://github.com/sgossner/VSCO-2-CE"
+    },
+    {
+     "what": "erhu samples",
+     "by": "tarane468 (\"Chinese Erhu\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/tarane468/packs/26451/"
+    },
+    {
+     "what": "guzheng notes",
+     "by": "Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Pufermufin/sounds/396868/"
+    },
+    {
+     "what": "muyu",
+     "by": "jonopodmore (\"Mokugyo.wav\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/jonopodmore/sounds/607215/"
+    },
+    {
+     "what": "temple blocks",
+     "by": "sazanami12",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/sazanami12/sounds/863784/"
+    }
+   ],
+   "loop": true,
+   "dur": 76.8
+  },
+  {
+   "key": "calm",
+   "scene": "event",
+   "where": {
+    "zh": "劇情對話（平靜）",
+    "en": "Story scenes (calm)"
+   },
+   "name": {
+    "zh": "說書人",
+    "en": "The Storyteller"
+   },
+   "mood": "calm",
+   "file": "assets/music/calm.m4a",
+   "alt": [],
+   "orig": {
+    "title": "calm",
+    "artist": "composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); jonopodmore (\"Mokugyo.wav\"); sazanami12",
+    "pack": "龍門戰記 Longmen Tactics (original score, recorded instruments)",
+    "license": "CC0 1.0 samples; original composition",
+    "url": "https://github.com/ywchen0711/longmen-tactics"
+   },
+   "instruments": [
+    "flute",
+    "guzheng",
+    "harp",
+    "cellos",
+    "violas",
+    "French horns",
+    "muyu",
+    "temple blocks"
+   ],
+   "credits": [
+    {
+     "what": "orchestra and percussion samples",
+     "by": "Versilian Studios (VSCO-2 Community Edition)",
+     "license": "CC0 1.0",
+     "url": "https://github.com/sgossner/VSCO-2-CE"
+    },
+    {
+     "what": "guzheng notes",
+     "by": "Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Pufermufin/sounds/396868/"
+    },
+    {
+     "what": "muyu",
+     "by": "jonopodmore (\"Mokugyo.wav\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/jonopodmore/sounds/607215/"
+    },
+    {
+     "what": "temple blocks",
+     "by": "sazanami12",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/sazanami12/sounds/863784/"
+    }
+   ],
+   "loop": true,
+   "dur": 43.636
+  },
+  {
+   "key": "tense",
+   "scene": "event",
+   "where": {
+    "zh": "劇情對話（緊張）、第四章以後",
+    "en": "Story scenes (tense), Chapter 4 on"
+   },
+   "name": {
+    "zh": "黑旗",
+    "en": "The Black Banner"
+   },
+   "mood": "tense",
+   "file": "assets/music/tense.m4a",
+   "alt": [],
+   "orig": {
+    "title": "tense",
+    "artist": "composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); jonopodmore (\"Mokugyo.wav\")",
+    "pack": "龍門戰記 Longmen Tactics (original score, recorded instruments)",
+    "license": "CC0 1.0 samples; original composition",
+    "url": "https://github.com/ywchen0711/longmen-tactics"
+   },
+   "instruments": [
+    "erhu",
+    "flute",
+    "double bass",
+    "timpani",
+    "violins (tremolo)",
+    "cellos",
+    "gong",
+    "muyu"
+   ],
+   "credits": [
+    {
+     "what": "orchestra and percussion samples",
+     "by": "Versilian Studios (VSCO-2 Community Edition)",
+     "license": "CC0 1.0",
+     "url": "https://github.com/sgossner/VSCO-2-CE"
+    },
+    {
+     "what": "erhu samples",
+     "by": "tarane468 (\"Chinese Erhu\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/tarane468/packs/26451/"
+    },
+    {
+     "what": "muyu",
+     "by": "jonopodmore (\"Mokugyo.wav\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/jonopodmore/sounds/607215/"
+    }
+   ],
+   "loop": true,
+   "dur": 41.739
+  },
+  {
+   "key": "sad",
+   "scene": "event",
+   "where": {
+    "zh": "悲傷的場面",
+    "en": "Sad scenes"
+   },
+   "name": {
+    "zh": "寒江雪",
+    "en": "Snow on the Cold River"
+   },
+   "mood": "sad",
+   "file": "assets/music/sad.m4a",
+   "alt": [],
+   "orig": {
+    "title": "sad",
+    "artist": "composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\")",
+    "pack": "龍門戰記 Longmen Tactics (original score, recorded instruments)",
+    "license": "CC0 1.0 samples; original composition",
+    "url": "https://github.com/ywchen0711/longmen-tactics"
+   },
+   "instruments": [
+    "erhu",
+    "guzheng",
+    "cellos",
+    "violas",
+    "violins"
+   ],
+   "credits": [
+    {
+     "what": "orchestra and percussion samples",
+     "by": "Versilian Studios (VSCO-2 Community Edition)",
+     "license": "CC0 1.0",
+     "url": "https://github.com/sgossner/VSCO-2-CE"
+    },
+    {
+     "what": "erhu samples",
+     "by": "tarane468 (\"Chinese Erhu\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/tarane468/packs/26451/"
+    },
+    {
+     "what": "guzheng notes",
+     "by": "Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Pufermufin/sounds/396868/"
+    }
+   ],
+   "loop": true,
+   "dur": 53.333
+  },
+  {
+   "key": "battle",
+   "scene": "battle",
+   "where": {
+    "zh": "戰鬥（平地、山路、雪峰）",
+    "en": "Battle (open ground, passes, snow)"
+   },
+   "name": {
+    "zh": "八方風雨",
+    "en": "Storm from Eight Directions"
+   },
+   "mood": "epic",
+   "file": "assets/music/battle.m4a",
+   "alt": [],
+   "orig": {
+    "title": "battle",
+    "artist": "composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Anuj_Shrestha1",
+    "pack": "龍門戰記 Longmen Tactics (original score, recorded instruments)",
+    "license": "CC0 1.0 samples; original composition",
+    "url": "https://github.com/ywchen0711/longmen-tactics"
+   },
+   "instruments": [
+    "violins",
+    "dizi",
+    "trumpet",
+    "harp",
+    "cellos",
+    "double bass",
+    "French horns",
+    "trombones",
+    "taiko",
+    "snare drum",
+    "crash cymbal"
+   ],
+   "credits": [
+    {
+     "what": "orchestra and percussion samples",
+     "by": "Versilian Studios (VSCO-2 Community Edition)",
+     "license": "CC0 1.0",
+     "url": "https://github.com/sgossner/VSCO-2-CE"
+    },
+    {
+     "what": "dizi samples",
+     "by": "Hypnotriod (\"Flute Dizi C all notes\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Hypnotriod/packs/21613/"
+    },
+    {
+     "what": "taiko",
+     "by": "Anuj_Shrestha1",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Anuj_Shrestha1/sounds/486140/"
+    }
+   ],
+   "loop": true,
+   "dur": 45.714
+  },
+  {
+   "key": "battle2",
+   "scene": "battle",
+   "where": {
+    "zh": "戰鬥（江上、碼頭、屋頂、竹林）",
+    "en": "Battle (on the river, docks, rooftops, bamboo)"
+   },
+   "name": {
+    "zh": "刀光劍影",
+    "en": "Flashing Blades"
+   },
+   "mood": "epic",
+   "file": "assets/music/battle2.m4a",
+   "alt": [],
+   "orig": {
+    "title": "battle2",
+    "artist": "composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); Anuj_Shrestha1",
+    "pack": "龍門戰記 Longmen Tactics (original score, recorded instruments)",
+    "license": "CC0 1.0 samples; original composition",
+    "url": "https://github.com/ywchen0711/longmen-tactics"
+   },
+   "instruments": [
+    "erhu",
+    "violins",
+    "guzheng",
+    "cellos",
+    "double bass",
+    "French horns",
+    "taiko",
+    "snare drum",
+    "tenor drum",
+    "rim shots"
+   ],
+   "credits": [
+    {
+     "what": "orchestra and percussion samples",
+     "by": "Versilian Studios (VSCO-2 Community Edition)",
+     "license": "CC0 1.0",
+     "url": "https://github.com/sgossner/VSCO-2-CE"
+    },
+    {
+     "what": "erhu samples",
+     "by": "tarane468 (\"Chinese Erhu\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/tarane468/packs/26451/"
+    },
+    {
+     "what": "guzheng notes",
+     "by": "Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Pufermufin/sounds/396868/"
+    },
+    {
+     "what": "taiko",
+     "by": "Anuj_Shrestha1",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Anuj_Shrestha1/sounds/486140/"
+    }
+   ],
+   "loop": true,
+   "dur": 43.636
+  },
+  {
+   "key": "battle3",
+   "scene": "dungeon",
+   "where": {
+    "zh": "戰鬥（寺塔、古墓、隱藏迷宮）",
+    "en": "Battle (temples, tombs, hidden labyrinths)"
+   },
+   "name": {
+    "zh": "過關斬將",
+    "en": "Through the Passes"
+   },
+   "mood": "tense",
+   "file": "assets/music/battle3.m4a",
+   "alt": [],
+   "orig": {
+    "title": "battle3",
+    "artist": "composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition)",
+    "pack": "龍門戰記 Longmen Tactics (original score, recorded instruments)",
+    "license": "CC0 1.0 samples; original composition",
+    "url": "https://github.com/ywchen0711/longmen-tactics"
+   },
+   "instruments": [
+    "trumpets",
+    "French horns",
+    "violins",
+    "cellos",
+    "double bass",
+    "trombones",
+    "bass drum",
+    "snare drum",
+    "timpani"
+   ],
+   "credits": [
+    {
+     "what": "orchestra and percussion samples",
+     "by": "Versilian Studios (VSCO-2 Community Edition)",
+     "license": "CC0 1.0",
+     "url": "https://github.com/sgossner/VSCO-2-CE"
+    }
+   ],
+   "loop": true,
+   "dur": 48.0
+  },
+  {
+   "key": "boss",
+   "scene": "boss",
+   "where": {
+    "zh": "與首領決戰",
+    "en": "Battles with the masters"
+   },
+   "name": {
+    "zh": "幽冥殿",
+    "en": "The Netherworld Hall"
+   },
+   "mood": "dark",
+   "file": "assets/music/boss.m4a",
+   "alt": [],
+   "orig": {
+    "title": "boss",
+    "artist": "composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\"); Anuj_Shrestha1",
+    "pack": "龍門戰記 Longmen Tactics (original score, recorded instruments)",
+    "license": "CC0 1.0 samples; original composition",
+    "url": "https://github.com/ywchen0711/longmen-tactics"
+   },
+   "instruments": [
+    "violins",
+    "trombones",
+    "erhu",
+    "French horns",
+    "cellos",
+    "double bass",
+    "taiko",
+    "timpani",
+    "snare drum",
+    "gong"
+   ],
+   "credits": [
+    {
+     "what": "orchestra and percussion samples",
+     "by": "Versilian Studios (VSCO-2 Community Edition)",
+     "license": "CC0 1.0",
+     "url": "https://github.com/sgossner/VSCO-2-CE"
+    },
+    {
+     "what": "erhu samples",
+     "by": "tarane468 (\"Chinese Erhu\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/tarane468/packs/26451/"
+    },
+    {
+     "what": "taiko",
+     "by": "Anuj_Shrestha1",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Anuj_Shrestha1/sounds/486140/"
+    }
+   ],
+   "loop": true,
+   "dur": 51.2
+  },
+  {
+   "key": "victory",
+   "scene": "battle",
+   "where": {
+    "zh": "戰鬥勝利",
+    "en": "Victory"
+   },
+   "name": {
+    "zh": "旗開得勝",
+    "en": "Victory at the First Banner"
+   },
+   "mood": "heroic",
+   "file": "assets/music/victory.m4a",
+   "alt": [],
+   "orig": {
+    "title": "victory",
+    "artist": "composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); Anuj_Shrestha1; kyles",
+    "pack": "龍門戰記 Longmen Tactics (original score, recorded instruments)",
+    "license": "CC0 1.0 samples; original composition",
+    "url": "https://github.com/ywchen0711/longmen-tactics"
+   },
+   "instruments": [
+    "trumpet",
+    "dizi",
+    "French horns",
+    "guzheng",
+    "double bass",
+    "timpani",
+    "taiko",
+    "opera cymbal"
+   ],
+   "credits": [
+    {
+     "what": "orchestra and percussion samples",
+     "by": "Versilian Studios (VSCO-2 Community Edition)",
+     "license": "CC0 1.0",
+     "url": "https://github.com/sgossner/VSCO-2-CE"
+    },
+    {
+     "what": "dizi samples",
+     "by": "Hypnotriod (\"Flute Dizi C all notes\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Hypnotriod/packs/21613/"
+    },
+    {
+     "what": "guzheng notes",
+     "by": "Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Pufermufin/sounds/396868/"
+    },
+    {
+     "what": "taiko",
+     "by": "Anuj_Shrestha1",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Anuj_Shrestha1/sounds/486140/"
+    },
+    {
+     "what": "opera cymbal",
+     "by": "kyles",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/kyles/sounds/452400/"
+    }
+   ],
+   "loop": false,
+   "dur": 4.8
+  },
+  {
+   "key": "defeat",
+   "scene": "battle",
+   "where": {
+    "zh": "戰鬥失敗",
+    "en": "Defeat"
+   },
+   "name": {
+    "zh": "壯志未酬",
+    "en": "Ambition Unfulfilled"
+   },
+   "mood": "sad",
+   "file": "assets/music/defeat.m4a",
+   "alt": [],
+   "orig": {
+    "title": "defeat",
+    "artist": "composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); tarane468 (\"Chinese Erhu\")",
+    "pack": "龍門戰記 Longmen Tactics (original score, recorded instruments)",
+    "license": "CC0 1.0 samples; original composition",
+    "url": "https://github.com/ywchen0711/longmen-tactics"
+   },
+   "instruments": [
+    "erhu",
+    "violas",
+    "cellos",
+    "double bass",
+    "gong"
+   ],
+   "credits": [
+    {
+     "what": "orchestra and percussion samples",
+     "by": "Versilian Studios (VSCO-2 Community Edition)",
+     "license": "CC0 1.0",
+     "url": "https://github.com/sgossner/VSCO-2-CE"
+    },
+    {
+     "what": "erhu samples",
+     "by": "tarane468 (\"Chinese Erhu\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/tarane468/packs/26451/"
+    }
+   ],
+   "loop": false,
+   "dur": 8.457
+  },
+  {
+   "key": "ending",
+   "scene": "ending",
+   "where": {
+    "zh": "結局",
+    "en": "The ending"
+   },
+   "name": {
+    "zh": "八旗同風",
+    "en": "Eight Banners in One Wind"
+   },
+   "mood": "heroic",
+   "file": "assets/music/ending.m4a",
+   "alt": [],
+   "orig": {
+    "title": "ending",
+    "artist": "composed for the game (tools/music.py), played by its sampler tools/orch.py with free samples: Versilian Studios (VSCO-2 Community Edition); Hypnotriod (\"Flute Dizi C all notes\"); Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\"); tarane468 (\"Chinese Erhu\"); Anuj_Shrestha1; kyles",
+    "pack": "龍門戰記 Longmen Tactics (original score, recorded instruments)",
+    "license": "CC0 1.0 samples; original composition",
+    "url": "https://github.com/ywchen0711/longmen-tactics"
+   },
+   "instruments": [
+    "dizi",
+    "violins",
+    "guzheng",
+    "harp",
+    "violas",
+    "cellos",
+    "double bass",
+    "French horns",
+    "erhu",
+    "taiko",
+    "gong",
+    "wind chimes"
+   ],
+   "credits": [
+    {
+     "what": "orchestra and percussion samples",
+     "by": "Versilian Studios (VSCO-2 Community Edition)",
+     "license": "CC0 1.0",
+     "url": "https://github.com/sgossner/VSCO-2-CE"
+    },
+    {
+     "what": "dizi samples",
+     "by": "Hypnotriod (\"Flute Dizi C all notes\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Hypnotriod/packs/21613/"
+    },
+    {
+     "what": "guzheng notes",
+     "by": "Pufermufin (\"LOVELY CHINESE GUZHENG PLUCKED\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Pufermufin/sounds/396868/"
+    },
+    {
+     "what": "erhu samples",
+     "by": "tarane468 (\"Chinese Erhu\")",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/tarane468/packs/26451/"
+    },
+    {
+     "what": "taiko",
+     "by": "Anuj_Shrestha1",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/Anuj_Shrestha1/sounds/486140/"
+    },
+    {
+     "what": "opera cymbal",
+     "by": "kyles",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/kyles/sounds/452400/"
+    }
+   ],
+   "loop": false,
+   "dur": 153.15
+  }
+ ],
+ "notes": "Original score (tools/music.py) rendered by tools/orch.py (adapted from Longmen Quest II's renderer) with recorded-instrument samples: VSCO-2 CE and freesound.org CC0 erhu, dizi, guzheng and percussion. Every sample file is listed in tools/orch_sources.json in the game repo."
+}
